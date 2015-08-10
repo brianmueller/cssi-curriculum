@@ -9,7 +9,7 @@ Check that ruby is installed, and check your version. Any version > 2 should wor
 
 ```
 gem install jekyll
-git clone https://github.com/rrcobb/cssi-curriculum.git cssi-site
+git clone https://github.com/google-cssi/cssi-curriculum.git cssi-site
 cd cssi-site
 jekyll serve
 ```
