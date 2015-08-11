@@ -1,15 +1,8 @@
 ---
   layout: post
-  title: 3-javascript-warmup
+  title: JavaScript Day 3 Warm-up
   language: javascript
 ---
----
-tags: arrays, data types, loop
-language: JavaScript, JS
----
-
-#  JavaScript Day 3 Warm-up!
-
 
 ##  Instructions:
 
@@ -17,7 +10,7 @@ language: JavaScript, JS
 
 For each of these functions, do the following:
 
-1. Identify the function name, the function's inputs (name/value) (parameters) and the function's outputs (name/value) (things that are returned). 
+1. Identify the function name, the function's inputs (name/value) (parameters) and the function's outputs (name/value) (things that are returned).
 2. Describe what the function does in plain English.
 
 ```javascript
@@ -115,7 +108,7 @@ var knees = "toes";
 var elbow = "head";
 var eye = "eyes and ears";
 var ear = "eye";
-      
+
 touch(ear, elbow);
 touch(eye, ear);
 touch(head, "knees " + knees);
@@ -124,7 +117,7 @@ touch(head, "knees " + knees);
 
 ###  4. Code Writing
 
-1.  Write a function called `myName` that simply returns your name as a string. 
+1.  Write a function called `myName` that simply returns your name as a string.
   * Store that string in a variable called `thisIsMyName`
   * Log the value of that variable to the console.
 2.  Write a function called `greeting` that:
@@ -142,14 +135,14 @@ Complete these if you have extra time and want to take on a challenge!
 
 1. Modify your `receipt` function in the following ways:
   * Take an additional argument, tip, to specify the percentage of tip to leave. For example, `receipt(20, 10)` should return 23.8.
-  * Replace the subtotal argument with an array called costsPerItem, which is an array containing the prices for each item ordered in the meal. 
+  * Replace the subtotal argument with an array called costsPerItem, which is an array containing the prices for each item ordered in the meal.
     * Compute the subtotal from the costsPerItem array and calculate the total cost with tax and tip.
     * Round to the nearest cent.
     * For example, `receipt([10, 9, 25], 20)` should return 56.76.
 2. Write a function called `splitTheBill` that:
   * Takes 2 arguments, the total cost (i.e. with tax and tip included), and an array of string names (e.g. `["Victoria", "Jessie", "Joseph"]`)
   * For each person, logs to the console the amount that they owe in the form of "[name] owes $[money]"
-  * Splits the amount owed per person as evenly as possible among the number of people. 
+  * Splits the amount owed per person as evenly as possible among the number of people.
   * Note that money cannot exceed 2 decimal places (e.g. you cannot have $12.255) and the sum of each part should still add exactly up to the total cost.
   * For example, `splitTheBill(122.27, ["Victoria", "Joseph", "Jessie"])` should print:
 

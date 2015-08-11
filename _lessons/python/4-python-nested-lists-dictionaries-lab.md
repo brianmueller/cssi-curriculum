@@ -1,6 +1,6 @@
 ---
   layout: post
-  title: 4-python-nested-lists-dictionaries-lab
+  title: Python Nested Dictionaries Lab
   language: python
 ---
 

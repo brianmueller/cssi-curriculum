@@ -4,19 +4,19 @@ title: Intro to the Command Line
 language: command-line
 ---
 
-# Prior Knowledge:
+# What You Need to Know:
 + Intro to the web
 + Github account setup
 + Learn.co walkthrough
 + Intro to HTML
 + Intro to CSS
 
-# Student Objectives:
+#  What you will Learn:
 Students will be able to navigate their system’s file structure using the CLI (command line interface) in terminal.
 Understand and explain what a terminal is and why we use it
 Navigate and manipulate directories
 
-# Motivation?
+# Why This is Important?
 Back in the day (the 1980s!), computers only had a terminal to control them. Later on, Graphical User Interfaces (GUIs) were created to make computers more accessible and intuitive for those who weren't as computer savvy. Developers continue to use the terminal instead of the GUI because it speeds up development and allows for more fine-grained control.
 
 # Command Line

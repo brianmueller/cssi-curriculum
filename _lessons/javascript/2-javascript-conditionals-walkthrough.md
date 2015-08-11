@@ -1,11 +1,9 @@
 ---
   layout: post
-  title: 2-javascript-conditionals-walkthrough
+  title: Conditional Statements
   language: javascript
 ---
-
-# Conditional Statements
-After the lesson, you will understand:
+## After the lesson, you will understand:
 + What conditional statements are
 + Why we use them
 + js conditional statement syntax

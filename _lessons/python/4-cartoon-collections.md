@@ -1,11 +1,9 @@
 ---
   layout: post
-  title: 4-cartoon-collections
-  language: 
+  title: Python List Iteration Lab - Cartoon Collections
+  language: python
 ---
-
-
-##  Objectives
+##  What You Will Learn
 
 You're going to get familiar with iterating through lists.
 

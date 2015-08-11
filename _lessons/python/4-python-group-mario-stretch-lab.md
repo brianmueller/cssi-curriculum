@@ -1,9 +1,8 @@
 ---
   layout: post
-  title: 4-python-group-mario-stretch-lab
+  title: Python Iteration and Functions Lab - Itsa Mario
   language: python
 ---
-## Itsa Mario*
 
 ***This is a group lab, so make sure you are working in a group of 2-4 students***
 
@@ -17,10 +16,10 @@ Your mission is to recreate these blocks using python.
 Create a program that will print the following pyramid:
 
 ```
-   #   # 
-  ##   ## 
- ###   ### 
-####   #### 
+   #   #
+  ##   ##
+ ###   ###
+####   ####
 ```
 
 (The height and the width of the half-pyramids pictured above are 4 with a gap of size 2 separating them.)
@@ -33,34 +32,34 @@ Add a new feature to your program that asks a user how tall they would like to m
 
 Modify your code to prompt the user for the number of pyramids they want. Using this number, stack the pyramids on top of each other in a chain. This would be an example of a pyramid with height of 4 and chain length of 3:
 ```
-   #   # 
-  ##   ## 
- ###   ### 
-####   #### 
-   #   # 
-  ##   ## 
- ###   ### 
-####   #### 
-   #   # 
-  ##   ## 
- ###   ### 
-####   #### 
+   #   #
+  ##   ##
+ ###   ###
+####   ####
+   #   #
+  ##   ##
+ ###   ###
+####   ####
+   #   #
+  ##   ##
+ ###   ###
+####   ####
 ```
 ###  Part IV: Every-Other-Upside-Down Pyramid
 Modify your code to make every other pyramid inverted. Example:
 ```
-   #   # 
-  ##   ## 
- ###   ### 
-####   #### 
-####   #### 
- ###   ### 
-  ##   ## 
-   #   # 
-   #   # 
-  ##   ## 
- ###   ### 
-####   #### 
+   #   #
+  ##   ##
+ ###   ###
+####   ####
+####   ####
+ ###   ###
+  ##   ##
+   #   #
+   #   #
+  ##   ##
+ ###   ###
+####   ####
 ```
 
 *Inspiration for this lab comes from one of the labs in Harvard's CS50 class (Intro to Computer Science)

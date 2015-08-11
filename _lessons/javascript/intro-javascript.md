@@ -3,7 +3,7 @@ layout: post
 title: Intro to Javascript and the Developer Console
 language: javascript
 ---
-After the lesson, you'll be able to:
+## After the lesson, you'll be able to:
 + Understand and define key programming concepts
 + Use the JS console
 + Understand the console is for testing, does not permanently store code

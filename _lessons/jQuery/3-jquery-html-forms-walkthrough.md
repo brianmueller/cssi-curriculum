@@ -1,15 +1,8 @@
 ---
   layout: post
-  title: 3-jquery-html-forms-walkthrough
+  title: jquery html forms walkthrough
   language: jquery
 ---
----
-tags:
-level:
-languages:
-resources:
----
-#  Html Forms And Jquery
 
 Lots of the interaction on the web happens through forms. (For the most part) Whenever you are typing something into a box, clicking a checkbox or radio button, or sliding a slider, you are interacting with an HTML Form.
 

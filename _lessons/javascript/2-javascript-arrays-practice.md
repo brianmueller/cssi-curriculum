@@ -1,13 +1,8 @@
 ---
   layout: post
-  title: 2-javascript-arrays-practice
+  title: JavaScript Arrays Practice
   language: javascript
 ---
-
-
-#  JavaScript Arrays Practice
-
-
 ## Instructions:
 
 ### 1. Arrays:
