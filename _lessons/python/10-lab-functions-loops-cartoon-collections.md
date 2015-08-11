@@ -1,6 +1,6 @@
 ---
   layout: post
-  title: Lab: Python List Iteration - Cartoon Collections
+  title: Lab: Python List Functions and Loops
   language: python
 ---
 ##  What You Will Learn
