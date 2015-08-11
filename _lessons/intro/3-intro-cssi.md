@@ -32,11 +32,3 @@ Directions: On your index card answer the following questions. When you are done
 + Celebrate Questions
 + Provide tools to face difficult challenges
 + Receive and respond to feedback
-
-# Agenda for the week
-You've got a schedule and can see the Google Calendar, and that covers everything, from meal times to events to when the shuttle will pick you up and drop you off. Here's the overview for the next two weeks:
-
-+	Day 1: HTML, CSS, Command line, Git
-+	Day 2-5: Javascript and Python
-+	Day 6-10: App Engine
-+	Days 11-15: Group Projects
