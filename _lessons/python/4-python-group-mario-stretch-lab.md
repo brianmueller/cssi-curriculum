@@ -1,6 +1,6 @@
 ---
   layout: post
-  title: Python Iteration and Functions Lab - Itsa Mario
+  title: Lab: Itsa Mario - Python Iteration and Functions
   language: python
 ---
 
