@@ -1,11 +1,9 @@
 ---
   layout: post
-  title: 2-javascript-variables-walkthrough
+  title: Variables and Assignment 
   language: javascript
 ---
-
-# Variables and Assignment
-The interpreter has been great for doing little calculations like `2*3`, but it doesn't remember values from line to line. 
+The interpreter has been great for doing little calculations like `2*3`, but it doesn't remember values from line to line.
 
 To help it remember, we will need to make a variable.We can think of a variable like a bucket. Inside of the bucket we can store data. Variables will store data that we can access at any time.
 
@@ -19,7 +17,7 @@ You need to declare variables explicitly in JavaScript with the var keyword like
 * The name of the variable is "students"
 * The value assigned to students is 30.
 
-Anytime we want to see what's inside the bucket, the value of a variable, we just need to call the variabe's name. 
+Anytime we want to see what's inside the bucket, the value of a variable, we just need to call the variabe's name.
 ```
 >students
 30

@@ -1,11 +1,9 @@
 ---
   layout: post
-  title: 2-linking-javascript-walkthrough
+  title: Linking Javascript Student Walkthrough
   language: javascript
 ---
-
-# Linking Javascript Student Walkthrough
-After the lesson, you'll be able to:
+## After the lesson, you'll be able to:
 + Save javascript code to a .js file
 + Use script tags to add js scripts to an html doc
 + Understand the connection between HTML, CSS, and JS as discrete parts of the front end of a web page that work together

@@ -1,12 +1,10 @@
 ---
   layout: post
-  title: 2-javascript-datatypes-strings-walkthrough
+  title: Datatypes and String Methods
   language: javascript
 ---
 
-# Javascript Data Types and String Methods
-
-After the lesson, you'll be able to understand:
+## After the lesson, you'll be able to understand:
 + JS data types
 + Strings and string methods
   + length

@@ -1,11 +1,10 @@
 ---
   layout: post
-  title: 2-javascript-objects-walkthrough
+  title: Javascript Objects Walkthrough
   language: javascript
 ---
 
-# Objects
-After the Lesson you'll be able to understand:
+## After the Lesson you'll be able to understand:
 + What is an object
 + object notation
 + key:value pairs

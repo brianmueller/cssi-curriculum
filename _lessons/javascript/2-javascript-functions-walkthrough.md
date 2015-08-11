@@ -1,11 +1,10 @@
 ---
   layout: post
-  title: 2-javascript-functions-walkthrough
+  title: Javascript Functions Walkthrough
   language: javascript
 ---
 
-# Javascript Functions Walkthrough
-After the lesson, you'll be able to understand:
+## After the lesson, you'll be able to understand:
 + What is a function
 + Declaring a function
 + How to call a function
