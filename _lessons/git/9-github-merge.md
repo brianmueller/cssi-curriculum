@@ -1,11 +1,8 @@
 ---
   layout: post
-  title: 9-github-merge
+  title: Teamwork with Git - Merging
   language: git
 ---
-
-
-# Group Work on GitHub - Merging
 
 ## Merging
 It can be complicated bringing together files when different changes have been made to the same starting point. Git helps you decide which versions to keep, and which ones to get rid of. Let's walk through a scenario that you'll run into as a team.

@@ -1,25 +1,20 @@
 ---
   layout: post
-  title: 1-github-student-walkthrough
+  title: Github Walkthrough
   language: git
 ---
 
+#### Motivation
+How many of you have used Google Docs? It’s a great way to store documents online and makes it easy to collaborate with other people. It works best for files like word documents and spreadsheets, but it isn’t equipped to store code.
 
-#  Intro to Github Student Walkthrough
-
-
-
-#### Motivation 
-How many of you have used Google Docs? It’s a great way to store documents online and makes it easy to collaborate with other people. It works best for files like word documents and spreadsheets, but it isn’t equipped to store code. 
-
-Thankfully, there’s GitHub, which is basically the Google Docs of code. It allows developers to save code, go back to previous versions and even work on code at the same time. 
+Thankfully, there’s GitHub, which is basically the Google Docs of code. It allows developers to save code, go back to previous versions and even work on code at the same time.
 
 Forking and cloning is a huge part of a developer workflow, so we wanted to teach you guys how it actually works.
 
 #### Forking and Cloning
 A repository is simply a place where the history of your work is stored like a folder on Google Drive. When you make a new copy of someone else's work, this is called forking. Let's practice.
 
-We're going to fork the Spoon-Knife repository. 
+We're going to fork the Spoon-Knife repository.
 
 * Click [here](https://github.com/octocat/Spoon-Knife) to open a new tab with the repo.  
 * Click “Fork” button to copy the GitHub repository
@@ -35,9 +30,9 @@ Cloning a repository just means it is copied onto your computer from your github
 Terminal will prompt you to enter your username and password. Even if you can't see your password's characters, keep typing - they're purposely hidden.
 
 #### Github pages
-Let's get a page online for the world to see! 
+Let's get a page online for the world to see!
 
-Github, which is so cool for storing our files and the history of our commits, also has an awesome Pages feature, which lets us publish simple websites for free, all from the command line. 
+Github, which is so cool for storing our files and the history of our commits, also has an awesome Pages feature, which lets us publish simple websites for free, all from the command line.
 
 * Open Chrome and go to www.github.com
 * At the top right click the "+" new repository
@@ -68,4 +63,4 @@ Two words: Open Source. There are over eight million people who use GitHub to st
 
 ##  Resources
 
-* [Site Point - Git for Beginners](http://www.sitepoint.com/git-for-beginners/) 
+* [Site Point - Git for Beginners](http://www.sitepoint.com/git-for-beginners/)

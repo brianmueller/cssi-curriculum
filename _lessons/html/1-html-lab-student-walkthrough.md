@@ -1,13 +1,8 @@
 ---
   layout: post
-  title: 1-html-lab-student-walkthrough
+  title: HTML Lab Student Walkthrough
   language: html
 ---
-
-
-#  HTML Lab Students Walkthrough
-
-
 ##  Instructions
 
 
@@ -15,7 +10,7 @@
 1. Press command+space to open spotlight
 2. Type “Atom” and press enter to search for and open the Atom editor
 3. Go to “file” and click “new file” (command+N)
-4. Save the file with command+S 
+4. Save the file with command+S
 5. Save your file as “my_profile.html”
 6. Select your Desktop for where the file should be saved
 7. Copy the boilerplate code below!
@@ -92,10 +87,10 @@ This is the top-level heading. How does this differ from the `<title>`? The titl
 
 `<img src="matthewlevine.jpg" width="80" height="80" alt="Photo of Matthew Levine">`
 
-This should show an image of the author, but it's broken. There are some important attributes in the `<img>` element you need to know: 
-* src: This is the URL ("source") of the image. 
-* width & height: These are optional, but if you specify them in your HTML, the page won't jump around when the image loads 
-* alt: The "alternate" text, a short description. This is useful if the image is broken, or for users who can't see the image and rely on a description instead. 
+This should show an image of the author, but it's broken. There are some important attributes in the `<img>` element you need to know:
+* src: This is the URL ("source") of the image.
+* width & height: These are optional, but if you specify them in your HTML, the page won't jump around when the image loads
+* alt: The "alternate" text, a short description. This is useful if the image is broken, or for users who can't see the image and rely on a description instead.
 
 **Challenge:** find an image online (try Google Image Search), and put its full path into the src attribute, replacing the nonexisting "matthewlevine.jpg". How does it look? If it's the wrong size, what can you edit to fix this?
 

@@ -1,13 +1,8 @@
 ---
   layout: post
-  title: 1-css-student-walkthrough
+  title: CSS Student Walkthrough
   language: css
 ---
-
-
-#  CSSI Intro to CSS Walkthrough
-
-
  
 #### A Page with No Style
 
@@ -15,7 +10,7 @@
 * Right click on it and select "Inspect Element". You should see a whole bunch of HTML
 * In the html `<head>` tag, you should see either a `<style>` tag or something like `link rel="stylesheet" type="text/css" href="mystyle.css">`. Delete that and watch what happens.
 
-CSS is the "styling" for HTML pages. Think of HTML being like your body, and CSS being the clothes. Your clothes (CSS) make your body (HTML) look good. And without your clothes (CSS) your body (HTML) would look pretty naked. 
+CSS is the "styling" for HTML pages. Think of HTML being like your body, and CSS being the clothes. Your clothes (CSS) make your body (HTML) look good. And without your clothes (CSS) your body (HTML) would look pretty naked.
 
 
 #### Code-Along-Setup
@@ -29,9 +24,9 @@ Click into your `my_profile_project` and your finder window should pop up
 Create a new file called `style.css`
 
 #### Selectors and Linking our Stylesheet
-We write our CSS in a separate file  to seperate our style from our structure. Writing your CSS in a different file is called an external style sheet. 
+We write our CSS in a separate file  to seperate our style from our structure. Writing your CSS in a different file is called an external style sheet.
 
-You can change the styling on entire website in one css file! Each html page must include a reference to that external style sheet though. 
+You can change the styling on entire website in one css file! Each html page must include a reference to that external style sheet though.
 
 Copy and paste the `<link>` tag below into your my_profile.html page. It should be between the `<head>,</head>` tags
 
@@ -51,13 +46,13 @@ h1 {
 ```
 
 
-The property-value pairs in between the curly braces {} are the styles (`color: blue` sets the text color to blue), and the selector defines (or “selects”) which elements these styles apply to. 
+The property-value pairs in between the curly braces {} are the styles (`color: blue` sets the text color to blue), and the selector defines (or “selects”) which elements these styles apply to.
 
 #### Types of Selectors
 There are three ways to select an element:
 * Type selector: selects all of the elements by html tag
 * Class selector: makes a class or a category that is associated with as many html elements
-* ID selector: can only be used one time to grab a single element. 
+* ID selector: can only be used one time to grab a single element.
 
 The first of these is a basic selector or type selector, and it’s composed of the name of the tag for which these styles apply. Using a basic selector the style rule applies to all elements of this type on the page.
 
@@ -99,7 +94,7 @@ Adding an HTML file In your my_profile_project folder create a new file called "
   </body>
 </html>
 ```
-This is what your html page should look like 
+This is what your html page should look like
 Adding a CSS file We’ll define the CSS styles in a separate file. In your my_profile_project folder create a new file called favorite_songs_style.css Open favorite_songs_style.css in Atom Copy this boilerplate code
 ```
 h2 {
@@ -169,13 +164,13 @@ h2 {
 }
 ```
 
-And you see that you get the desired result: 
+And you see that you get the desired result:
 #### Colors
 RGB vs Hexadecimal color There are a few ways to get more specific with color value other than just writing "red". There are many tones of red RGB- stands for Red, Green, Blue. RGB color model is the ways of getting different colors through adding different amounts of Red, Green, and Blue. Count up from 0 amounts of each to 255 of each rgb(0,0,0) gives you black rgb(255,255,255) gives you white Hexademical is a different notation for the amount of Red, Green, and Blue that gets added to your color. count: 0, 1, 2, 3, 4, 5, 6, 7, ,8, 9, a, b, c, d, e, f 6 values: two red, two green, two blue # 000000is black # ffffff is white # 0000FF is blue (zero amounts of red and green) Color Picker is a great resource to find other color tones
 
 #### Fonts
-Google fonts 
-Browsers can only display whatever fonts are downloaded on that computer. If a web application is using some random font that my computer doesn't have, I won't be able to see it. Google fonts is a great resource to get around this.  Click the quick view button 
+Google fonts
+Browsers can only display whatever fonts are downloaded on that computer. If a web application is using some random font that my computer doesn't have, I won't be able to see it. Google fonts is a great resource to get around this.  Click the quick view button
 Scroll down the page till you see this and make sure import is selected: Copy that the @import url and paste it at the top of your CSS file Step 4 shows you how to use the font: They chose to style the font-weight property as well, you can ignore that
 ```
 h1 {

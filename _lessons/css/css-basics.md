@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  Intro to CSS
-categories: day-1 css frontend
 language: css
 ---
 # Prior Knowledge:
