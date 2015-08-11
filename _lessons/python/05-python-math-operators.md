@@ -11,7 +11,6 @@
 # Why This is Important
 Like we saw when we were exploring the interpreter, Python supports the basic math operators you would expect ``(+, -, *, /)``  Anytime we see an equation in code, python will try to evaluate the expression.
 
-
 #  Decimals or Floats
 There are some caveats about fractions and decimals numbers. Sometimes you'd expect one thing, but python gives you another.
 ```

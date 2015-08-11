@@ -1,6 +1,6 @@
 ---
   layout: post
-  title: Python Variable Assignment Exercises
+  title: Exercises: Python Variable Assignment
   language: python
 ---
 

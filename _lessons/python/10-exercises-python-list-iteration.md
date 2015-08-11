@@ -1,6 +1,6 @@
 ---
   layout: post
-  title: Python List Iteration Exercises
+  title: Exercises: Python List Iteration
   language: python
 ---
 

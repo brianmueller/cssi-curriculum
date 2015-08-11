@@ -1,9 +1,8 @@
 ---
   layout: post
-  title: Python Functions Lab - FizzBuzz
+  title: Lab: Python Functions - FizzBuzz
   language: python
 ---
-
 
 #  Test Driving FizzBuzz
 
