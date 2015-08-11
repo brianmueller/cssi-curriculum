@@ -1,6 +1,6 @@
 ---
   layout: post
-  title: Python Lists and Exercises
+  title: Python Lists
   language: python
 ---
 # What You Need to Know:

@@ -4,7 +4,7 @@
   language: python
 ---
 #What You Need to Know
-+ Basic Python
++ Basic Python syntax
 
 # What You Will Learn
 + Understand the syntax of dictionaries in Python
@@ -84,7 +84,7 @@ cartoon_species = {'bugs': 'rabbit',
        	           'tom': 'cat',
       	           'jerry': 'mouse'}
 
-print my_dict['elmer']
+print cartoon_species['elmer']
 ```
 # Updating a dictionary
 To modify the values inside a dictionary, the same thing applies - you want to use the assignment operator and send it the key value.
@@ -95,12 +95,12 @@ cartoon_species = {'bugs': 'rabbit',
        	           'tom': 'cat',
       	           'jerry': 'mouse'}
 
-my_dict['bugs'] = 'bunny' # reassigns rabbit to bunny
+cartoon_species['bugs'] = 'bunny' # reassigns rabbit to bunny
 ```
 You can also use this technique to add key-value pairs to a dictionary that don’t already exist. For instance, with my_dict, I could do the following:
 ```
-my_dict['tweety'] = ‘bird’
-print my_dict
+cartoon_species['tweety'] = ‘bird’
+print cartoon_species
 
 {'tom': 'cat', 'wiley e': 'coyote', 'elmer': 'human', 'bugs': 'bunny', 'jerry': 'mouse', 'tweety': 'bird'}
 ```
@@ -123,7 +123,7 @@ del my_dict['bugs']
 # Searching for a Key in a Dictionary
 What if you wanted to check if the key 'jerry' was in my_dict?  Use the in operator.
 ```
-if 'jerry' in my_dict:
+if 'jerry' in cartoon_species:
  print 'Hi Jerry!'
 ```
 This only works for keys in a dictionary, not the values.
@@ -131,7 +131,7 @@ This only works for keys in a dictionary, not the values.
 # Looping over a dictionary
 It is often useful to be able to loop over the contents of a dictionary. Using the for-in loop we would write:
 ```
-for cartoon in my_dict:
+for cartoon in cartoon_species:
  print cartoon
 ```
 What do you notice? What is it printing? It’s printing the keys!
@@ -144,8 +144,8 @@ jerry
 ```
 How would you print the values? Combine the technique of accessing the dictionary through the key:
 ```
-for cartoon in my_dict:
- print my_dict[cartoon]
+for cartoon in cartoon_species:
+ print cartoon_species[cartoon]
 ```
 This prints:
 ```
