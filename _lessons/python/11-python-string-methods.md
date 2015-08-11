@@ -30,7 +30,7 @@ hello, world!
 ```
 
 # User Input
-In python, if you want to get text from a user, you can use the raw_input() function. Let's try it out!
+Remember in Python, if you want to get text from a user, you can use the raw_input() function. 
 
 ```
 >>> name = raw_input('Enter your name: ')

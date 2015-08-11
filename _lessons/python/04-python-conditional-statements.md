@@ -4,13 +4,25 @@
   language: python
 ---
 # What You Will Learn
-
++ How to get input from a user
 + Understand the syntax of conditional statements
 + Use conditional statements
 + Understand what a boolean is
 
 # Why This is Important
 Sometimes we only want our code to run if certain conditions are in place. If a condition is met, then python should run the code otherwise something else should happen.
+
+## User Input
+In python, if you want to get text from a user, you can use the raw_input() function. Let's try it out!
+
+```
+>>> name = raw_input('Enter your name: ')
+Enter your name: Georgia
+>>> name
+'Georgia'
+```
+
+The raw_input() method allows the user to input any answer. The input() function will only allow the user to input a string.
 
 # Conditionals
 Conditional statements are a type of control flow: They can control which parts of code get executed, and which do not. The basic conditional statement is the if statement:
@@ -20,7 +32,7 @@ if condition_1:
 ```
 Here is an example with two variables:
 ```
-yourAnimal = input('What is your favorite animal? ')
+yourAnimal = raw_input('What is your favorite animal? ')
 myAnimal = "dog"
 
 if yourAnimal == myAnimal:
@@ -47,7 +59,7 @@ Here are some important boolean operators:
 # Else and Elif conditional statements
 There are a few other conditional statements that work together with if. For example, you often want to do something if the condition failed:
 ```
-yourAnimal = input('What is your favorite animal? ')
+yourAnimal = raw_input('What is your favorite animal? ')
 myAnimal = "dog"
 if yourAnimal == myAnimal:
   print "That's my favorite animal, too!"
