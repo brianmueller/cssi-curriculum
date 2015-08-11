@@ -3,6 +3,8 @@
   title: Advanced CSS
   language: css
 ---
++ CSS box model: http://guyroutledge.github.io/box-model/
+
 You've seen how to select and style individual CSS elements. Now, we'll look at how to size and position elements on the page.
 
 Sizing and positioning is tricky - the view window isn't always the same size, and elements often need to change size and position relative to each other and to the window.
