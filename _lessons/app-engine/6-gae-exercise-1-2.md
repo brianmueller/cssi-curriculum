@@ -1,11 +1,8 @@
 ---
   layout: post
-  title: 6-gae-exercise-1-2
-  language: 
+  title: Appengine Launching Exercise 1 & 2
+  language: app-engine
 ---
-
-
-#  Appengine Launching Exercise 1 & 2
 
 ## Roll Dice on the Web
 

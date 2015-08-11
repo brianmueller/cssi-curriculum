@@ -1,11 +1,8 @@
 ---
   layout: post
-  title: 6-fortune-teller-first-steps
-  language: 
+  title: Fortune Teller Challenge
+  language: app-engine
 ---
-
-
-#  Fortune Teller Challenge
 
 At the end of these exercises today and tomorrow, you will have an App Engine application that performs [cold reading](https://en.wikipedia.org/wiki/Cold_reading) simulations. Set up a basic application, then read the requirements below and implement each path as specified. Note that the requirements may be vague, ambiguous, or just incomplete. Think about how you are deciding between different ways of implementing things.
 
@@ -45,7 +42,7 @@ Requirements:
 
 Path: /whirlybird
 
-Based on the color and number that a user picks, a fortune is generated. Tomorrow, the user will be selecting a color and number using buttons. But for now hard code them. 
+Based on the color and number that a user picks, a fortune is generated. Tomorrow, the user will be selecting a color and number using buttons. But for now hard code them.
 * userColor = blue
 * userNumber = 3
 

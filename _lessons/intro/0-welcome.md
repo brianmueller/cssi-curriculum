@@ -1,11 +1,8 @@
 ---
   layout: post
-  title: 0-welcome
-  language: 
+  title: Welcome to CSSI
+  language: intro
 ---
-
-
-# Welcome to CSSI and Learn.co
 
 ![Google CSSI](http://flatironschool-uploads.s3.amazonaws.com/cssilogo.png)
 

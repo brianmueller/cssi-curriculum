@@ -1,9 +1,8 @@
 ---
   layout: post
-  title: 7-deploy-app-engine
+  title: Deploying an app engine app
   language: app-engine
 ---
-#  Deploying an app engine app
 
 We are going to deploy our App Engine app to the Internet! You can `git clone` this repo to get an example app called `my-app` to deploy.
 
@@ -16,9 +15,9 @@ We are going to deploy our App Engine app to the Internet! You can `git clone` t
 3. Fill in "Project name" with a name -- it could be any name (does not have to match your project folder).
 
   As you are filling in the project name, there should be small text under the text box that tells you your project id. In this example, our project id is "magnetic-set-102113". You will have a different project id.
-  
+
   **Remember your project id** since we'll need it in a few steps!
-  
+
   ![Create screen 2](http://i.imgur.com/ZXVtYHym.png)
 4. Click "Create"
 5. Now go to Terminal, and `cd` into the directory of your App Engine project.
@@ -30,13 +29,13 @@ We are going to deploy our App Engine app to the Internet! You can `git clone` t
   Note: **do not use "magnetic-set-102113"** -- you need to use the project id from step 3!
 
  This may open up a screen like this in Chrome:
- 
+
  ![Accept auth](http://i.imgur.com/7jYywmRm.png)
- 
+
  If you see this, click "Accept"
- 
+
  The terminal should show something like the following:
- 
+
  ```
 Authentication successful.
 10:13 AM Scanning files on local disk.
@@ -55,5 +54,5 @@ vrk-macbookpro2:my-app
 ```
 
 7. Congratulations, your app should now be live and on the internet!
-  
+
   Check out http://**your-app-id**.appspot.com/, e.g. our example is http://magnetic-set-102113.appspot.com/.  
