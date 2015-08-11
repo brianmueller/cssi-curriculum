@@ -3,6 +3,12 @@
   title: Teamwork with Git - Merging
   language: git
 ---
+# What You Need to Know:
++ How to add local changes onto github
+
+#  What you Will Learn:
++ How to work in teams with Github
++ How to resolve merge conflicts
 
 ## Merging
 It can be complicated bringing together files when different changes have been made to the same starting point. Git helps you decide which versions to keep, and which ones to get rid of. Let's walk through a scenario that you'll run into as a team.
