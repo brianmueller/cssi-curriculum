@@ -8,7 +8,8 @@
 + Python Lists
 
 # What You Will Learn:
-+ Create a loop in Python syntax
++ How to create a loop in Python syntax.
++ How and when to use for loops, while and while/else loops.
 
 # Why This is Important:
 As a programmer, whenever you find yourself repeating an action in your code, you can probably write some code to do that repetitive task for you and save lots of time, this is where writing loops becomes very valuable. Loops allow you to automate iteration through a list or task.
@@ -17,15 +18,14 @@ As a programmer, whenever you find yourself repeating an action in your code, yo
 Loops let us repeat a section of code over and over, even if we only type it out once.
 
 ### For Loops
-The simplest looping situation is where you need to do something _for_ a certain number of times. To do this, Python uses a for loop.
+The most basic reason to use looping  is when you need to do something _for_ a certain number of times. To do this, Python uses a ***for loop***.
 
 #####  Example 1: Looping Through a List
-
 
 This code will repeat for every element in the list.
 
 ```python
-for name in ["Lucy", "Riccardo", "Ricky Jr."]:
+for name in ["Finn", "Jake", "Marceline"]:
   print name
 ```
 Note that the variable `name` is what we are calling each element within the list. We could call that variable anything: `character`, `person`, `actor`. It doesn't matter, as long as we continue to use that variable later within the _for_ block.
@@ -34,7 +34,7 @@ Alternatively, we can declare a variable `names` which contains a list of our lo
 ```python
 # same result, slightly different syntax
 
-names = ["Lucy", "Riccardo", "Ricky Jr."]:
+names = ["Finn", "Jake", "Marceline"]:
 for name in names:
   print name
 ```
@@ -55,6 +55,7 @@ for i in my_range:
 ```
 ### While Loops
 While loops continue to repeat _while_ - or as long as - a certain condition is met. A while loop has a block of code and a condition.
+
 #####  Example 1: A Simple While Loop
 This code will repeat while the condition `n<5` is met. It will stop when n is equal to 5.
 
@@ -82,17 +83,16 @@ print "You counted to 5"
 ```
 some_numbers =[2, 52, 19, 46, 1000]
 ```
-Use a loop to add ten to each number and then divide it by two and print this new number to the screen.
+Use a loop to add ten to each number in the list and then divide it by two and print this new number to the screen.
 
 ###  Reverse Presidents
  ```
  presidents = ["George Washington", "John Adams", "Thomas Jefferson", "James Madison", "James Monroe", "John Quincy Adams"]
  ```
-
 Use a loop to print out a string with the name reversed for each of the presidents in the `presidents` list.
 
 ###  10 Bottles of Milk on the Wall
-Create an list with the numbers 10 down to 0. Using a loop, for every number print the string "___ bottles of milk on the wall", filling in the blank with the number in your list.
+Create an list with all the numbers from 10 down to 0. Using a loop, for every number print the string "___ bottles of milk on the wall", filling in the blank with the number in your list.
 
 # Conclusion
 Creating, modifying and accessing lists are important for every programmer, as is being able to use _for_ loops and _while_ loops. Practicing these small examples are a great way to build your foundation as a strong developer.
