@@ -42,4 +42,4 @@ Move 8 spaces. Next player's turn!
 Remember to import your random library at the start of your script!
 
 # Conclusion:
-There are many libraries out there we can import to add to our Python coding power. Just take a look at the documentation to find out what cool functionality one will add to your script! We will be using import a lot when we talk about Google App Engine next week.
+There are many libraries out there we can import to add to our Python coding power. Just take a look at the documentation to find out what cool functionality one will add to your script! We will be using import a lot when we talk about Google App Engine.
