@@ -23,27 +23,32 @@ Back in the day (the 1980s!), computers only had a terminal to control them. Lat
 * Open Terminal- Either click the icon, or hit Command + space and type Terminal, then click enter. A small white rectangle will appear with the name of your computer, a tilde (~) and your username followed by a $.
 You’ll see a tilde: ~. This means you’re in your user's home directory. Directory is another word for folder.
 
-* Enter pwd : pwd means print working directory - it tells us where we are.
-* Enter ls : check what directories are within the directory where you are standing by using
-* Enter cd: change directories by using the cd command. Change to Desktop directory.
-* Enter mkdir : makes a new directory. Make a new directory in development called around-the-world.
-* Enter cd around-the-world: to change directories into around-the-world
-* Enter mkdir France: creates a directory called France inside of around-the-world
-* Enter cd France: to change directories into France
-* Enter mkdir Paris: to create a directory called Paris inside of France
-* Enter cd Paris: to change directories into Paris
-* Enter touch eiffel_tower.txt: to create a text file called eiffel_tower in the Paris directory
-* Enter touch berlin_wall.txt: to create a text file called berlin_wall in Paris directory
-* Enter touch pyramids.txt: to create a text file called pyramids in Paris directory
-* Enter rm berlin_wall.txt: To remove the berlin_wall
-* Enter mv : mv pyramids.txt france/around-the-world or my pyramids.txt ../.. You have to list the path of directories in order to move the file to the final destination
-* Enter cd .. to move up the tree of directories. cd ../.. will bring you up two parent directories
+Follow these steps to create a directory about the world and practice command line commands
+
+* `pwd`: pwd means print working directory - it tells us where we are.
+* `ls`: check what directories and files are within the current directory
+* `cd ~/cssi`: change directories by using the cd command. Change to `~/cssi` directory.
+* `mkdir around-the-world`: Make a new directory in `~/cssi`` called `around-the-world`
+* `cd around-the-world`: to change directories into `around-the-world`
+* `mkdir france`: creates a directory called `france` inside of `around-the-world`
+* `cd france`: to change directories into `france`
+* `mkdir paris`: to create a directory called `paris` inside of `france`
+* `cd paris`: to change directories into `paris`
+* `touch eiffel_tower.txt`: to create a text file called `eiffel_tower.txt` in the `paris` directory
+* `touch berlin_wall.txt`: to create a text file called `berlin_wall.txt` in `paris` directory
+* `touch pyramids.txt`: to create a text file called `pyramids.txt` in `paris` directory
+* `ls`: check what directories and files are within the current directory, verify that your 3 files are there
+* `rm berlin_wall.txt`: To remove the berlin_wall.txt
+* `pwd`: pwd means print working directory - it tells us where we are, we should be in the `paris` folder
+* `cd ..`: moves us into the parent folder of `paris` which is `france`
+* `mv paris/pyramids.txt pyramids.txt`: move the `pyramids.txt` file from the `paris` folder into *this* folder
+* `cd ..:` to move up the tree of directories. `cd ../..` will bring you up two parent directories
 
 # Student Challenge:
-1. Create a directory called "Egypt" in the "around-the-world" directory
-1. Create a directory called "Cairo" inside the "Egypt" directory
-1. Create a file called "pyramids.txt"
-1. Move "pyramids.txt" into the "Cairo" directory. Hint: List the path from around-the-world to Cairo
+1. Create a directory called `egypt` in the `around-the-world` directory
+1. Create a directory called `cairo` inside the `egypt` directory
+1. Create a file called `sphinx.txt` in the `around-the-world` directory
+1. Move `sphinx.txt` into the `cairo` directory. Hint: List the path from `around-the-world `to `cairo`
 1. **Stretch:** Create a new country, city, and landmark file in the "around-the-world" directory
 
 
@@ -57,3 +62,4 @@ As we learn to build complicated applications, being able to swiftly navigate yo
 
 ##  Resources
 * [Level Up - Command Line Tutorial](http://leveluptuts.com/tutorials/command-line-basics)
+* [Image of Possible folder structure](http://i.imgur.com/ViRtnaF.png)
