@@ -69,11 +69,69 @@ div.green {
 
 ![Examples of three different display properties](http://4.bp.blogspot.com/-TiwOixlooJk/U4UyEnv_XpI/AAAAAAAACFs/NuuLz2IvoZ4/s1600/css-display-block-vs-inline-block.png)
 
+## Position
+The position property has four possible values: static, relative, absolute, and fixed. By default, all elements have `position: static;`.
+```
+position: relative;
+```
+An element with `position: relative;` takes up space as you would expect in the normal flow of the page, but you can then move it using the top, bottom, left, and right properties, usually measured in pixels. It is moved relative to where it would have otherwise been on the page.
+Example:
+```
+<!-- HTML -->
+<section>
+   <div></div>
+</section>
+
+/* CSS */
+section {
+   border: 2px solid black;
+   width: 100px;
+}
+
+div {
+   position: relative;
+   height: 100px;
+   width: 100px;
+   top: 150px;
+   left: 300px;
+   background: green;
+}
+```
+We get:
+![White box, green box](http://i.imgur.com/ThNKJBb.png)
+
+```
+position: absolute;
+```
+An object with `position: absolute;` does not take up space in the normal flow of objects.
+Example:
+```
+<!-- HTML →
+<div></div>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> <!-- random text -->
+
+/* CSS */
+div {
+  position: absolute;
+  top: 20px;
+  right: 150px;
+  width: 100px;
+  height: 100px;
+  background: blue;
+}
+```
+We get:
+
+![Blue box on text - absolute](http://i.imgur.com/DY1GNMQ.png)
+
+Pro-tip: If you use `position: absolute;` on an element, always set `position: relative;` for the element’s parent. This will help prevent surprises with positioning in differently-sized windows and shouldn’t affect how the parent renders at all.
+```
+position: fixed;
+```
+An element with `position: fixed;` does not take up space in the normal flow of objects. It is very similar to `position: absolute;` except for one key feature: it will always stay in the exact same place in the window, even if you scroll in any direction. This makes it a popular choice for headers (and sometimes footers) if you want them to follow the user around the page.
+
 ## Float
----
- [Float](https://docs.google.com/document/d/1txE9GpKF3CtZXZBgcma5v3W-FRlOEuZJZ8QHFAvlG4w/edit# heading=h.vmcqvnili4n0)).
----
-Elements have a property float, which can be set to left, right, or none. float is a property that should be used on block elements, and, in fact, if you set float on a non-block element, its display property will be over-written to become block (more details here). By default the float property is set to none.
+Elements can given the display property  [float](https://docs.google.com/document/d/1txE9GpKF3CtZXZBgcma5v3W-FRlOEuZJZ8QHFAvlG4w/edit# heading=h.vmcqvnili4n0), which can be set to left, right, or none. By default the float property is set to none.
 If float is set to left, the element will automatically “float” up and to the left until it hits either the edge of its parent element or the edge of another element with float: left; (the rule is similar for float: right;).
 
 Example:
@@ -97,9 +155,8 @@ section {
 
 ```
 ![Three examples of floats](https://lh4.googleusercontent.com/-P-MsEKlMZi4/UkLJQdWErkI/AAAAAAAAAYA/F93J7DKS0UQ/s642/CU01034D_1.png)  
-Pro-tip: Using display: inline-block; is messy. Don’t use it. Instead, always use display: block; and float: left; (or right) in combination.
 
-## Clear
+## Clear Property
 Say we have an element we have floated, and another non-floating element that we want to appear below the first:
 ```
 <!-- HTML -->
@@ -138,9 +195,7 @@ And we get:
 
 ![Blue box on top of orange box](http://i.imgur.com/wLhnXJl.png)
 
-Which is what we expected.
-
-## Clearfix
+## Clearfix Class
 Here’s an example of a common CSS problem. We want to put, say, a picture and a block of text and have them float next to each other inside another block (we’ll make it pink with an orange border). Here’s our code:
 ```
 <!-- HTML -->
@@ -175,10 +230,9 @@ The code looks great! But here’s what we get:
 What happened to our pink background box? Well, it turns out that when you float an element, it no longer takes up space in its parent element. So in our example above, the `<section>` element collapsed to its minimum height, rendering only the border as a single orange line.
 How do we fix this? One option is to hard-code in a height for the `<section>`. This could be ok if we only ever use the `<section>` in this particular context, but what if the text or picture changes? Maybe for some people we want the text to be paragraphs and paragraphs long, and for others we want it to be only a few words. It would be much better if we could find a way for the `<section>` to take up exactly as much space as needed to wrap around its contents.
 
-The solution to this is called a “clearfix,” and to code it we need a very special block of CSS:
+The solution to this is creating a “clearfix” class. To use it we need a very special block of CSS:
 ```
 .clearfix:after {
-  content: "";
   display: block;
   clear: both;
 }
@@ -194,79 +248,5 @@ Now, just add the above to our CSS and change our HTML like so:
 And voilá!
 ![Smileyface text no  background](http://i.imgur.com/vc3ccGc.png)
 
-
-Just what we wanted.
-
-## Position
-The last major topic in display and positioning is the position property. position has four possible values: static, relative, absolute, and fixed. By default, all elements have `position: static;`.
-```
-position: static;
-```
-All positioning we have talked about so far has assumed position was set to static. For `position: static;`, the display property can be set to things other than block, but the top, bottom, left, and right properties do not work.
-```
-position: relative;
-```
-An element with `position: relative;` takes up space as you would expect in the normal flow of the page, but you can then move it using the top, bottom, left, and right properties, usually measured in pixels. It is moved relative to where it would have otherwise been on the page.
-Example:
-```
-<!-- HTML -->
-<section>
-   <div></div>
-</section>
-
-/* CSS */
-section {
-   border: 2px solid black;
-   width: 100px;
-}
-
-div {
-   position: relative;
-   height: 100px;
-   width: 100px;
-   top: 150px;
-   left: 300px;
-   background: green;
-}
-```
-We get:
-![White box, green box](http://i.imgur.com/ThNKJBb.png)
-
-
-The green box normally would have ended up in the square border, but it has been placed 150px down from the top and 300px from the left. Also notice that, while we set a width for our `<section>`, we did not set a height. It maintains a height of 100px, though, because our 100px-high `<div>` is still taking up the space it would have in its parent element.
-This behavior is not something we usually want, so in most cases `position: relative;` should only be used in conjunction with `position: absolute;`, as described later.
-```
-position: absolute;
-```
-An object with `position: absolute;` does not take up space in the normal flow of objects. Without any of the top, bottom, left, and right properties set it will appear in the top left corner of its nearest parent element with a position other than static. If all of its parent elements have `position: static;` (or no position set), it will appear in the top left corner of the window.
-
-Example:
-```
-<!-- HTML →
-<div></div>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> <!-- random text -->
-
-/* CSS */
-div {
-  position: absolute;
-  top: 20px;
-  right: 150px;
-  width: 100px;
-  height: 100px;
-  background: blue;
-}
-```
-We get:
-
-![Blue box on text - absolute](http://i.imgur.com/DY1GNMQ.png)
-
-
-Notice that the block takes up no space in relation to the text, either where it currently is or where it would have been before we moved it with top, bottom, left, and/or right.  It has been placed 20px from the top and 150px from the right.
-
-Pro-tip: If you use `position: absolute;` on an element, always set `position: relative;` for the element’s parent. This will help prevent surprises with positioning in differently-sized windows and shouldn’t affect how the parent renders at all.
-```
-position: fixed;
-```
-An element with `position: fixed;` does not take up space in the normal flow of objects. It is very similar to `position: absolute;` except for one key feature: it will always stay in the exact same place in the window, even if you scroll in any direction. This makes it a popular choice for headers (and sometimes footers) if you want them to follow the user around the page.
-
-Warning: `position: fixed;` is a dangerous feature. If you make a typo, or if the user’s window is configured differently than what you planned for, it is possible to make an element whose position is fixed appear off the screen originally. This means that, since it will always stay in the same place relative to the window, the user will never see it. Use `position: fixed;` only with care.
+#Conclusion
+Display and Positioning properties allow you to control the layout of your webpage! 
