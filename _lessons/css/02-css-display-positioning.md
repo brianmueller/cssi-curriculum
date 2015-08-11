@@ -69,6 +69,9 @@ div.green {
 
 ![Examples of three different display properties](http://4.bp.blogspot.com/-TiwOixlooJk/U4UyEnv_XpI/AAAAAAAACFs/NuuLz2IvoZ4/s1600/css-display-block-vs-inline-block.png)
 
+##Complete exercises 1-3 on Display Property:
+https://github.com/victoria/advanced-css-review
+
 ## Position
 The position property has four possible values: static, relative, absolute, and fixed. By default, all elements have `position: static;`.
 ```
@@ -249,4 +252,4 @@ And voilá!
 ![Smileyface text no  background](http://i.imgur.com/vc3ccGc.png)
 
 #Conclusion
-Display and Positioning properties allow you to control the layout of your webpage! 
+Display and Positioning properties allow you to control the layout of your webpage!
