@@ -1,6 +1,6 @@
 ---
   layout: post
-  title: Python String Methods Lab - Invitation Maker
+  title: Lab: Python String Methods - Invitation Maker
   language: python
 ---
 

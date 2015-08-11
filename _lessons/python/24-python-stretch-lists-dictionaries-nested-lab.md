@@ -1,6 +1,6 @@
 ---
   layout: post
-  title: Python Nested Dictionaries Lab
+  title: Lab: Python Dictionary Nesting
   language: python
 ---
 

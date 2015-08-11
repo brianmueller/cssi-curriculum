@@ -1,6 +1,6 @@
 ---
   layout: post
-  title: Python Functions Lab - A Subway Story
+  title: Lab: Python Functions - A Subway Story
   language: python
 ---
 
