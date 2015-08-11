@@ -5,26 +5,22 @@ date:   2015-08-04 11:56:31
 categories: day-1 html frontend
 language: html
 ---
-## Prior Knowledge:
-+ Intro to CSSI
-+ Github account setup
-+ Learn.co walkthrough
+## What you need to know:
++ How to make a Github repo
++ Commandline basics
 
-## Student Objectives:
-  + Introduction to the web
-  + Structure an html page using doctype, html, head and body tags
-  + Explain what goes into the head of the document
-  + Add text to a page using p and h1 tags
-  + Add images using img tag
-  + Add links using ``<a>`` tags and understand the difference between relative and absolute paths
-  + Create multiple pages and link them
-  + Use styling tags like ``<em>`` ``<strong>`` ``<div>`` and ``<span>``
-  + Create lists with ul, ol, and li
-  + Understand best practices for tag nesting
-  + Understand how to make comments
+## What you will learn:
+  + How the web works
+  + Structure an html page
+  + How to use HTML tags and attributes
+  + Using tags to add text, images, and links
+  + Understand relative and absolute paths
+  + How to use paragraph tags and bold and italicize font
+  + Understand tag nesting
+  + Make comments
   + Understand how the browser reads whitespace in HTML
 
-## Motivation
+## Why this is important:
 How many times a day do you use the internet? How many times do you load a different web page? I bet you can't even begin to guess how many times in a year! In order to be a developer, and especially a web developer, it's incredibly important to understand how the web works.
 
 HTML is the foundational technology for the Internet, every one of your favorite websites is HTML at its core. Today you are going to learn how to create an HTML site from scratch. And create your own styles for your personal web page.
@@ -39,14 +35,6 @@ As you can tell, we are talking about how this happens in abstract, high-level t
 
 
 ## Set Up Directions
-1. Create a "dev" folder on your desktop
-2. Go inside the "dev" and make a folder called "html"
-2. Cmd+space: opens your spotlight search.
-3. Type “Atom” and press enter
-4. Go to “file” and click “new file” to open a new tab
-5. Cmd+S Save as "practice.html"
-6. Save the file "html" folder in "dev"
-7. Copy the boiler plate code below
 
 ```
 <!DOCTYPE html>
@@ -60,31 +48,20 @@ As you can tell, we are talking about how this happens in abstract, high-level t
 </html>
 ```
 
-## Tag syntax and attributes
+## Tag syntax
 HTML is made up of building blocks called "elements".
 ```
 <tag> .... CONTENT GOES HERE .... </tag>
 ```
+## Attributes
 Attribute: Different elements can have different attributes. All elements can have class and id attributes to help differentiate them from other elements.
 
 ```
-<h1 id="title">The Gettysburg Address</h1>
-<p class="about">Delivered by Abraham Lincoln on November 19, 1863.</p>
+<h1 id="song-title">"Halo"</h1>
+<p class="beyonce-lyrics">Remember those walls I built? Well, baby they're tumbling down And they didn't even put up a fight They didn't even make a sound I found a way to let you in But, I never really had a doubt Standing in the light of your halo I got my angel now</p>
 ```
 + ID - identifies a unique element on the page and there can only be one element that has that id.
 + Class- Identifies and group elements that may occur more than once.
-
-## Whitespace
-The browser mostly ignores the whitespace in your HTML page.
-
-`<br>` is the line break tag - it's like pressing enter on the keyboard.
-```
-<p> I could use a <br> break</p>
-```
-`&nbsp;` is the html entity name for a no-break space. If you want to put extra spaces in between words, you can use it like this:
-```
-<p> I need a little &nbsp; &nbsp; &nbsp; space </p>
-```
 
 ##Types of Tags:
 + Headers  
@@ -136,6 +113,8 @@ Links use an `<a>` tag, which stands for anchor. If you wanted a link to Google 
 + Images  
 Images use an `<img>` tag to embed an image in a webpage.
 `<img src="your_image_location">`
+## Absolute or Relative paths
+
 
 ## Indentation
 HTML is not the easiest to read. It's designed to be clear for the browser to understand, but not always for humans. Indentation help make your code easier to understand and debug.
@@ -179,8 +158,17 @@ See!
 
 Especially if you are doing something complicated, it's helpful to leave notes for yourself in your code. That way, if you came back a year later, or if someone else was reading your code and trying to understand it, they would have help!
 
+## Whitespace
+The browser mostly ignores the whitespace in your HTML page.
+
+`<br>` is the line break tag - it's like pressing enter on the keyboard.
+```
+<p> I could use a <br> break</p>
+```
+`&nbsp;` is the html entity name for a no-break space. If you want to put extra spaces in between words, you can use it like this:
+```
+<p> I need a little &nbsp; &nbsp; &nbsp; space </p>
+```
+
 ## Conclusion
 HTML allows us to define and label the content of our page. All modern browsers have implemented the same specification for how to display content written with html syntax. Now, you have control over how content is displayed, by naming the parts in the structure of your document.
-
-## Personal Webpage Lab
-You are now ready to add html onto your personal webpage lab

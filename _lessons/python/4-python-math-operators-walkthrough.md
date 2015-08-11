@@ -4,12 +4,12 @@
   language: python
 ---
 
-# Objectives:
+# What You Will Learn
 
 + Understand how math operators are used in python
 + Understand the order of operations in python
 
-# Motivation
+# Why This is Important
 Like we saw when we were exploring the interpreter, Python supports the basic math operators you would expect ``(+, -, *, /)``  Anytime we see an equation in code, python will try to evaluate the expression.
 
 

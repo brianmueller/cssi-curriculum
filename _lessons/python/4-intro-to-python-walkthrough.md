@@ -4,7 +4,7 @@
   language: python
 ---
 
-# Objectives:
+# What You Will Learn
 +	Interact with python (interpreter, text editor + run from command line)
 + Understand Basic concepts in python
 + Print a string

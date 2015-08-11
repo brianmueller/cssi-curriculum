@@ -12,7 +12,7 @@
 
 Remember when we talked about strings earlier today? Well it turns out that Strings are Objects. In fact, arrays are objects as well. Nearly everything in javascript is an object. Even a function is object in JS, though this is not true in many other languages.
 
-Javascript is an object oriented programming language. Objects are the foundation of Object Oriented Programming. Consider all the hardware changes in the past 50 years: Memory once measured in kilobytes, expanded to megabytes, gigabytes and now terabytes.  The speed of computers and capabilities of graphics chips, based on smaller, more dense circuits, have marked the advances in hardware.  Yet in programming languages, there has been one major revolution: Objects.  C spawned C++, and now many widely used programming languages like Java, Objective-C, C# , Ruby, Python, and JavaScript all use Objects.
+Javascript is an object oriented programming language. Objects are the foundation of Object Oriented Programming. Consider all the hardware changes in the past 50 years: Memory once measured in kilobytes, expanded to megabytes, gigabytes and now terabytes.  The speed of computers and capabilities of graphics chips, based on smaller, more dense circuits, have marked the advances in hardware.  Yet in programming languages, there has been one major revolution: Objects.  C spawned C++, and now many widely used programming languages like Java, What You Will Learn-C, C# , Ruby, Python, and JavaScript all use Objects.
 
 Everything can be described by Objects, which bundles properties, with methods or actions, and events that impact that Object.
 

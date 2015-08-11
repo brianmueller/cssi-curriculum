@@ -4,7 +4,7 @@
   language: git
 ---
 
-#### Motivation
+#### Why This is Important
 How many of you have used Google Docs? It’s a great way to store documents online and makes it easy to collaborate with other people. It works best for files like word documents and spreadsheets, but it isn’t equipped to store code.
 
 Thankfully, there’s GitHub, which is basically the Google Docs of code. It allows developers to save code, go back to previous versions and even work on code at the same time.

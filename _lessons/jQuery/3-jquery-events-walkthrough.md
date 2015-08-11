@@ -3,8 +3,7 @@
   title: jquery Events walkthrough
   language: jquery
 ---
-
-### Objectives
+### What You Will Learn
 + Understand what constitutes an event
 + Attach jQuery event handlers (like 'click') to HTML elements
 + Add callback functions to event handlers
@@ -12,7 +11,7 @@
 + Understand how to chain jQuery methods
 + Use the jQuery documentation as a resource
 
-### Motivation / Why Should You Care?
+### Why This is Important / Why Should You Care?
 What happens when you click a button on site? Can we make code that responds to user actions? What if we want something to turn blue when your mouse moves over it?
 
 jQuery has event handlers that respond to user actions. This allows us to make all sorts of amazing behaviors and websites that respond naturally to user actions.
