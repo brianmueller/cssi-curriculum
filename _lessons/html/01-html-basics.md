@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  Intro to HTML
+date:   2015-08-04 11:56:31
 categories: day-1 html frontend
 language: html
 ---
