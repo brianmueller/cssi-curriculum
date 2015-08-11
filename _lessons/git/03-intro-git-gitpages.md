@@ -14,31 +14,15 @@
 
 
 #  What you Will Learn:
-+ Understand the purpose of GitHub and learn how to fork and clone repositories.
 + Deploy to GitHub pages
 
 
 # Why This is Important:
-GitHub is like Facebook for developers. Developers created tools for source and version control - programs to help them manage the history of files and help share across teams. We'll also use a GitHub feature called Pages to publish our first site for the world to see!
-
-# Forking and Cloning
-Practice forking a repository here https://github.com/octocat/Spoon-Knife
-  1. Click “Fork” button to copy the GitHub repository
-
-  <img src= "https://raw.githubusercontent.com/learn-co-curriculum/cssi-1.7-intro-git-gitpages/master/images/clone.png" width="300">
-  2. At “Where should we fork this repository?” popup, select own account.
-  3. GitHub then redirects to a page with your username/lab-name in URL. Your account now has a copy on GitHub but you can’t edit it on your computer in Atom just yet.
-  4. In the right sidebar of the repository page on GitHub, click to copy the http URL for the repository.
-
-  <img src= "https://raw.githubusercontent.com/learn-co-curriculum/cssi-1.7-intro-git-gitpages/master/images/fork.png">
-  5. In terminal, in your Dev directory, enter "git clone" and paste the URL.Cloning a repository just means it is copied onto your computer from your GitHub account.
-  6. Terminal will prompt you to enter your GitHub username and password.
+We'll use a GitHub feature called Pages to publish our first site for the world to see!
 
 # GitHub Pages for First-time Users
 Let's get a page online for the world to see!
 GitHub, which allows us to  store our files and the history of our commits, also has an awesome Pages feature, which lets us publish simple websites for free, all from the command line.
-
-
 
   1. Open Chrome and go to www.github.com
   2. At the top right click the “+” new repository

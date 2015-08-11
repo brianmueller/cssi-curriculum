@@ -29,37 +29,8 @@ In the right sidebar of the repository page on Github, click to copy the URL for
 Cloning a repository just means it is copied onto your computer from your github account.
 Terminal will prompt you to enter your username and password. Even if you can't see your password's characters, keep typing - they're purposely hidden.
 
-#### Github pages
-Let's get a page online for the world to see!
-
-Github, which is so cool for storing our files and the history of our commits, also has an awesome Pages feature, which lets us publish simple websites for free, all from the command line.
-
-* Open Chrome and go to www.github.com
-* At the top right click the "+" new repository
-* Name your repository "firstname_lastname", make the repository public, and initialize with a README
-* Copy the repository URL
-* Open your terminal
-* cd into your dev folder
-* type `git clone https://github.com/username/firstname_lastname.git`
-* cd into your my_profile_project
-* mv your html and css page into your "firstname_lastname" repository
-* cd into your "firstname_lastname" repository
-
-Now we need to make a special branch or version of our work called gh-pages. This is the way that github knows we want to make a Github page form our files.
-
-* `git checkout -b gh-pages`
-* `git push origin gh-pages` (You may need your username and password again)
-
-Now you have your very own website!!!!!! Congrats - time to send the link to the world
-
 ### Conclusion / So What?
 Two words: Open Source. There are over eight million people who use GitHub to store their code. Having a free account on GitHub means that anyone in the community can fork or clone your repositories and make changes to or contribute to your codebase. It’s all about people building publicly accessible applications together.
-
-
-
-
-
-
 
 ##  Resources
 
