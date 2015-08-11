@@ -3,7 +3,7 @@
   title: Week 1 Review
   language: python
 ---
-#  Day 5: Week 1 Review
+#  Python, Javascript, HTML Review
 
 ##  Instructions:
 Today's review will be in the form of "Choose Your Own Adventure": That is, choose whichever topic you'd like to review and complete the lab activities suggested.
@@ -17,14 +17,14 @@ Begin the Day 5 Python warmup on loops, lists, and dictionaries:
 
 Finish the labs from the other days:
 
-* [Learn.co Nested lists and dictionaries](https://learn.co/tracks/google-cssi/4-python-intro/python-labs/lab-nested-lists-and-dictionaries)
+* [Nested lists and dictionaries](https://learn.co/tracks/google-cssi/4-python-intro/python-labs/lab-nested-lists-and-dictionaries)
 * [Learn.co Cartoon collections](https://learn.co/tracks/google-cssi/4-python-intro/python-labs/lab-cartoon-collections)
 
 #  JavaScript / jQuery
 
 Finish the labs from the other days:
 
-* [Learn.co Deli Counter](https://learn.co/tracks/google-cssi/2-javascript-intro/labs/lab-deli-counter)
+* [Deli Counter](https://learn.co/tracks/google-cssi/2-javascript-intro/labs/lab-deli-counter)
 * [Day 3 JavaScript warmup](https://github.com/learn-co-curriculum/cssi-3-javascript-warmup)
 * [Day 4 jQuery warmup](https://github.com/learn-co-curriculum/cssi-4-jquery-warmup)
 
