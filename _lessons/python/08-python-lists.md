@@ -9,16 +9,16 @@
 
 # What You Will Learn
 + How to create a list in Python syntax
-+ How to create a loop in Python syntax
 
 # Why This is Important:
 In this lesson you will learn how to create a Python list.
+
 # Lists
 A list is the most basic Python data structure. It is a list of objects or values. The syntax for a list is a set of objects enclosed in brackets. To create an empty list, set a variable equal to empty brackets:
 ```
 >>> empty_list = []
 ```
-To create a list with some objects in it, just add the objects separated by commas:
+To create a list with some objects in it, just add the elements separated by commas:
 ```
 >>> groceries = ['Eggs', 'Milk','Butter']
 ```
@@ -44,13 +44,12 @@ The easiest way to modify a list’s content is to just access the list object b
 >>> groceries
 ['Bread', 'Milk', 'Butter']
 ```
-Another convenient way to modify a list is the append() method. The append method allows you to stick an element at the end of a list.
+Another convenient way to modify a list is the append() method. The append method allows you to add an element at the end of a list.
 ```
 >>> groceries.append('Asparagus')
 >>> groceries
 ['Bread', 'Milk', 'Butter', 'Asparagus']
 ```
-
 ### List Methods
 Using the len function, you can return the number of items in a list:
 ```
@@ -101,15 +100,14 @@ Generally, ranges have the form:
 Loops let us repeat a section of code over and over, even if we only type it out once.
 
 ### For Loops
-The simplest looping situation is where you need to do something _for_ a certain number of times. To do this, Python uses a for loop.
+The most basic reason to use looping  is when you need to do something _for_ a certain number of times. To do this, Python uses a ***for loop***.
 
 #####  Example 1: Looping Through a List
-
 
 This code will repeat for every element in the list.
 
 ```python
-for name in ["Lucy", "Riccardo", "Ricky Jr."]:
+for name in ["Finn", "Jake", "Marceline"]:
   print name
 ```
 Note that the variable `name` is what we are calling each element within the list. We could call that variable anything: `character`, `person`, `actor`. It doesn't matter, as long as we continue to use that variable later within the _for_ block.
@@ -118,7 +116,7 @@ Alternatively, we can declare a variable `names` which contains a list of our lo
 ```python
 # same result, slightly different syntax
 
-names = ["Lucy", "Riccardo", "Ricky Jr."]:
+names = ["Finn", "Jake", "Marceline"]:
 for name in names:
   print name
 ```
@@ -161,9 +159,9 @@ else:
 print "You counted to 5"
 ```
 
-#List Countries Exercise 
+#List Countries Exercise
 <img src="https://s3.amazonaws.com/after-school-assets/globe.jpeg" align="right" width="300px" hspace="10">
-+ Create a new python file called countries.py. Create a list called `four_letter_countries` with the following countries (in this order):
++ Create a new Python file called countries.py. Create a list called `four_letter_countries` with the following countries (in this order):
 	- Chad
 	- Cuba
 	- Greenland
