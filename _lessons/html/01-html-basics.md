@@ -124,6 +124,7 @@ Links use an `<a>` tag, which stands for anchor. If you wanted a link to Google 
 + Images  
 Images use an `<img>` tag to embed an image in a webpage.
 `<img src="your_image_location">`
+
 ## Absolute or Relative paths
 
 
