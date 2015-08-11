@@ -45,11 +45,15 @@ Follow these steps to create a directory about the world and practice command li
 * `cd ..:` to move up the tree of directories. `cd ../..` will bring you up two parent directories
 
 # Student Challenge:
+
 1. Create a directory called `egypt` in the `around-the-world` directory
-1. Create a directory called `cairo` inside the `egypt` directory
-1. Create a file called `sphinx.txt` in the `around-the-world` directory
-1. Move `sphinx.txt` into the `cairo` directory. Hint: List the path from `around-the-world `to `cairo`
-1. **Stretch:** Create a new country, city, and landmark file in the "around-the-world" directory
+2. Create a directory called `cairo` inside the `egypt` directory
+3. Create a file called `sphinx.txt` in the `around-the-world` directory
+4. Move `sphinx.txt` into the `cairo` directory. Hint: List the path from `around-the-world `to `cairo`
++ **Stretch:** Create a new country, city, and landmark file in the "around-the-world" directory
+
+# Absolute or Relative paths
+TODO: Fill this in
 
 
 # Tips and tricks:
