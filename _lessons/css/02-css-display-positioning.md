@@ -6,145 +6,47 @@
 
 # What You Need to Know:
 + HTML Basics
-+ CSS Basics 
++ CSS Basics
 
 #  What you will Learn:
-+	Explain the purpose of CSS
-+ How to link to a CSS stylesheet
-+	Use CSS selectors to adjust properties of text and images
-+	How to use colors in CSS
-+ How to use Google Fonts
-+ Import Google fonts
++ How to use inline-block, block and inline
++ How to use float properties
++ How to use clear property
++ When to use the clearfix class
++ How to use the different position properties: relative, absolute, and fixed
 
 # Why This is Important:
 
 So far, all we’ve been able to do is put content on a page with HTML to make some ugly looking websites. So how do we actually make our sites stuff look good?
 CSS! CSS stands for Cascading Style Sheets. We write CSS in separate files, so that each file of our web site does one job and one job only.
 
-You've seen how to select and style individual CSS elements. Now, we'll look at how to size and position elements on the page.
+You've seen how to select and style individual CSS elements. Now, we'll look at how to  position elements on the page.
 
-Sizing and positioning is tricky - the view window isn't always the same size, and elements often need to change size and position relative to each other and to the window.
-
-## Box Model
-You can think of all elements on the page as boxes. Each of these boxes has several properties that contribute to its size. These are:
-Content: The text, images, child elements, etc. that are inside the element.
-Padding: The space between the content and the border. It shares the same background color, image, etc. as the content.
-Border: The (possibly decorative) border around your element.
-Margin: The space around your element that you want to keep clear of the edges of other elements. It will not share the same background settings as the content.
-
-![box model diagram](http://www.washington.edu/accesscomputing/webd2/student/unit3/images/boxmodel.gif)
-
-By default, when you set width or height on your element, it refers to the width or height of the CONTENT BOX ONLY. You must account for extra width/height if you add any padding, border, and/or margin. If you would like for width and height to also include the padding, use box-sizing: padding-box;, and if you would like it to include both the padding and the border (but still not the margin), use box-sizing: border-box;. In the instructions below, we assume that box-sizing is content-box (the default described above).
-
-## Sizing Content
-Content is sized most commonly either by using pixels:
-
-```
-p {
-  width: 100px;
-  height: 50px;
-}
-```
-or by using percents:
-```
-p {
-  width: 75%;
-  height: 120%;
-}
-```
-In the first example, the width and height will be the same no matter the element’s relationship to other elements.  The second one, though, takes its width and height based on its parent’s width and height. So, for instance, if the parent of our second element is 100px wide and 200px high, our second element will be 75px wide (75% of 100) and 240px high (120% of 200).
-
-## Sizing Padding and Margins
-Padding is sized by the properties padding-top, padding-bottom, padding-right, padding-left, and padding. Similarly, margin is sized by margin-top, margin-bottom, margin-right, margin-left, and margin. These properties are most commonly sized using pixels.
-
-Example:
-```
-p {
-  padding-top: 20px;
-  padding-right: 200px;
-  margin-left: 20px;
-}
-```
-It is very common to want padding and/or margin on all sides of an element, but typing out each side separately gets very tedious. That’s where the padding and margin properties come in!
-
-Examples:
-```
-p {
-  padding: 100px 20px 30px 50px;
-}
-
-div {
-  margin: 20px 50px;
-  padding: 40px;
-}
-```
-In our `<p>` tag, we see four values listed, which correspond to our four sides: top, right, bottom, left (be careful of the order!). In our `<div>` tag, though, we see a margin property with only two values and a padding property with only one. This is because it is very common to want either a consistent amount of padding/margin on all four sides, or to have the same amount on the top/bottom and the same amount on the left/right. This means our `<div>` has 40px of padding all around, and has 20px of margin on the top and bottom and 50px on the left and right (again, careful of the order! Top/bottom is first, then left/right).
-
-NOTE: Margins do something frustrating special called “margin collapsing.” When two elements, each with a specified margin, line up one on top of the other, their margins are “collapsed,” meaning that, instead of adding the two margins together, the browser chooses the largest of the two margins, and that becomes the space between the elements. This only happens with top/bottom margins, though, not left/right margins. For example, if we had two elements like the following:
-```
-p {
-  margin: 50px;
-}
-
-div {
-  margin: 20px;
-}
-```
-If the `<p>` were above the `<div>` (or vice-versa), the space between them would be max(50, 20) = 50px, but if <p> were to the left of `<div>`, the space between them would be 20 + 50 = 70px.
-Margin collapsing actually has more rules than this, but this is the most common case.
-
-## Sizing Borders
-Similar to padding and margin, border can be set using border-top, border-bottom, border-right, border-left and border. Unlike with padding and margin, though, we set the style and the color of the border in addition to its width.
-The syntax goes
-```
-  border: width style color;
-```
-Examples:
-```
-border: 3px solid red;
-border: 10px dashed # 0000FF;
-```
-You may also wish to have a border with rounded corners. This is achieved using the property border-radius, which can be set using pixels or percents.
-
-Example:
-```
-border-radius: 10px;
-```
-border-radius is also how we make elements appear like ovals or circles. If you set your border-radius to 50%, it will automatically become an oval. If, in addition, your content + padding makes a square, setting your border-radius to 50% will make a circle.
+Positioning is tricky - the view window isn't always the same size, and elements often need to change size and position relative to each other and to the window.
 
 ## Display and Positioning
 This section covers some of the least intuitive parts of CSS. Buckle your seatbelts.
+
 ### Display
 The display property has [many possible settings](https://developer.mozilla.org/en-US/docs/Web/CSS/display). The most commonly used are none, inline, block, and inline-block.
 ```
 display: none;
 ```
-As you might expect, this setting means that the block is not displayed on the page at all. In addition, it will not take up any space on the page, even if you set its width and height. Why, then, would we want this setting? It is especially useful for things like drop-down menus that only appear when hovered over. For example,
-```
-nav.dropdown {
-  display: none;
-  width: 200px;
-  position: absolute;
-}
+As you might expect, this setting means that the block is not displayed on the page at all.
 
-a.link-to-dropdown:hover > nav.dropdown {
-  display: block;
-}
-```
-Here we set all the properties of the drop-down menu in its original definition, but set its display to none. Then when the user hovers over its parent, all the other properties stay the same, but the dropdown’s display is changed to block, making it visible (note: we could have waited to define all of the other properties under :hover, but prefer this way. It is more semantic; the drop-down menu always exists, it just becomes visible when hovered over).
 ```
 display: inline;
 ```
-An element with display: inline; takes up no more space than is necessary to cover its content. If there are multiple elements whose display is set to inline, they will be allowed to share the same line. [Here](https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elemente) is a list of all the elements whose display property defaults to inline; the most common are `<a>`, `<br>`, and `<span>`, as well as all of the form elements (`<input>`, `<textarea>`, `<button>`, etc.).
+An element with display: inline; takes up no more space than is necessary to cover its content. If there are multiple elements whose display is set to inline, they will ***share the same line.*** [Here](https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elemente) is a list of all the elements whose display property defaults to inline; the most common are `<a>`, `<br>`, and `<span>`, as well as all of the form elements (`<input>`, `<textarea>`, `<button>`, etc.).
 
 ```
 display: block;
 ```
-An element with display: block; will automatically take up the entire line it is on if no width is set (even if its content doesn’t take up the whole line); otherwise it will make a rectangle with a height just enough to cover all its content. An element whose display is set to block will not share a line with any other element unless some other property intervenes (see [Float](https://docs.google.com/document/d/1txE9GpKF3CtZXZBgcma5v3W-FRlOEuZJZ8QHFAvlG4w/edit# heading=h.vmcqvnili4n0)). [Here](https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements) is a list of all the elements whose display property defaults to block; the most common are `<div>`, `<p>`, `<ul>`, `<ol>`, all the headings, `<article>`, `<section>`, and `<nav>`.
+An element with display: block; will automatically take up the entire line if no width is set (even if the content doesn’t take up the whole line). An element whose display is set to block will ***take up the whole line***  [Here](https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements) is a list of all the elements whose display property defaults to block; the most common are `<div>`, `<p>`, `<ul>`, `<ol>`, all the headings, `<article>`, `<section>`, and `<nav>`.
 ```
 display: inline-block;
 ```
-As you may guess, an element with display: inline-block; shares some of its properties with display: inline; elements and some with display: block; elements. It sets its width and height in the same way as block, but can exist on the same line as other inline and inline-block elements. There are no tags that default to inline-block.
+An element with display: inline-block; shares some of both properties. It sets its width and height in the same way as block, but can exist on the same line as other elements. There are no tags that default to inline-block.
 
 ## Examples
 Here is some HTML and CSS for two elements. Below you can see an example of what happens with the elements when their display property is set to inline, block, and inline-block, respectively.
@@ -168,6 +70,9 @@ div.green {
 ![Examples of three different display properties](http://4.bp.blogspot.com/-TiwOixlooJk/U4UyEnv_XpI/AAAAAAAACFs/NuuLz2IvoZ4/s1600/css-display-block-vs-inline-block.png)
 
 ## Float
+---
+ [Float](https://docs.google.com/document/d/1txE9GpKF3CtZXZBgcma5v3W-FRlOEuZJZ8QHFAvlG4w/edit# heading=h.vmcqvnili4n0)).
+---
 Elements have a property float, which can be set to left, right, or none. float is a property that should be used on block elements, and, in fact, if you set float on a non-block element, its display property will be over-written to become block (more details here). By default the float property is set to none.
 If float is set to left, the element will automatically “float” up and to the left until it hits either the edge of its parent element or the edge of another element with float: left; (the rule is similar for float: right;).
 
