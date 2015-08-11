@@ -161,5 +161,33 @@ else:
 print "You counted to 5"
 ```
 
+#List Countries Exercise 
+<img src="https://s3.amazonaws.com/after-school-assets/globe.jpeg" align="right" width="300px" hspace="10">
++ Create a new python file called countries.py. Create a list called `four_letter_countries` with the following countries (in this order):
+	- Chad
+	- Cuba
+	- Greenland
+	- Iraq
+	- Mali
+	- Oman
+	- India
+
++ Add **Fiji** to the end of the list
+
++ Delete **India**
+
++ **Reverse** the order of the list
+
++ Replace Greenland with **Togo**
+
++ Add **Laos** to the end of the list
+
++ **Reverse** the order of the list again
+
++ Add **Peru** to the start of the list
+
+#  What does your final list look like?
+
+
 # Conclusion
 Creating, modifying and accessing lists are important for every programmer, as is being able to use _for_ loops and _while_ loops. Practicing these small examples are a great way to build your foundation as a strong developer.

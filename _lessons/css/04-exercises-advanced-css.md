@@ -4,8 +4,8 @@ title:  Exercises: Advanced CSS
 language: css
 ---
 
-[Advanced CSS exercises and slides](https://github.com/google-cssi/advanced-css-review)
+[Victoria's amazing Advanced CSS exercises and slides](https://github.com/google-cssi/advanced-css-review)
 
-+ Exercises 1-3: CSS Selectors
-+ Exercises 4-6: Display Properties
-+ Exercises 7-8: Box Model
++ Exercises 1-3: Modifying CSS
++ Exercises 4-6: Adding CSS classes to HTML Elements
++ Exercises 7-8: Box Model, and Positioning
