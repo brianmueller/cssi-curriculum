@@ -1,6 +1,6 @@
 ---
   layout: post
-  title: Python Functions Lab - Polly Wanna a Cracker?
+  title: Lab: Python Functions - Polly Wanna a Cracker?
   language: python
 ---
 

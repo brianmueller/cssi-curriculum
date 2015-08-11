@@ -1,6 +1,6 @@
 ---
   layout: post
-  title: Python Object Oriented Warm Up
+  title: Exercises: Python Objects
   language: python
 ---
 

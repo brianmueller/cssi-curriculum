@@ -1,6 +1,6 @@
 ---
   layout: post
-  title: Python Warm Up
+  title: Exercises: Python Lists
   language: python
 ---
 

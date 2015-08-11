@@ -1,6 +1,6 @@
 ---
   layout: post
-  title: Python Input and Output Lab - Jukebox
+  title: Lab: Python Input and Output - Jukebox
   language: python
 ---
 ##  Instructions

@@ -1,6 +1,6 @@
 ---
   layout: post
-  title: Python User Input Lab - Favorite City
+  title: Lab: Python User Input - Favorite City
   language: python
 ---
 

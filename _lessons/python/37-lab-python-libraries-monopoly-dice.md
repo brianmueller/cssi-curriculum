@@ -1,6 +1,6 @@
 ---
   layout: post
-  title: Python Libraries Lab - Monopoly Dice Roller
+  title: Lab: Python Libraries - Monopoly Dice Roller
   language: python
 ---
 

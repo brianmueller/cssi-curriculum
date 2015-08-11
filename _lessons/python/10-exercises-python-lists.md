@@ -1,6 +1,6 @@
 ---
   layout: post
-  title: Python Lists Lab
+  title: Exercise: Python Lists - Four Letter Countries
   language: python
 ---
 
@@ -31,4 +31,4 @@
 
 + Add **Peru** to the start of the list
 
-#  What does your final list look like
+#  What does your final list look like?
