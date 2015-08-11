@@ -23,8 +23,7 @@ To create a list with some objects in it, just add the objects separated by comm
 >>> groceries = ['Eggs', 'Milk','Butter']
 ```
 ### Accessing items in a list
-List items have an index and are accessed like they were in javascript:
-
+List items have an index and are accessed by calling their index number. Numbering in the list starts at 0.
 ```
 >>> groceries[0]
 'Eggs'
@@ -37,7 +36,7 @@ List items have an index and are accessed like they were in javascript:
 ```
 
 ### Modifying a List
-The easiest way to modify a list’s content is to just access the list element by its index (numerical place in the list) and use the assignment operator.
+The easiest way to modify a list’s content is to just access the list object by its index (numerical place in the list) and use the assignment operator.
 ```
 >>> groceries
 ['Eggs', 'Milk','Butter']
