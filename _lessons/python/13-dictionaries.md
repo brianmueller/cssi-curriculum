@@ -3,6 +3,8 @@
   title: Python Dictionaries
   language: python
 ---
+#What You Need to Know
++ Basic Python
 
 # What You Will Learn
 + Understand the syntax of dictionaries in Python

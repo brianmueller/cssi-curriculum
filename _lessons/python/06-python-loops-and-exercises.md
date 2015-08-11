@@ -1,6 +1,6 @@
 ---
   layout: post
-  title: Python Lists and Loops
+  title: Python Loops and Exercises
   language: python
 ---
 # What You Need to Know:
