@@ -1,11 +1,10 @@
 ---
   layout: post
-  title: 2-javascript-arrays-walkthrough
+  title: Arrays Walkthrough
   language: javascript
 ---
 
-# Arrays
-After the lesson, you'll understand:
+## Objectives:
 + What an array is
 + js array syntax
 + assigning an array to a variable
@@ -78,7 +77,7 @@ To access an element, you need to call the name of the array and the index of th
 >students[3]
 < "Joseph"
 ```
-Why did it return ‘Joseph’ ? Well Joseph is 4th name, but remember, indexing starts with 0. 
+Why did it return ‘Joseph’ ? Well Joseph is 4th name, but remember, indexing starts with 0.
 
 ```
 students[0] is the first element

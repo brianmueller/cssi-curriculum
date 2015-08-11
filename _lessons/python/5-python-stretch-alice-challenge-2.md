@@ -1,6 +1,6 @@
 ---
   layout: post
-  title: 5-python-stretch-alice-challenge-2
+  title: Python Text Analysis - Alice In Wonderland Part 2
   language: python
 ---
 

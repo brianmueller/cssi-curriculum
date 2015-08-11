@@ -1,14 +1,13 @@
 ---
   layout: post
-  title: 6-oo-python-warmup
+  title: Python Object Oriented Warm Up
   language: python
 ---
-#  Object-Oriented Python Day 6 Warm-up!
 
 ##  Instructions:
 Fork and clone this lab, then complete the exercises below.
 
-###  1. Jukebox Redux! 
+###  1. Jukebox Redux!
 
 This lab is a play off of the [Jukebox Lab](https://learn.co/tracks/google-cssi/5-python-advanced/python-labs/jukebox-lab) -- thought don't worry, you don't need to complete the Jukebox Lab to do this lab!
 
@@ -19,16 +18,16 @@ The first part of this lab is to simply see the working product that you're goin
 
   ```python
 #  Uncomment the import statements below to view the solution's behavior.
-import solution.jukebox_solution as jukebox 
+import solution.jukebox_solution as jukebox
 import solution.song_solution as song
 ```
 3. In the Terminal, run `python main.py` to run the working Jukebox. Try out a few commands, etc.
-  * If there appears to be a bug in the behavior, tell your lead instructor :) 
+  * If there appears to be a bug in the behavior, tell your lead instructor :)
 4. When you're done playing around, comment out the solution import statements again.
 
   ```python
 #  Uncomment the import statements below to view the solution's behavior.
-#  import solution.jukebox_solution as jukebox 
+#  import solution.jukebox_solution as jukebox
 #  import solution.song_solution as song
 ```
 5. Try running `python main.py` again. Most of the commands should be broken. To fix it, you'll be implementing behavior in `song.py` and `jukebox.py`
@@ -49,7 +48,7 @@ import solution.song_solution as song
 3. Implement `__init__` and `get_song_list` in `jukebox.py`. The comments in the file will tell you the intended behavior.
 
 4. Test out your object by running `python main.py`, and try out the "View song list" command.
-  
+
   `main.py` adds two songs to the Jukebox by default, so you should see:
 ```
   1: Here Comes the Sun - The Beatles
@@ -91,7 +90,7 @@ Enter a number: 4
   Stopped playing: Here Comes the Sun - The Beatles
 ```
 ```
-Enter a number: 3 
+Enter a number: 3
   Now playing: None
 ```
 ```
@@ -111,7 +110,7 @@ Enter a number: 6
 ###  4. Creating objects and `__eq__`
 1. Implement `__eq__` in `song.py`. The comments in the file will tell you the intended behavior.
 
-  **Note:** Like `__init__` and `__str__`, `__eq__` is another special method in Python. `__eq__` gets called whenever the `==` operator is applied to two objects of that type. 
+  **Note:** Like `__init__` and `__str__`, `__eq__` is another special method in Python. `__eq__` gets called whenever the `==` operator is applied to two objects of that type.
 2. Implement `add_song` in `jukebox.py`. The comments in the file will tell you the intended behavior.
 3. Test out your object by running `python main.py`, and try out the "Add new song" command, then "View song list" to make sure it added.
 
@@ -130,7 +129,7 @@ Enter a number: 1
   3: Baby Love - The Supremes
 ```
 ```
-Enter a number: 5   
+Enter a number: 5
 Enter the song's title: Come See About Me
 Enter the song's artist: The Supremes
 Does 'Come See About Me - The Supremes' look correct? (y/n): y
@@ -188,7 +187,7 @@ Enter a song number: 2
 Playing 'Sweet Caroline - Neil Diamond'
 ```
 ```
-Enter a number: 6 
+Enter a number: 6
   1: Come See About Me - The Supremes (plays: 2)
   2: Here Comes the Sun - The Beatles (plays: 1)
   3: Sweet Caroline - Neil Diamond (plays: 1)

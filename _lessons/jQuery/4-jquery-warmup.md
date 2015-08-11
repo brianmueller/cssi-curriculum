@@ -1,9 +1,8 @@
 ---
   layout: post
-  title: 4-jquery-warmup
+  title: jQuery Warmup
   language: jquery
 ---
-#  JQuery Day 4 Warm-up!
 
 ##  Instructions:
 Fork and clone this lab, then complete the drills below.
@@ -19,7 +18,7 @@ Given the following HTML page:
     <title>Fruits</title>
   </head>
   <body>
-    <h1>Fruits</h1>    
+    <h1>Fruits</h1>
     <h2 class="div">Orange</h2>
     <div>
       <p>Cherry</p>
@@ -94,7 +93,7 @@ Modify ```cookies-script.js``` and ```cookies.html``` to accomplish the followin
 4. Implement "EAT a cookie": Remove a single cookie from the pink plate when the  "EAT a cookie" button is clicked.
 
 ###  4. Code reading: Forms and Event handlers
-Remember the form in the Deli Counter lab? Now you've learned enough to understand the contents of the ```index.html``` and ```lib/app.js``` file! 
+Remember the form in the Deli Counter lab? Now you've learned enough to understand the contents of the ```index.html``` and ```lib/app.js``` file!
 
 Take some time to look through those files again and describe in English how it works to your neighbor:
 https://github.com/learn-co-students/js-deli-counter-google-cssi-test-2015
@@ -108,7 +107,7 @@ Modify ```todo-script.js``` and ```todo.html``` to accomplish the following:
 1. Log the contents of the text input when the "Add" button is clicked.
 2. Implement "Add": Insert the contents of the text input at the end of the ol list when the "Add" button is clicked. Clear the contents of the text input when this happens.
 3. Implement "Submit on enter": Pressing enter while focused on the text  box should trigger the same behavior as clicking the "Add" button.
-4. **EXTRA CREDIT** *Warning: These are both quite tricky due to some jQuery quirks. Only proceed if you're VERY comfortable with everything we've done so far - and comfortable using Google for help!* 
+4. **EXTRA CREDIT** *Warning: These are both quite tricky due to some jQuery quirks. Only proceed if you're VERY comfortable with everything we've done so far - and comfortable using Google for help!*
   *  Implement "Cross off": Clicking each list item should cross the item off the list by making it appear with a ~~strike~~ through it.
   *  Implement "Delete": Add a "Delete" button next to every item of the list. Clicking this button should remove the item from the list.
 

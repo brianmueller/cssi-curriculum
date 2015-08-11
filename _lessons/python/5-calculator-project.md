@@ -1,9 +1,8 @@
 ---
   layout: post
-  title: 5-calculator-project
-  language: 
+  title: Python Review Lab - Calculator
+  language: python
 ---
-
 
 ###  Putting It All Together
  Think about all the basic programming knowledge we've built upon this week (data types, variables, functions, data structures, etc.) We are laying the foundation for our futures as Python developers. Let's challenge that knowledge with a review project.

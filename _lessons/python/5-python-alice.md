@@ -1,10 +1,8 @@
 ---
   layout: post
-  title: 5-python-alice
+  title: Python Text Analysis Lab - Alice in Wonderland
   language: python
 ---
-
-## ALICE IN WONDERLAND
 
 ### Text Analyzing App:
 <img src="http://www.alice-in-wonderland.net/alicepic/alice-in-wonderland/1book33.jpg" width="200px" align="right" hspace="10">

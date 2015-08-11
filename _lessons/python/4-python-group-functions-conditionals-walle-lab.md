@@ -1,11 +1,9 @@
 ---
   layout: post
-  title: 4-python-group-functions-conditionals-walle-lab
+  title: Python Functions and Conditionals Lab - Message to WALL-E
   language: python
 ---
 
-
-## Message to WALL-E
 <img src="http://84d1f3.medialib.glogster.com/media/9e/9ef9817943c53c80ba5b4dfc4252b9af6df1ab633dd40cbfcaa753566b681199/puzzle-wall-e-i-eva-496-jpg.jpg" width="400">
 
 ***This is a group/pair lab. Write out pseudo-code first!***

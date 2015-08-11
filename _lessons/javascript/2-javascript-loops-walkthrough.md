@@ -1,10 +1,9 @@
 ---
   layout: post
-  title: 2-javascript-loops-walkthrough
+  title: Loops Walkthrough
   language: javascript
 ---
 
-#  Loops
 #### After the lesson, you'll be able to:
 + Understand how loops run an operation multiple times
 + Understand how an exit condition stops a loop

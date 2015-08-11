@@ -1,15 +1,14 @@
 ---
   layout: post
-  title: 3-jquery-animation-walkthrough
+  title: Jquery Animation Walkthrough - When Pigs Fly
   language: jquery
 ---
 
-#   Lab - When Pigs Fly
 There are some basic jQuery events in my_script.js, and a cute image of a pig in pig.html. Open this repo on Github and clone these files onto your local machine.
 
 
 ##   Step 1: Animate the Pigs when you Click the Button
-Right now the pigs just disappear and reappear. You want them to fade, fly and zoom. Add a new button called "Fly" that makes the pig move. 
+Right now the pigs just disappear and reappear. You want them to fade, fly and zoom. Add a new button called "Fly" that makes the pig move.
 * Check out the animate documentation to get this to happen.
 * In CSS, make sure div is styled to have `position: absolute`
 
