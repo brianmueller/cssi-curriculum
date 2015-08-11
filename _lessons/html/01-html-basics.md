@@ -36,7 +36,18 @@ As you can tell, we are talking about how this happens in abstract, high-level t
 
 ## Set Up Directions
 
-```
+In Terminal:
+
+1. `cd ~/cssi`: Go to your `~/cssi folder`
+  + If that folder doesn't exist create it with `mkdir ~/cssi` then go there using `cd ~/cssi`
+2. `mkdir html`: Make a folder called `html`
+3. `cd html`: Navigate into the `html` folder
+4. `touch practice.html`: Create a `practice.html` file in your `html` folder
+5. `atom practice.html`: Open `practice.html` with the Atom text editor
+6. Copy the boiler plate code below into `practice.html` and save the file
+7. `open practice.html`: Open the file with the default program (Chrome)
+
+```html
 <!DOCTYPE html>
 <html>
   <head>
