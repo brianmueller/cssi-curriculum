@@ -54,10 +54,9 @@ if yourAnimal == myAnimal:
 else:
   print "I don't think you understand how cool dogs are."
 ```
-An "else" clause should always follow an "if" clause, because "else" means "otherwise."
-You wouldn't ever start a conversation with "Otherwise, do this!", so it doesn't make sense to start with an else, when there's not an if right before it.
 
-There's also "elif".  It's an "else" and "if" glued together - if the first thing works, do that; otherwise, try the second condition; else...
+
+There's also "elif".  This is the "catch-all" branch, if a condition is not met in the prior branches, then the code in the elif branch will be executed.
 ```
 if x > 500:
   print "x is really big"
@@ -68,7 +67,7 @@ elif x < 0:
 else:
   print "x is not very interesting"
 ```
-# Student Mini Challenge
+# Student Practice
 In your practice.py try writing a conditional statement with an if condition, elif condition and else condition
 
  * **Pick a Number:** Write a program that makes the user guess a number 1-10. If their guess is correct, tell them they've won. If their guess is too high or too low, give the user a hint. you will need to use python's `input()` method.
