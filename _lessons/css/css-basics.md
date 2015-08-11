@@ -9,7 +9,7 @@ language: css
 + Learn.co walkthrough
 + Intro to HTML
 
-# Student What You Will Learns:
+#  What you will learn:
 +	Explain the purpose of CSS
 +	Use selectors
 +	Write CSS Syntax
