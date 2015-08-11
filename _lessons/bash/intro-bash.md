@@ -11,7 +11,7 @@ language: command-line
 + Intro to HTML
 + Intro to CSS
 
-#  What you will learn:
+#  What you will Learn:
 Students will be able to navigate their system’s file structure using the CLI (command line interface) in terminal.
 Understand and explain what a terminal is and why we use it
 Navigate and manipulate directories

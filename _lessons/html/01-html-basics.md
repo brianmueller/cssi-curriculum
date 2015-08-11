@@ -9,7 +9,7 @@ language: html
 + How to make a Github repo
 + Commandline basics
 
-## What you will learn:
+## What you will Learn:
   + How the web works
   + Structure an html page
   + How to use HTML tags and attributes

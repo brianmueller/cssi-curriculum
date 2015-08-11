@@ -21,7 +21,7 @@
 +	Use hexadecimal, rgba, and rgb color values
 + Import Google fonts
 
-# Why This is Important
+# Why This is Important:
 
 So far, all we’ve been able to do is put content on a page with HTML to make some ugly looking websites. So how do we actually make our sites stuff look good?
 CSS! CSS stands for Cascading Style Sheets. We write CSS in separate files, so that each file of our web site does one job and one job only.
