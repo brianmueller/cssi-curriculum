@@ -12,8 +12,7 @@
 + Understand the syntax of strings in Python
 + How to get data from the user
 + How to concatenate strings
-+ How to interpolate with str.format()
-+ Understand style guide and escape characters
++ How to interpolate with str.format() and %s
 
 # Why This is Important
 Python has lots of prebuilt string methods that help us use and modify strings.

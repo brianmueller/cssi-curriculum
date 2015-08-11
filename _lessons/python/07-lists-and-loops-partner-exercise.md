@@ -1,3 +1,8 @@
+---
+  layout: post
+  title: Python Lists and Loops Partner Practice
+  language: python
+---
 ##Lists and Loops Partner Practice
 
 Add Ten and Divide By Two
