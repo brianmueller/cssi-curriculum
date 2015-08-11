@@ -3,6 +3,24 @@
   title: Advanced CSS
   language: css
 ---
+
+# What You Need to Know:
++ HTML Basics
++ CSS Basics 
+
+#  What you will Learn:
++	Explain the purpose of CSS
++ How to link to a CSS stylesheet
++	Use CSS selectors to adjust properties of text and images
++	How to use colors in CSS
++ How to use Google Fonts
++ Import Google fonts
+
+# Why This is Important:
+
+So far, all we’ve been able to do is put content on a page with HTML to make some ugly looking websites. So how do we actually make our sites stuff look good?
+CSS! CSS stands for Cascading Style Sheets. We write CSS in separate files, so that each file of our web site does one job and one job only.
+
 You've seen how to select and style individual CSS elements. Now, we'll look at how to size and position elements on the page.
 
 Sizing and positioning is tricky - the view window isn't always the same size, and elements often need to change size and position relative to each other and to the window.
