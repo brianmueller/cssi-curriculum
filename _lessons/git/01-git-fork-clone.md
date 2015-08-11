@@ -3,6 +3,11 @@
   title: Github Walkthrough
   language: git
 ---
+# What You Need to Know:
++ Have a github account
+
+#  What you Will Learn:
++ Fork and clone repositories
 
 #### Why This is Important
 How many of you have used Google Docs? It’s a great way to store documents online and makes it easy to collaborate with other people. It works best for files like word documents and spreadsheets, but it isn’t equipped to store code.

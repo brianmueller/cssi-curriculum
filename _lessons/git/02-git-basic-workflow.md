@@ -3,6 +3,11 @@
   title: Github Quick Guide
   language: git
 ---
+# What You Need to Know:
++ How to fork and clone repo
+
+#  What you Will Learn:
++ How to add local changes on to github.com
 
 ## When you have done some work and want to make a commit and push up your changes to your Forked Repo on Github:
 1. In Terminal, make sure you are currently in the directory of the project that you want to push (`pwd` will tell you what directory you are currently in if you aren't sure)

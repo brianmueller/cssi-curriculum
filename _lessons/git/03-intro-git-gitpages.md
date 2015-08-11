@@ -3,19 +3,11 @@
   title: Intro to Git and Github Pages
   language: git
 ---
-
-# What You Should Already Know:
-
 # What You Need to Know:
-+ Intro to the web
-+ GitHub account setup
-+ Learn.co walkthrough
-+ Intro to Command Line
-
++ How to add local changes on to github
 
 #  What you Will Learn:
 + Deploy to GitHub pages
-
 
 # Why This is Important:
 We'll use a GitHub feature called Pages to publish our first site for the world to see!
