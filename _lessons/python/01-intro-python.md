@@ -116,5 +116,9 @@ A few things to note here:
 + You need to be in the same directory as the python script
 + Python scripts are lines of code executed from top to bottom
 
+# Comments
+When writing scripts, it is important to add comments, notes that help clarify your code. In Python, you can make a one-lined comment by using the `#` character. In order to make multi-line comments, you start and end your comment with three quotation marks `"""`
+
+
 # Conclusion
 Here are some python resources <a href="http://anandology.com/python-practice-book/getting-started.html">documentation</a> on the Python interpreter
