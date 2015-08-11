@@ -5,39 +5,39 @@
 ---
 
 # What You Will Learn
-+ Understand N.I.C.O (Name, Input, Code, Output)
-+ Declare functions with and without parameters
++ What functions are, and how we use them in python
++ N.I.C.O (Name, Input, Code, Output)
++ How to declare functions with and without parameters
 + Call functions with and without passing arguments
-+ Understand the concept of a return value
-+ Understand local and global variable scope
++ Output vs. Return Values
++ Local and global variable scope
 
 # Why This is Important:
-Let’s talk about functions in Python. We talked about functions on Tuesday in JS. Remember when we used our function to make people get out of the room and find some lunch?
-Functions let us package code into blocks that we can reuse. We've also been using a handful functions already and this lesson will explain how and why we've been doing that.
+Functions let us package code into blocks that we can reuse. We've been using a handful functions already and this lesson will explain how and why we've been doing that.
 
-In programming, a function holds a set of actions that will only run when we call that function. This ultimately helps us control the flow of our program and allows us to easily repeat a set of actions multiple times.
+In programming, a function holds a set of actions that will run when we call that function. This helps us control the flow of our program and allows us to easily repeat a set of actions multiple times.
 
 # Function Declaration
-
 A python function is essentially a set of instructions that we write out and can reuse over and over again.
 
-The syntax for writing python functions is very specific. Let’s write a function in python to go get dinner. To define a function in python, you want to use the `def` statement:
+The syntax for writing python functions is very specific. Let’s write a function in python to go get dinner. To define a function in python, you use the `def` keyword, followed by the name of the function, parentheses, and a colon. Like this:
 
 ```python
 def GoGetDinner():
-	print ""
 ```
 
-The key elements here are the `def` statement, the parentheses and the colon at the end.
-The instructions go inside this function as demonstrated by the indentation. We can include instructions that pring each step to getting dinner.
+Then, you write the block of code defining what the function does. Remember to indent your block of code - that's what tells python which statements are part of your function, and when your function declaration is over.
 
 ```python
 def GoGetDinner():
-	print "Close Computer"
-	print "Stand up"
-	print "Walk out the door"
+  print "Stop what you're doing. "
+  print "Wash your hands. "
+  print "Get a plate of food."
+  print "EAT!"
 ```
-Nothing happened. Why is that? We declared our function - which is like adding the `GoGetDinner` function to the computer’s dictionary - but we didn’t actually tell the computer to execute the function.
+Copy this code in a file dinner.py, and run it from the command line.
+
+Nothing happened. Why is that? We declared our function, but didn't call it. Declaring the function is like writing down a set of instructions - we never told python to execute the function.
 
 # Calling a Function
 
