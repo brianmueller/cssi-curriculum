@@ -3,6 +3,10 @@
   title: Python String Methods
   language: python
 ---
+# What You Need to Know
++ Python datatypes
++ Python basics
+
 # What You Will Learn
 + Understand the syntax of strings in Python
 + How to get data from the user
