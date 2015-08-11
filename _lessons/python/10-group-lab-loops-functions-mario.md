@@ -1,6 +1,6 @@
 ---
   layout: post
-  title: Lab: Itsa Mario - Python Iteration and Functions
+  title: Lab: Its a Mario - Python Iteration and Functions
   language: python
 ---
 
