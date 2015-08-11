@@ -58,8 +58,6 @@ To return a float, your math operations need to include a float.
 >>>
 ```
 
-
-
 ## Python Strings
 We can also use other characters, aside from numbers, like letters and punctuation. These datatypes are called strings. Put characters between a set of quotes so that the interpreter knows we're inputting a new datatype.
 ```
