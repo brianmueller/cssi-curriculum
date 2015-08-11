@@ -10,7 +10,7 @@ languages: python
 ---
 # Intro to Python
 
-# Objectives:
+# What You Will Learns:
 +	Interact with python (interpreter, text editor + run from command line)
 + Understand Basic concepts in python
 + Print a string

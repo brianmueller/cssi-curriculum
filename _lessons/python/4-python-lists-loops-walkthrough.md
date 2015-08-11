@@ -10,11 +10,11 @@ languages: python
 ---
 # Python Lists and Loops
 
-# Objectives:
+# What You Will Learns:
 + Create a list in python syntax
 + Create a loop in python syntax
 
-# Motivation:
+# Why This is Important:
 When we learned Javascript, we raced through lots of techniques programmers use to represent and manipulate data. We learned arrays, conditionals, looping, functions, and objects really quickly, and we used them to do interesting things to webpages.
 
 Most of the techniques, though, don't only apply to javascript. Just like we can use the python interpreter like the javascript console, and just like we can do basic arithmetic and string operations in both languages, we can use python logic to solve problems. We'll look at the most frequently used data structures and techniques, and use them to tackle some interesting challenges.

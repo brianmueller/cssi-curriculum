@@ -5,7 +5,7 @@
 ---
 
 
-##  Objectives
+##  What You Will Learns
 
 You're going to get familiar with iterating through lists.
 
