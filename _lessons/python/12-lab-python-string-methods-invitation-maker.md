@@ -36,30 +36,6 @@ wrong_fact = "Cats fail to recover about 50 percent of the nuts they bury."
 true_fact = wrong_fact.replace("Cats", "Squirrels").replace("50", "74")
 
 ```
-###  String Interpolation
-
-we learned how to compose strings with the string concatenation but now we can learn how to do substitution called `string interpolation`. `String interpolation` allows us to *set a placeholder inside a string where python code can be run*. We wrap whatever we want to interpolate "the string gets %s" % "interpreted". Oftentimes, we'll be interpolating variable names within strings.
-
-For example:
-name = "Spongebob Squarepants"
-print "Who lives in a Pineapple under the sea? %s." %name
-
-Note that here we're declaring the variable `answer` before we call `print`. We need to do it in this order because the computer reads our program sequentially. When our computer gets to "%s" %answer it won't know what that is if `answer` isn't declared yet.
-
-If you need to substitute more than one variable the syntax is to call them variables at the end of the string like this: % (place, name)
-
-For example:
-place= "Pineapple"
-name= "Spongebob Squarepants"
-print "Who lives in a %s under the sea? %s" %(place, name)
-
-Some pythonists write this another way:
-
-```python
-answer = "Flamboyance"
-print "A group of flamingos is called a " + answer
-```
-But personally, we think the first way looks nicer and is easier for your fellow programmers to read.
 
 ###  Challenge 1 (using str.replace):
 Create a new python file where you will code your solution. In terminal, type `touch invitation.py`.
@@ -90,4 +66,4 @@ Now that you know what string interpolation is, assign the following content fro
 
 Now that we have Percy's information, it's time to change the value of these variables to reflect Ginny's info. Ginny plans to have her party on May 17th, 1998 (Sunday).
 
-Use string interpoloation and the variables you just created to customize Percy's invitation for Ginny. As in Challenge 1, you'll want to use puts to print out your solution to the screen.
+Use string interpolation and the variables you just created to customize Percy's invitation for Ginny. As in Challenge 1, you'll want to use puts to print out your solution to the screen.
