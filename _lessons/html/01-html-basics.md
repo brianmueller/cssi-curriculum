@@ -5,26 +5,22 @@ date:   2015-08-04 11:56:31
 categories: day-1 html frontend
 language: html
 ---
-## Prior Knowledge:
-+ Intro to CSSI
-+ Github account setup
-+ Learn.co walkthrough
+## What you need to know:
++ How to make a Github repo
++ Commandline basics
 
-## Student Objectives:
-  + Introduction to the web
-  + Structure an html page using doctype, html, head and body tags
-  + Explain what goes into the head of the document
-  + Add text to a page using p and h1 tags
-  + Add images using img tag
-  + Add links using ``<a>`` tags and understand the difference between relative and absolute paths
-  + Create multiple pages and link them
-  + Use styling tags like ``<em>`` ``<strong>`` ``<div>`` and ``<span>``
-  + Create lists with ul, ol, and li
-  + Understand best practices for tag nesting
-  + Understand how to make comments
+## What you will learn:
+  + How the web works
+  + Structure an html page
+  + How to use HTML attributes
+  + Using tags to add text, images, and links
+  + Understand relative and absolute paths
+  + How to use paragraph tags and bold and italicize font
+  + Understand tag nesting
+  + Make comments
   + Understand how the browser reads whitespace in HTML
 
-## Motivation
+## Why is this important?:
 How many times a day do you use the internet? How many times do you load a different web page? I bet you can't even begin to guess how many times in a year! In order to be a developer, and especially a web developer, it's incredibly important to understand how the web works.
 
 HTML is the foundational technology for the Internet, every one of your favorite websites is HTML at its core. Today you are going to learn how to create an HTML site from scratch. And create your own styles for your personal web page.
@@ -39,14 +35,6 @@ As you can tell, we are talking about how this happens in abstract, high-level t
 
 
 ## Set Up Directions
-1. Create a "dev" folder on your desktop
-2. Go inside the "dev" and make a folder called "html"
-2. Cmd+space: opens your spotlight search.
-3. Type “Atom” and press enter
-4. Go to “file” and click “new file” to open a new tab
-5. Cmd+S Save as "practice.html"
-6. Save the file "html" folder in "dev"
-7. Copy the boiler plate code below
 
 ```
 <!DOCTYPE html>
@@ -60,11 +48,12 @@ As you can tell, we are talking about how this happens in abstract, high-level t
 </html>
 ```
 
-## Tag syntax and attributes
+## Tag syntax
 HTML is made up of building blocks called "elements".
 ```
 <tag> .... CONTENT GOES HERE .... </tag>
 ```
+## Attributes
 Attribute: Different elements can have different attributes. All elements can have class and id attributes to help differentiate them from other elements.
 
 ```
