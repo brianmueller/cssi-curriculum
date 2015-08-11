@@ -1,14 +1,8 @@
 ---
   layout: post
-  title: 4-python-lists-loops-walkthrough
+  title: Python Lists and Loops Walkthrough
   language: python
 ---
----
-tags: cssi, lists, loops
-level: 2
-languages: python
----
-# Python Lists and Loops
 
 # Objectives:
 + Create a list in python syntax
@@ -144,17 +138,17 @@ Alternatively, we can declare a variable `names` which contains a list of our lo
 ```
 ##  Example 2: Looping through Integers
 
-The _for_ loop syntax is similar for integers. 
-* Notice that in this example we also used string interpolation. 
+The _for_ loop syntax is similar for integers.
+* Notice that in this example we also used string interpolation.
 * This code will repeat for every integer in the range.
 ```
 for i in range(1, 4):
     print "I am looping and am currently on %d." % i
 
 # again, you can also declare your variable before the loop
-my_range = range(1,4)    
+my_range = range(1,4)
 for i in my_range:
-    print "I am looping and am currently on %d." % i    
+    print "I am looping and am currently on %d." % i
 ```
 # While Loops
 While loops continue to repeat _while_ - or as long as - a certain condition is met. A while loop has a block of code and a condition.
@@ -162,10 +156,10 @@ While loops continue to repeat _while_ - or as long as - a certain condition is 
 This code will repeat while the condition `n<5` is met. It will stop when n is equal to 5.
 
 ```
-n = 0		
-while n < 5:	
+n = 0
+while n < 5:
    print n
-   n = n + 1	
+   n = n + 1
 ```
 ###  Example 2: A While/Else Loop
 This code is similar to the first _while_ loop example, except that there is an `else` statement. Once the condition `n<5` is not met, the instructions in the `else` block are executed. Then, the entire _while_ loop is exited, and the next instruction (to print `"You counted to 5"`) is executed.
@@ -176,9 +170,9 @@ while n < 5:
    n = n + 1
 else:
    print n, " is not less than 5"
-   
+
 print "You counted to 5"
-```   
+```
 
 ##  Extended Loop Examples
 
@@ -232,14 +226,14 @@ else:
     print 'Please cart me to the hospital'
 ```
 ####  The range() function
-You can use the range() function above to loop over the number of items in a list. Note that range() returns integers, so that song_num are integers. 
+You can use the range() function above to loop over the number of items in a list. Note that range() returns integers, so that song_num are integers.
 ```
 music_collection = GetSongs()
 
 for song_num in range(len(music_collection)):
    print 'Song', song_num, 'is', music_collection[song_num]
 ```
- 
+
 ###  While loops
 Where for loops let you loop over a finite collection of things, while loops let you keep looping until a given condition evaluates to true.
 

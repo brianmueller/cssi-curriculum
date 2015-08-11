@@ -1,10 +1,8 @@
 ---
   layout: post
-  title: 3-jquery-basics-walkthrough
+  title: jquery Basics Walkthrough
   language: jquery
 ---
-
-# jQuery Basics
 
 Okay, so we know how to include the jQuery library, and we’ve seen that it can help us change the text on elements we select. jQuery is a whole lot more than that, though! It makes tons of things we’d want to do a breeze, like:
 + finding particular elements on the page
@@ -48,7 +46,7 @@ For the rest of the demos in you'll use some pre-written html and css files and 
 
 
 ##  JQuery - Selection and the DOM
-In order to do anything with jQuery, we first need to be able to navigate the DOM. In the Twitter example, we saw that we could select all elements that match a certain critera with the $() method. 
+In order to do anything with jQuery, we first need to be able to navigate the DOM. In the Twitter example, we saw that we could select all elements that match a certain critera with the $() method.
 
 Some examples:
 
@@ -90,7 +88,7 @@ $('# elementToRemove').remove()
 The cheatsheet has lots more ways to add and remove elements. How would you add an element around a group of elements? How about removing an element without removing the elements inside it?
 
 ##  Code-Along: JQuery Posters Page
-Our strings poster on the page is a little bare. Let’s add some more string examples. 
+Our strings poster on the page is a little bare. Let’s add some more string examples.
 
 If we want to add a string similar to the the one we already have, “I love pizza”, we can use the jQuery library to add an h5 element using the `.append` function
 
@@ -109,21 +107,17 @@ Here are some methods you can use to edit your CSS with JQuery:
 + removeClass() - Removes one or more classes from the selected elements
 + toggleClass() - Toggles between adding/removing classes from the selected elements
 + css() - Sets or returns the style attribute
-+ 
++
 
 ##  Code-Along: JQuery Posters Page
-Let’s all take a look at the CSS that is in the style.css file for our page. Take a look at the last rule on the page. 
+Let’s all take a look at the CSS that is in the style.css file for our page. Take a look at the last rule on the page.
 
  `.newColor` adds a new property to an element. It is currently not being used on our .html file through.
- 
+
 Let’s use the .addClass method to apply it to something on our page.
 
 `$('h5').addClass("newColor");`
 
-Tada! 
+Tada!
 
 Now you try adding a new class rule to the html and then using JQuery to apply it.
-
-
-
-

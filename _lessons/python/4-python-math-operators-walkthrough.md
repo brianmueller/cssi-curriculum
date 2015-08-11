@@ -1,14 +1,8 @@
 ---
   layout: post
-  title: 4-python-math-operators-walkthrough
+  title: Python Math Operations Walkthrough
   language: python
 ---
----
-tags: cssi, basic python, math operators
-level: 1
-languages: python
----
-# Python Math Operations
 
 # Objectives:
 

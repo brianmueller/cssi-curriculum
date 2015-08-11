@@ -1,7 +1,7 @@
 ---
   layout: post
-  title: 4-cartoon-collections
-  language: 
+  title: Python List Iteration Lab - Cartoon Collections
+  language: python
 ---
 
 

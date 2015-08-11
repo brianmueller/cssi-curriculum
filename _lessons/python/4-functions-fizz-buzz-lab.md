@@ -1,7 +1,7 @@
 ---
   layout: post
-  title: 4-functions-fizz-buzz-lab
-  language: 
+  title: Python Functions Lab - FizzBuzz
+  language: python
 ---
 
 

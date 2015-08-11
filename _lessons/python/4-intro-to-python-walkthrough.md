@@ -1,14 +1,8 @@
 ---
   layout: post
-  title: 4-intro-to-python-walkthrough
+  title: Intro to Python Walkthrough
   language: python
 ---
----
-tags: cssi, basic python
-level: 1
-languages: python
----
-# Intro to Python
 
 # Objectives:
 +	Interact with python (interpreter, text editor + run from command line)
@@ -116,4 +110,4 @@ Take a moment on your own to **think** about situations where it would make sens
 **pair** with your partner and come up with reasons where you might want to use a python script, and reasons where you might want to use the python interpreter . Make sure you can **share** your reasons in each scenario.
 
 # Resources
-Here is some <a href="http://anandology.com/python-practice-book/getting-started.html">documentation</a> on the Python interpreter 
+Here is some <a href="http://anandology.com/python-practice-book/getting-started.html">documentation</a> on the Python interpreter

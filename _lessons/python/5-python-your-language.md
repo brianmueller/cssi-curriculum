@@ -1,16 +1,8 @@
 ---
   layout: post
-  title: 5-python-your-language
+  title: Python Interpretation Challenge - Build Your Own Language
   language: python
 ---
----
-tags:cssi, python, functions, interpreter
-level:3
-languages:python
-resources:
----
-
-#  Your Own Language Challenge
 
 When you type python my_program.py at the terminal, you're running a Python interpreter, that is, a program that understands Python and knows how to execute the code you wrote. Every programming language needs another program to translate it into something the computer's CPU can deal with.
 

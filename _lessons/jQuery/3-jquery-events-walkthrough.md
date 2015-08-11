@@ -1,10 +1,9 @@
 ---
   layout: post
-  title: 3-jquery-events-walkthrough
+  title: jquery Events walkthrough
   language: jquery
 ---
 
-#  Events, Listeners, and Handlers in JQuery
 ### Objectives
 + Understand what constitutes an event
 + Attach jQuery event handlers (like 'click') to HTML elements
@@ -23,7 +22,7 @@ We've talked about dynamic web pages, where the user can interact with the page,
 ## JavaScript Events
 In JavaScript, events are user actions such as mouse clicks, key presses, or window resizing. We can define code that will be run when those events happen.
 
-JavaScript allows us to bind - or connect - functions to particular events. We create a function, and then tell the browser to run that function whenever that event happens. 
+JavaScript allows us to bind - or connect - functions to particular events. We create a function, and then tell the browser to run that function whenever that event happens.
 
 ```
 <body>
@@ -55,7 +54,7 @@ We can define a named method. Then we can pass that method as a parameter when w
 	alert("You clicked a header");
 }
     $("h1").click(tellUsWeClicked);
-```    
+```
 
 
 ####  Callback Functions as Event Handlers
@@ -167,7 +166,7 @@ $(this).slideUp(2000);
 $(this).slideDown(2000);
 ```
 
-This works, but we're repeating the lookup for the HTML element with the ID of stuff multiple times. 
+This works, but we're repeating the lookup for the HTML element with the ID of stuff multiple times.
 
 Instead we can do this:
 

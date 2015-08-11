@@ -1,13 +1,13 @@
 ---
   layout: post
-  title: 3-demo-webpage
-  language: 
+  title: jquery Intro Lab
+  language: jquery
 ---
-
+# TODO - Link to Lab
 
 #  Day 3: Code Along - Jquery
 
-Fork this lab, clone it to your local computer and open up the files! 
+Fork this lab, clone it to your local computer and open up the files!
 
 You will see an `.html` file and a `.css` file with some code in it. You should also see an empty `.js` file. This is where you will be adding your code throughout the lesson.  Open the `posters.html` file in your browser and remember to refresh it whenever you save some new code to `script.js`
 

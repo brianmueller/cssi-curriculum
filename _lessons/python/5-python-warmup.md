@@ -1,9 +1,8 @@
 ---
   layout: post
-  title: 5-python-warmup
+  title: Python Warm Up
   language: python
 ---
-#  Python Day 5 Warm-up!
 
 ##  Instructions:
 Fork and clone this lab, then complete the drills below.
@@ -28,7 +27,7 @@ Create a new python file called `warmup1.py` and complete the following:
   ClassSchedule(fall2015_schedule)
   ```
   should print
-  
+
   ```
   Math is at 9:00.
   Noooo
@@ -43,7 +42,7 @@ Create a new python file called `warmup1.py` and complete the following:
 ###  2. Loops and Lists Drills
 
 1. Given the following list:
-  
+
   `daily_temperatures = [83, 86, 85, 88, 86, 87, 92, 93]`
 
   Write a loop that prints each item in the list.
@@ -92,7 +91,6 @@ Given the following dictionary:
 
 ###  3. Creating Lists and Dictionaries
 
-1. Write a function called `Deltas` that takes a list parameter called `daily_temperatures` and returns a list of the differences between each temperature. For example, `Deltas([73, 75, 70])` should return `[2, -5]`. 
+1. Write a function called `Deltas` that takes a list parameter called `daily_temperatures` and returns a list of the differences between each temperature. For example, `Deltas([73, 75, 70])` should return `[2, -5]`.
 2. Write a function called `GetUniqueFavorites` that takes a dictionary parameter called `name_to_favorite_food` and returns a list of all the unique favorite foods.
 3. Write a function called `PopularFood` that takes a dictionary parameter called `name_to_favorite_food` and returns the most frequent favorite food in the list. If there is a tie, return the first in alphabetical order. For example, `PopularFood(favorite_foods)` should return "pizza".
-

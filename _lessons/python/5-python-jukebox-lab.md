@@ -1,11 +1,9 @@
 ---
   layout: post
-  title: 5-python-jukebox-lab
+  title: Python Input and Output Lab - Jukebox
   language: python
 ---
-
-
-#  Instructions
+##  Instructions
 
 You're going to write a jukebox that introduces itself to the user and then asks for input.
 

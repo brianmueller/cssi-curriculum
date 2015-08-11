@@ -1,11 +1,10 @@
 ---
   layout: post
-  title: 3-js-on-the-web-walkthrough
-  language: 
+  title: Javascript on the Web
+  language: javascript
 ---
 
-#  Javascript on the Web
-After this lesson, you'll be able to understand:
+## After this lesson, you'll be able to understand:
 + The browser represents html pages with the document object model (DOM)
 + We can use javascript and jQuery to select and modify elements
 
@@ -52,7 +51,7 @@ Javascript can speak the browser’s language - it IS the browser’s language. 
 
 
 ###  The Twitter DOM
-Let’s look a little bit more closely at the code we ran to change Twitter. First, in the console, click on the tab that says "Elements". This will show you what the DOM looks like for Taylor's Twitter page. Just like most pages it has a `<head>` and  a `<body>`. It also has a ton  of `<div>` tags, which is what makes the Twitter layout so clean. 
+Let’s look a little bit more closely at the code we ran to change Twitter. First, in the console, click on the tab that says "Elements". This will show you what the DOM looks like for Taylor's Twitter page. Just like most pages it has a `<head>` and  a `<body>`. It also has a ton  of `<div>` tags, which is what makes the Twitter layout so clean.
 
 In your first statement,  `names = $('.fullname');`, the $ symbol was used to *select* every element in the DOM with the class `'fullname'` and store it in a new array, names.
 
@@ -84,7 +83,7 @@ Try selecting other html elements on the page and updating their text! What happ
 You can do this by going back to the "Elements" tab and looking at what the different ids and classes are.
 
 * *# id*: $("# lastname")	- to select an id, use the #  sign
-* *.class*: 	$(".intro")	- to select a class, use the . 
+* *.class*: 	$(".intro")	- to select a class, use the .
 
 The selector syntax - $() - and the .text() method actually aren't part of the javascript baked into the browser. They actually come from the jQuery library - a big, commonly used set of useful javascript functions. In order to use this syntax on our pages, we'll need to link up to a javascript library.
 

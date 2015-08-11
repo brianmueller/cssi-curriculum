@@ -1,6 +1,6 @@
 ---
   layout: post
-  title: 5-python-stretch-tictactoe-challenge
+  title: Python Algorithm Challenge - Tic Tac Toe
   language: python
 ---
 

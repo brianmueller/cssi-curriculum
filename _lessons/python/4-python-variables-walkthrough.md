@@ -1,15 +1,8 @@
 ---
   layout: post
-  title: 4-python-variables-walkthrough
+  title: Python Variable Assignment Walkthrough
   language: python
 ---
----
-tags: cssi, basic python, variables
-level: 1
-languages: python
----
-# Python Variable Assignment
-
 # Objectives:
 
 + Understand common python syntax and datatypes
