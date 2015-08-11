@@ -92,10 +92,8 @@ h2 {
 }
 ```
 ##Exercise 1-3 on CSS Selectors
-
+Fork and clone the repository and complete exercises 1-3 for practice.
 https://github.com/victoria/advanced-css-review
-
-
 
 #  Colors
 RGB vs Hexadecimal color
