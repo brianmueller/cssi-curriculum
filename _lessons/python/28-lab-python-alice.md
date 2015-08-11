@@ -1,6 +1,6 @@
 ---
   layout: post
-  title: Python Text Analysis Lab - Alice in Wonderland
+  title: Lab: Python Text Analysis - Alice in Wonderland
   language: python
 ---
 

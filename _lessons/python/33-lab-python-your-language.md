@@ -1,6 +1,6 @@
 ---
   layout: post
-  title: Python Interpretation Challenge - Build Your Own Language
+  title: Lab: Python Interpretation Challenge - Build Your Own Language
   language: python
 ---
 
