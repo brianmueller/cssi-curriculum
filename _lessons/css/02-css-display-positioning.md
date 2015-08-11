@@ -69,7 +69,7 @@ div.green {
 
 ![Examples of three different display properties](http://4.bp.blogspot.com/-TiwOixlooJk/U4UyEnv_XpI/AAAAAAAACFs/NuuLz2IvoZ4/s1600/css-display-block-vs-inline-block.png)
 
-##Complete exercises 1-3 on Display Property:
+##Complete exercises 4-6 on Display Property:
 https://github.com/victoria/advanced-css-review
 
 ## Position

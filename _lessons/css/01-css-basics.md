@@ -91,8 +91,8 @@ h2 {
  color: green;
 }
 ```
-##Exercise 4-6 on CSS Selectors:
-Complete exercises 4-6:
+##Exercise 1-3 on CSS Selectors
+
 https://github.com/victoria/advanced-css-review
 
 
