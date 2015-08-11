@@ -6,7 +6,7 @@
 
 When you type python my_program.py at the terminal, you're running a Python interpreter, that is, a program that understands Python and knows how to execute the code you wrote. Every programming language needs another program to translate it into something the computer's CPU can deal with.
 
-For this challenge, you are going to write an interpreter for your own programming language, called "Cussy" (from CSSI).
+For this challenge, you are going to write an interpreter for your own programming language, called "Pythonic" (from CSSI).
 
 Read the [Norvig article](http://norvig.com/lispy.html) linked above. Read it again. This is the model we'll be following in this challenge. Read it a third time.
 We'll start Cussy off with some simple math operations:
