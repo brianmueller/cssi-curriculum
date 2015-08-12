@@ -11,8 +11,6 @@
 
 # What You Will Learn:
 + How to add logic to your templates
-+ Understanding GET and POST requests
-+ Understanding the MVC framework
 
 ##  Lesson Notes
 ### Syntax

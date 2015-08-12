@@ -8,7 +8,7 @@
 + Understand how AppEngine provides its own API libraries
 + Use the AppEngine Users API module
 
-##  Why This is Important / Why Should You Care?
+##  Why This is Important?
 
 
 
