@@ -133,3 +133,7 @@ Databases allow developers to store information in between user sessions. This o
 ##  Hints and Hurdles
 
 + Make sure you call `put()` when writing to the database or your *entity* won't get saved.
+
+## Resources
+
++ [Slides by Luis Ibanez on Datastore](https://github.com/google-cssi/datastore-slides) : Just open index.html
