@@ -1,3 +1,9 @@
+---
+layout: post
+title: Cheatsheet: Command Line
+language: command-line
+---
+
 #Command Line
 
 +  `~`: The tilde means you’re in your user's home directory, can be replaced with `/users/<your_name>/`
