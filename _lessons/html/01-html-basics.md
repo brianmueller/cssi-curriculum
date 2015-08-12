@@ -125,8 +125,6 @@ Links use an `<a>` tag, which stands for anchor. If you wanted a link to Google 
 Images use an `<img>` tag to embed an image in a webpage.
 `<img src="your_image_location">`
 
-## Absolute or Relative paths
-
 
 ## Indentation
 HTML is not the easiest to read. It's designed to be clear for the browser to understand, but not always for humans. Indentation help make your code easier to understand and debug.
