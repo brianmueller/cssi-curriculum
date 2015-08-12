@@ -3,7 +3,7 @@
   title: Fortune Teller Challenge
   language: app-engine
 ---
-
+**TO CHANGE**
 At the end of these exercises today and tomorrow, you will have an App Engine application that performs [cold reading](https://en.wikipedia.org/wiki/Cold_reading) simulations. Set up a basic application, then read the requirements below and implement each path as specified. Note that the requirements may be vague, ambiguous, or just incomplete. Think about how you are deciding between different ways of implementing things.
 
 ## Paths
