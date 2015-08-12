@@ -4,7 +4,7 @@
   language: project
 ---
 
-### What You Will Learn  :
+### What You Will Learn :
 * Describe how  group work is a SKILL and a PROCESS
 * Use concrete actions to help form a well-oiled dream team
 
