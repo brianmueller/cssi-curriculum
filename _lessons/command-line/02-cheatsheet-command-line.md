@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Cheatsheet: Command Line
+title: Cheatsheet - Command Line
 language: command-line
 ---
 

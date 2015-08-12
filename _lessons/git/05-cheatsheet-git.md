@@ -1,6 +1,6 @@
 ---
   layout: post
-  title: Cheatsheet: Git
+  title: Cheatsheet - Git
   language: git
 ---
 
