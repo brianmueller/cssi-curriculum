@@ -5,13 +5,13 @@
 ---
 # Template Variables with Fortune Teller
 Path: /fortunecookie
-Change your fortune cookie handler so that `localhost:8080/fortunecookie?/num=2` displays the 2nd fortune in your list. However be sure that the default,  `localhost:8080`, still gives a random fortune.
+Change your fortune cookie handler so that `http://localhost:8080/fortunecookie?/num=2` displays the 2nd fortune in your list. However be sure that the default,  `http://localhost:8080`, still gives a random fortune.
 
 
 Path: /8ball
-Create a dictionary with three keys: "positive", "neutral" and "negative" Their corresponding values are a list of 8ball responses. `localhost:8080/8ball?/type=pos` will give the 2nd response from your positive list of 8 ball responses.
+Create a dictionary with three keys: "positive", "neutral" and "negative". Their corresponding values are a list of 8ball responses. `http://localhost:8080/8ball?/type=pos` will give the 2nd response from your positive list of 8 ball responses.
 
-You can make your own lists of responses, or use the [default values](https://en.wikipedia.org/wiki/Magic_8-Ball#Possible_answers)
+You can make your own lists of responses, or use the [default values](https://en.wikipedia.org/wiki/Magic_8-Ball#Possible_answers), which contain 10 positive, 5 neutral and 5 negative answers.
 
 
 ##  Reminders

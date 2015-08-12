@@ -50,7 +50,7 @@ The home page (/) should describe what the app does and provide some sample link
 
 ### Advanced Generate
 
-`/generate` should handle bad input data gracefully. Remember: I will try to break your app.
+`/generate` should handle bad input data gracefully.
 
 ### Fast Check
 

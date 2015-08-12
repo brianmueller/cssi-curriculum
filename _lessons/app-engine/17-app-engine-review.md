@@ -4,7 +4,7 @@
   language: app-engine
 ---
 
-Today we're going to start off with a review of yesterday's app engine lesson, including a walkthrough of the plumbing, query parameters, and templates.
+Let's review our process for creating an App Engine Applications. We'll include a walkthrough of App Engine's plumbing, use of query parameters, and templates. You can follow along with the slides and example code from the repo below:
 
 ##  Instructions
 Clone this [repo](https://github.com/google-cssi/cssi-7-app-engine-review), then follow along with the slides here:
