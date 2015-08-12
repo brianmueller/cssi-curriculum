@@ -10,7 +10,8 @@
 + HTML Basics
 
 # What You Will Learn:
-+ 
++ What App Engine templates are and how to use them.
++ Using webapp2 and the jinja library to create templates.
 
 # Why This is Important:
 The **template** is the view of the MVC model. This is where our python is embedded into our HTML.  
@@ -128,3 +129,6 @@ class MainHandler(webapp2.RequestHandler):
         self.response.out.write(template.render())
 ```
 +   You can run the app and, Hooray we have styling!
+
+# Conclusion:
+With templates we are able to start bringing our structuring and styling powers to the pages of our web apps.
