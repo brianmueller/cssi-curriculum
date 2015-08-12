@@ -1,7 +1,7 @@
 ---
   layout: post
   title: Past CSSI Projects
-  language: intro
+  language: project
 ---
 
 Take a look through what students were able to create at CSSI last year. Start thinking about what you will want to create with your time here.

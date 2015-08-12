@@ -1,7 +1,7 @@
 ---
   layout: post
   title: Intro to CSSI
-  language: css
+  language: intro
 ---
 
 # Intro to CSSI

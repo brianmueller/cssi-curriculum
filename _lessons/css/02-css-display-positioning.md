@@ -1,6 +1,6 @@
 ---
   layout: post
-  title: Advanced CSS
+  title: CSS Display and Positioning
   language: css
 ---
 
