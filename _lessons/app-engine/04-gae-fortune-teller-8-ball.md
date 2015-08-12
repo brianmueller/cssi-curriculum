@@ -3,23 +3,10 @@
   title: Fortune Teller Challenge
   language: app-engine
 ---
+#Fortune Teller App:
+Let's keep adding to the Fortune Teller Apps we started earlier. We need some more handlers!
 
-At the end of these exercises today and tomorrow, you will have an App Engine application that performs [cold reading](https://en.wikipedia.org/wiki/Cold_reading) simulations. Set up a basic application, then read the requirements below and implement each path as specified. Note that the requirements may be vague, ambiguous, or just incomplete. Think about how you are deciding between different ways of implementing things.
-
-## Paths
-
-### **Fortune Cookie**
-
-Path: /fortunecookie
-
-Requirements:
-
-1. When a user goes to this path, they shall see an image of a fortune cookie and receive a random fortune. [What library will you need to import?]
-
-2. There shall be at least ten different fortunes.
-
-
-
+## Path 2
 
 ### **Magic 8-Ball**
 
@@ -33,10 +20,7 @@ Requirements:
 
 
 
-##  Done Early? Two Options
-1. Tomorrow you will be able to include html and css files. For today you can write them in the same directory as your fortune teller application. You should have a an eightball.html file, a cookie.html file and you can send it a default string for now.
-
-2. Alternatively, you can start to add the whirlybird feature in the Stretch lab below.
+##  Done Early? Let's Stretch! You can add a third path to your app:
 
 ### **STRETCH: Whirlybird**
 
