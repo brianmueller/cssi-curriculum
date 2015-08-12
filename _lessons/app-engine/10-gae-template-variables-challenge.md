@@ -1,6 +1,6 @@
 ---
   layout: post
-  title: Template Variables Challenge
+  title: Template Variables with Fortune Teller
   language: app-engine
 ---
 ##  Reminders
@@ -36,12 +36,6 @@ To access those variables, use the self.request.get() method:
 You can also set a default value by adding an optional second argument, `default_value`:
 
 `self.request.get('location', default_value='Chicago')}`
-
-##  AppEngine Template Variables Mini Challenge
-###  CHALLENGE
-* Modify helloworld.py to read a new template parameter called `greeting` and pass it to the helloworld.html template.
-* Edit your HTML so that it displays the greeting and the name.
-* A url like `http://localhost:8080/helloworld?name=Norah&greeting=Howdy` should say "Howdy Norah!"
 
 ###  STRETCH CHALLENGE
 * Read up on detecting user's location with html [here](http://www.developerdrive.com/2012/01/using-html5-to-determine-user-location/)

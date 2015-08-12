@@ -3,9 +3,17 @@
   title: Google App Engine - Logging and Debugging
   language: app-engine
 ---
+# What You Need to Know:
++ Python Basics and Classes
++ App Engine Handler basics
++ How to import libraries
+
+# What You Will Learn:
++ Coding is Debugging
++ How to debug your code using the App Engine Log Console
++ How to add logging statements to your code to help you debug a program
 
 ## Debugging
-
 + Here we have a main.py script with an error in it.
 
 ```python
@@ -109,5 +117,4 @@ for possible_factor in range(1, n):
 Now try reloading the page with a different number. Check the logs: do you see the problem? How can you fix it?
 
 # Conclusion
-
 Patience young grasshopper. Debugging can be frustrating but you have tools that can help you fix errors in your code. Read your error messages in the console to find your next step. Use the PEP protocol. Ask for help!

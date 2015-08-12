@@ -11,6 +11,14 @@ Here are some labs and resources to review Python, Javascript and HTML, choose y
 ###  If you'd like to review...
 
 #  Python
+<<<<<<< HEAD
+
+Begin the Day 5 Python warmup on loops, lists, and dictionaries:
+* [Day 5 Python warmup](https://github.com/google-cssi/cssi-5-python-warmup)
+**`NEW`**
+
+=======
+>>>>>>> f39d3ffc57d9f602264a1aeb2bb7e603e2f2204f
 Finish the labs from the other days:
 
 * [Nested lists and dictionaries](https://learn.co/tracks/google-cssi/4-python-intro/python-labs/lab-nested-lists-and-dictionaries)

@@ -3,7 +3,17 @@
   title: Intro to Templates
   language: app-engine
 ---
+# What You Need to Know:
++ Python Basics, Classes and Importing
++ How to Launch and App Engine App
++ The MVC model
++ HTML Basics
 
+# What You Will Learn:
++ What App Engine templates are and how to use them.
++ Using webapp2 and the jinja library to create templates.
+
+# Why This is Important:
 The **template** is the view of the MVC model. This is where our python is embedded into our HTML.  
 
 There are many templating systems for Python: <a href="https://docs.djangoproject.com/en/dev/topics/templates/Django">Django</a>, and <a href="http://jinja.pocoo.org/">Jinja</a> are just a few. You can use your template engine of choice by bundling it with your application code.
@@ -119,3 +129,6 @@ class MainHandler(webapp2.RequestHandler):
         self.response.out.write(template.render())
 ```
 +   You can run the app and, Hooray we have styling!
+
+# Conclusion:
+With templates we are able to start bringing our structuring and styling powers to the pages of our web apps.
