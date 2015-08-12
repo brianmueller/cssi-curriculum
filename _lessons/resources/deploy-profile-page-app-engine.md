@@ -1,10 +1,9 @@
 ---
   layout: post
   title: Profile Page Templating & Work Time
-  language: app-engine
+  language: resources
 ---
-
-The rest of the day is yours to import all of your old static files into your profile page webapp and to add features.
+ Import all of your old static files into your profile page webapp and add features.
 * Add templates for all of your profile project html files (blog, home, pictures)
 * Add handlers for each of those pages and make sure the render the correct templates
 * Change your routes so that `localhost:8080/blog` goes to the correct place
