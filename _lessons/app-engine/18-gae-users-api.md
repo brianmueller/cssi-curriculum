@@ -8,9 +8,23 @@
 + Understand how AppEngine provides its own API libraries
 + Use the AppEngine Users API module
 
-##  Why This is Important / Why Should You Care?
+##  Why This is Important?
 
 
+###  Calling the Giphy API from a handler
+
+This code will display the *raw* data the the API returns. Interesting, but not terribly useful.
+
+```python
+import json
+from google.appengine.api import urlfetch
+
+class MainHandler(webapp2.RequestHandler):
+    def get(self):
+        data = urlfetch.fetch(
+     "http://api.giphy.com/v1/gifs/search?q=+ryan+goslin&api_key=dc6zaTOxFJmzC&limit=10").content
+        self.response.out.write(data)
+```
 
 ###  App Engine Users API
 

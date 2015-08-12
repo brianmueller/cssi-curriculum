@@ -8,7 +8,7 @@
 + Understand what a One-to-Many relationship symbolizes
 + Can implement such a relationship with App Engine's Datastore
 
-##  Why This is Important / Why Should You Care?
+##  Why This is Important?
 
 Often we want to represent real world concepts in code. For example we might want to store all of the posts a user has made on Facebook in our database. In this case *One* user has *Many* associated posts, but a post was only ever created by one user. This is a foundational component of database technology that allows for complex behaviors.
 

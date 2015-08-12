@@ -8,7 +8,7 @@
 
 + Understand why we would want to represent relationships between data in a database
 
-##  Why This is Important / Why Should You Care?
+##  Why This is Important?
 
 In many web applications, we don’t just care about the data itself - we care about the relationships between data. A giant list of all the posts on facebook wouldn’t be very interesting - we want to associate posts to users, so that you see posts from your friends, not from random people everywhere.
 

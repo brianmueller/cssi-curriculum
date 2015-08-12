@@ -16,8 +16,8 @@ Okay, so we know how to include the jQuery library, and we’ve seen that it can
 
 If you are looking for something in particular, check out the [jQuery Cheatsheet](http://oscarotero.com/jquery/) and look for what you want to do. We'll go over the main things you can do now, but don't worry about memorizing - you'll always be able to look up the syntax when you need to.
 
-##  JQuery - Selection and the DOM
-In order to do anything with jQuery, we first need to be able to navigate the DOM. In the Twitter example, we saw that we could select all elements that match a certain critera with the $() method.
+##  jQuery - Selection and the DOM
+In order to do anything with jQuery, we first need to be able to navigate the DOM. In the Twitter example, we saw that we could select all elements that match a certain criteria with the $() method.
 
 Some examples:
 

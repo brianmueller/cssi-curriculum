@@ -1,6 +1,6 @@
 ---
   layout: post
-  title: jQuery Warmup
+  title: jQuery Review Drills
   language: jquery
 ---
 
