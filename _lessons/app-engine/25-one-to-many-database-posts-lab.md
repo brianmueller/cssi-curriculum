@@ -4,15 +4,15 @@
   language: app-engine
 ---
 
-##  Concept
-
-This lab will help you create your own Blog backend! After this lab you will be able to write simple posts and store them in between visits to your blog.
-
 ##  What You Will Learn:
 
 + Create a blog post database model
 + Make a corresponding frontend that allows users to create posts
 + Show a list of all posts
+
+##  Why is this important:
+
+This lab will help you create your own Blog backend! After this lab you will be able to write simple posts and store them in between visits to your blog.
 
 ##  Directions
 

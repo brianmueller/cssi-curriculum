@@ -15,7 +15,6 @@
 + How to render the user's input
 + The HTTP methods GET or POST
 
-
 #HTML Forms
 
 We are going to create a [MADLIBS][http://www.madglibs.com/] app to learn html forms. Create a new

@@ -11,7 +11,7 @@
 + Use the Datastore viewer to see the contents of your Datastore
 + Create new data models to solve a problem
 
-##  Why This is Important / Why Should You Care?
+##  Why This is Important?
 
 The apps we've created so far have been kind of dumb. They can't remember anything between one request and a second request, unless we keep track with a query string or in the post request directly before. A *database* solves that problem by giving you a way to save information for later retrieval.
 
