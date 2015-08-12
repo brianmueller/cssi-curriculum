@@ -1,18 +1,18 @@
 ---
   layout: post
-  title: Lab -  Python Calculator
+  title: Lab - Command Line Game
   language: python
 ---
 
 ###  Putting It All Together
- Think about all the basic programming knowledge we've built upon this week (data types, variables, functions, data structures, etc.) We are laying the foundation for our futures as Python developers. Let's challenge that knowledge with a review project.
+Think about all the basic programming knowledge we've built upon this week (data types, variables, functions, data structures, etc.) We are laying the foundation for our futures as Python developers. Let's challenge that knowledge with a review project.
 
 ###  The Task
-In groups of 2 students, you will build a command line game that uses raw_input. If you're not feeling creative - you can make a basic triva game. Otherwise there are other ideas below.
+You will build a command line game that uses raw_input. If you're not feeling creative - you can make a basic trivia game. Otherwise there are other ideas below.
 
 ####Trivia Game
 
-```
+```python
 answer1 = raw_input ("What is the capital of Illinois?: ")
 
 if answer1 == "Springfield":
@@ -43,7 +43,7 @@ Feature 5 STRETCH: use a dictionary of questions and a dictionary of answers
 
 ### Presentations
 Be prepared to share your game with another group that answers the following questions
-# 1. What is your big idea?
-# 2. What tools does your code use (loops, conditional statements, user_input(), arrays, dictionaries)
-# 3. What was your one takeaway?
-# 4. If you had more time, what would be your next step?
+1. What is your big idea?
+2. What tools does your code use (loops, conditional statements, user_input(), arrays, dictionaries)
+3. What was your one takeaway?
+4. If you had more time, what would be your next step?
