@@ -1,6 +1,6 @@
 ---
   layout: post
-  title: Events, Listeners, and Handlers in JQuery
+  title: Events, Listeners, and Handlers in jQuery
   language: jquery
 ---
 ###  What You Will Learn
@@ -14,7 +14,6 @@
 ###  Why This is Important / Why Should You Care?
 
 jQuery has event handlers that respond to user actions - like clicking or moving the mouse. This allows us to make all sorts of amazing behaviors and websites that respond naturally to user actions.
-
 
 ##  JavaScript Events
 In JavaScript, events are user actions such as mouse clicks, key presses, or window resizing. We can define code that will be run when those events happen.
@@ -31,7 +30,7 @@ $("h1").click(action);
 * `click` - the *event* we are responding to
 * `action` - the *handler* - or what we want our response to be
 
-Javascript gives us a few different ways to create the 'action', by using a named method or using a callback function.
+JavaScript gives us a few different ways to create the 'action', by using a named method or using a callback function.
 
 ####  Named Methods as Event Handlers
 
@@ -48,7 +47,7 @@ $("h1").click(tellUsWeClicked);
 
 ####  Callback Functions as Event Handlers
 
-We can also use an anonymous function: `function(){}` as the parameter. It's anonymous because we create it without giving it a name. The code for the function will go inbetween the curly brackets. This is a common pattern, called a callback function.
+We can also use an anonymous function: `function(){}` as the parameter. It's anonymous because we create it without giving it a name. The code for the function will go in between the curly brackets. This is a common pattern, called a callback function.
 
 ```js
 $("h1").click(function(){
@@ -67,7 +66,7 @@ jQuery can respond to a wide variety of Events which you should read about in th
 + And MORE!!
 
 ## Document Ready as an Event
-We often only want to run our javascript when the page has finished loading. Just like we can bind functions to events triggered by the user, we can run certain functions when the document is ready.
+We often only want to run our JavaScript when the page has finished loading. Just like we can bind functions to events triggered by the user, we can run certain functions when the document is ready.
 
 ```js
 $( document ).ready(function() {

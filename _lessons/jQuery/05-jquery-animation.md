@@ -7,7 +7,7 @@ One of the cooler features of jQuery is animation. The concept is pretty simple:
 
 - You have an element with its current style
 - You set a target style
-- jquery gradually changes the style from one to the other
+- jQuery gradually changes the style from one to the other
 
 It turns out there is some somewhat complicated math for the values of the properties as they are changing, but you don’t have to worry about that at all. Instead, you describe to jQuery exactly how you want the animation to happen - how long it should take, and what rate the change should happen - and it figures all that out for you.
 
