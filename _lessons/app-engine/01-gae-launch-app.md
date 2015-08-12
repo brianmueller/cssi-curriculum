@@ -120,7 +120,7 @@ app = webapp2.WSGIApplication([
 You can test this in your browser at `http://localhost:8080/count`. (If your application is running on a different port number, make sure you use the correct one.)
 Once again, your screen says: Hello, world!
 
-It also counts to 100 when we change the url to `/count`. Our new handler at work!
+It also counts to 100 when we change the url path to `/count`. Our new handler at work!
 
 Let’s not be so repetitive. We can continue to edit our application and see the updates immediately in the browser. We can edit our launched app to add all sorts of Python expressions and functions.
 
