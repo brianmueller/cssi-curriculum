@@ -6,11 +6,11 @@
 
 ## Roll Dice on the Web
 
-We can put the Dice Roll Game from Day 5's labs, your dice-rolling program on the web.
+We can put the Dice Roll Game that you created in the Python labs on the web.
 
 Open the GoogleAppEngineLauncher and go to File | New Application....
 
-Enter "dice" as the Application Name, browse to your dev directory in the "Application Directory" field, and enter "8082" in the Port field.
+Enter "dice" as the Application Name, browse to your cssi directory in the "Application Directory" field, and enter "8082" in the Port field.
 
 Click the "Run" button in GoogleAppEngineLauncher.
 
@@ -50,7 +50,7 @@ The home page (/) should describe what the app does and provide some sample link
 
 ### Advanced Generate
 
-`/generate` should handle bad input data gracefully. Remember: I will try to break your app.
+`/generate` should handle bad input data gracefully.
 
 ### Fast Check
 

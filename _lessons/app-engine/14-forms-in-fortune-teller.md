@@ -1,6 +1,10 @@
 ---
   layout: post
+<<<<<<< HEAD
   title: Adding Forms to Fortune Teller
+=======
+  title: Adding a Form in Fortune Teller
+>>>>>>> a8b7003c5608752a804d5a2b9ce5f89dd1200770
   language: app-engine
 ---
 

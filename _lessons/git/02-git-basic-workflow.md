@@ -15,7 +15,7 @@
 3. `git commit -m "your commit message goes here"`
 4. `git push -u origin master`
 
-*You only need to include the -u in # 4 if it is the first time you are pushing a commit to this specific repo.*
+*You only need to include the `-u origin master` in # 4 if it is the first time you are pushing a commit to this specific repo. Otherwise, you can simply type `git push`*
 
 Now your changes have been added to the Forked Repo in your Github account. At any time you can enter **git status** to see whether you have any changes that are not yet committed or whether your local repo is current with the master.
 
