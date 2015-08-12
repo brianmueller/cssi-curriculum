@@ -1,6 +1,6 @@
 ---
   layout: post
-  title: Exercises -  Python Lists
+  title: Python 1 Review/Warmup Drills
   language: python
 ---
 
