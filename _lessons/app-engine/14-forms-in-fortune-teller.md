@@ -1,6 +1,6 @@
 ---
   layout: post
-  title: Forms in App Engine
+  title: Adding a Form in Fortune Teller
   language: app-engine
 ---
 ####  HTML Forms (Review)
