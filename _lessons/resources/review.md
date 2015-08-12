@@ -6,19 +6,15 @@
 #  Python, Javascript, HTML Review
 
 ##  Instructions:
-Today's review will be in the form of "Choose Your Own Adventure": That is, choose whichever topic you'd like to review and complete the lab activities suggested.
+Here are some labs and resources to review Python, Javascript and HTML, choose your own adventure! Choose whichever topic you'd like to review and complete the lab activities suggested.
 
 ###  If you'd like to review...
 
 #  Python
-
-Begin the Day 5 Python warmup on loops, lists, and dictionaries:
-* [Day 5 Python warmup](https://github.com/learn-co-curriculum/cssi-5-python-warmup)
-
 Finish the labs from the other days:
 
 * [Nested lists and dictionaries](https://learn.co/tracks/google-cssi/4-python-intro/python-labs/lab-nested-lists-and-dictionaries)
-* [Learn.co Cartoon collections](https://learn.co/tracks/google-cssi/4-python-intro/python-labs/lab-cartoon-collections)
+* [Cartoon Collections](https://github.com/google-cssi/cssi-4-cartoon-collections)
 
 #  HTML/CSS
 
@@ -41,6 +37,7 @@ Try out a lab from University of Washington:
 
   * [Deli Counter](https://learn.co/tracks/google-cssi/2-javascript-intro/labs/lab-deli-counter)
   * [Day 3 JavaScript warmup](https://github.com/learn-co-curriculum/cssi-3-javascript-warmup)
+  
   * [Day 4 jQuery warmup](https://github.com/learn-co-curriculum/cssi-4-jquery-warmup)
 
   If you've completed all the labs and have other specific questions, flag down a TA!
