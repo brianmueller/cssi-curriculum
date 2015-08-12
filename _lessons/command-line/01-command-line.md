@@ -52,9 +52,23 @@ Follow these steps to create a directory about the world and practice command li
 4. Move `sphinx.txt` into the `cairo` directory. Hint: List the path from `around-the-world `to `cairo`
 + **Stretch:** Create a new country, city, and landmark file in the "around-the-world" directory
 
-# Absolute or Relative paths
-TODO: Fill this in
+# Absolute or Relative Paths
+There are two ways to tell a computer about a file's *path* or where a file is located. A path can be thought of as the Address of a file or folder, or the "path" the computer needs to take to reach that file or folder.
 
++ *Absolute Path*: Describes the path to a file or folder from the root of your system.
+  + For Unix based systems (like Mac's and Ubuntu) this is the `/` directory
+  + The `~` symbol just points to your user directory (usually `/Users/[your username]`)
+    + So `cd ~/cssi` => `cd /Users/[your username]/cssi`
+  + For the web this will usually start with `http://www.[some web site name].com/[more folders]`
+  + This means you can go to any folder from anywhere by simply calling `cd /[folder name]/[other folder]`
+  + No matter where your terminal currently is located this will take you to the `/[folder name]/[other folder]` directory
++ *Relative Path*: Describes the path to a file or folder from the current file or folder location.
+  + `..`: references the parent folder and can be used as part of the path
+  + In the image below the Relative Path from `Desktop` to the `Birthday` folder would be `../Happy/Birthday`
+  + `cd ../Happy/Birthday` would be the command that takes you there
+  + `cd ..` moves you to the parent folder
+
+<img src="http://i.imgur.com/ViRtnaF.png"> 
 
 # Tips and tricks:
  If you start typing a directory name or file name you can click `Tab` and the command line will automatically fill in the rest of the directory/file name. If you click `Tab` twice it will show you all of the directories/files inside your current directory.
