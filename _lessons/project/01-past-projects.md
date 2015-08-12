@@ -6,7 +6,7 @@
 
 Take a look through what students were able to create at CSSI last year. Start thinking about what you will want to create with your time here.
 
-Your webapp project will need to collect information from the user, process that information, and return a new result. The possibilites are endless. During the first two weeks you'll learn the foundational skills to make sure you're ready to build. The third week is project mode and your chance to build something great - or at least learn a lot by attempting to. Take a look at the past projects to help inform and inspire you.
+Your final project will need to collect information from the user, process that information, and return a new result. The possibilities are endless. During the first two weeks you'll learn the foundational skills to make sure you're ready to build. The third week is project mode and your chance to build something great - or at least learn a lot by attempting to. Take a look at the past projects to help inform and inspire you.
 
 ###  The Projects
 * [Letter Getter Game](https://letter-getter-game.appspot.com)
