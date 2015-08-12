@@ -3,13 +3,25 @@
   title: Breaking Down Google App Engine
   language: app-engine
 ---
+# What You Need to Know:
++ Introduction to the Web
++ Python Basics and Classes
++ How to Launch an App Engine App
+
+# What You Will Learn:
++ Client server relationships
++ Understanding GET and POST requests
++ Understanding the MVC framework
++
+
+# Motivation
 
 **Google App Engine** is a Platform as a Service (PaaS) offering that lets you build and run applications on Google’s infrastructure. You upload your files through the App Engine interface and your app gets hosted on Google's servers. App Engine connects the back-end and front-end for you.
 
 Before we continue to make our own webapps, we need to speak very briefly about how anyone on the internet can access the code that you write at home.
 
 ###  Clients and Servers
-The internet is a network of computers that communicate with eachother using HTTP, which defines how data is deliverd. We won't cover HTTP too much during CSSI but you can read more about it [here](http://www.tutorialspoint.com/http/http_overview.htm).
+The internet is a network of computers that communicate with each other using HTTP, which defines how data is deliverd. We won't cover HTTP too much during CSSI but you can read more about it [here](http://www.tutorialspoint.com/http/http_overview.htm).
 
 The computers can either be clients, servers or often times both.
 
