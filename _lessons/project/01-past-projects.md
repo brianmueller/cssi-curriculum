@@ -11,11 +11,9 @@ Your webapp project will need to collect information from the user, process that
 ###  The Projects
 * [Letter Getter Game](https://letter-getter-game.appspot.com)
 * [JAM](http://jam-cssi.appspot.com/)
-* [Movie Spotter](https://movie-spotter.appspot.com)
 * [Bites Without Borders](https://bites-without-borders.appspot.com/)
 * [Storitime](http://cssi-storitime.appspot.com/)
 * [Cheers](http://cheers-jei.appspot.com/)
 * [All The Courses](http://www.all-the-courses.appspot.com/)
-* [Current](https://currentcssi.appspot.com)
 * [Conquer Tomorrow](http://bucket-1027.appspot.com/)
 * [MetaPoems](https://metapoems.appspot.com)
