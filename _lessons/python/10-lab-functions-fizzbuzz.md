@@ -1,6 +1,6 @@
 ---
   layout: post
-  title: Lab: Python Functions - FizzBuzz
+  title: Lab -  Python Functions - FizzBuzz
   language: python
 ---
 

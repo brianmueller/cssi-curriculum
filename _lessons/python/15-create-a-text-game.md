@@ -1,6 +1,6 @@
 ---
   layout: post
-  title: Lab: Python Calculator
+  title: Lab -  Python Calculator
   language: python
 ---
 

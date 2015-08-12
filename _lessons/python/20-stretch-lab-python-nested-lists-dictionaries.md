@@ -1,6 +1,6 @@
 ---
   layout: post
-  title: Lab: Python Nested Lists and Dictionaries
+  title: Lab -  Python Nested Lists and Dictionaries
   language: python
 ---
 

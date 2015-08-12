@@ -1,6 +1,6 @@
 ---
   layout: post
-  title: Lab: Python Dice Roll
+  title: Lab -  Python Dice Roll
   language: python
 ---
 

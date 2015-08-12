@@ -1,6 +1,6 @@
 ---
   layout: post
-  title: Exercises: Python Objects
+  title: Exercises -  Python Objects
   language: python
 ---
 

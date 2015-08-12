@@ -131,7 +131,7 @@ Integrate the fonts into your CSS:
 # Conclusion
 Now you know how to add styling to your HTML pages. Use different types of selectors to change elements within your HTML page.
 
-# Personal Page Lab: Add CSS to your personal page!
+# Personal Page Lab -  Add CSS to your personal page!
 Add CSS styling to your personal page.
 + cd ~/cssi
 + cd username.github.io

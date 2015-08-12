@@ -1,6 +1,6 @@
 ---
   layout: post
-  title: Lab: Python Functions and Conditionals - Message to WALL-E
+  title: Lab -  Python Functions and Conditionals - Message to WALL-E
   language: python
 ---
 
