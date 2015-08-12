@@ -3,6 +3,19 @@
   title: Launching An App
   language: app-engine
 ---
+# What You Need to Know:
++ Python Basics
++ Python Classes
+
+# What You Will Learn:
++ How to quick launch an MVP app
++ Using app.yaml files
++ How to write handlers and routes
++ Creating get requests
+
+# Why This is Important:
+Let's get launched! We are going to learn the fundamentals of creating an app that will be hosted on Google's App Engine.
+
 ## Launching a simple Hello, World App:
 
 This is our **Minimal Viable Product(MVP)** - an app that will display the greeting "Hello, world!" when you launch it in the browser.
@@ -14,7 +27,7 @@ This is our **Minimal Viable Product(MVP)** - an app that will display the greet
 
 + Create a new application by going to the File menu and picking "New Application..."
 
-+ Name your application “appengine-practice”
++ Name your application “appengine-practice”   _*
 + Click the browse button to save the application in the desktop directory.  
 
 + Enter 8080 in the port field if it's not already there (Not admin port!)
@@ -26,8 +39,7 @@ This is our **Minimal Viable Product(MVP)** - an app that will display the greet
 
 You should see: Hello, world!
 
-CONGRATS you just made MVP app in Google AppEngine.
-
+CONGRATS you just made MVP app in Google App Engine.
 
 
 ## What did AppEngine do for you?
@@ -57,7 +69,7 @@ libraries:
   version: "2.5.2"
 ```
 ###  Main.py
-The main.py file is a file that contains python code surrounded by a framework called webapp2. This framework helps link the pages the user sees to the logic we want to perform on the backend.
+The main.py file is a file that contains Python code surrounded by a framework called webapp2. This framework helps link the pages the user sees to the logic we want to perform on the backend.
 
 ```python
 import webapp2 # imports webapp2
@@ -109,4 +121,7 @@ Once again, your screen says: Hello, world!
 
 It also counts to 100 when we change the url to `/count`. Our new handler at work!
 
-Let’s not be so repetitive. We can continue to edit our application and see the updates immediately in the browser. We can edit our launched app to add all sorts of Python expressions and functions. Go ahead and try it out!
+Let’s not be so repetitive. We can continue to edit our application and see the updates immediately in the browser. We can edit our launched app to add all sorts of Python expressions and functions.
+
+# Conclusion:
+App Engine quickly gets us off and running with the basic boilerplate of an app. It's now up to us to use our Python skills to get that app to do what we want. The possibilities are endless!
