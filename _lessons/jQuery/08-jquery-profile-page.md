@@ -1,10 +1,10 @@
 ---
   layout: post
-  title: Jquery Profile Page
+  title: jQuery on your Personal Page
   language: jquery
 ---
 
-Now that you've seen the power of jQuery, you can add interactivity to your profile page.
+Now that you've seen the power of jQuery, you can add interactivity to your personal page.
 
 Ideas for things you could add:
 - animations on mouseover or button clicks
