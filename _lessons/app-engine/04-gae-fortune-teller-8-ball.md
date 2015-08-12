@@ -4,8 +4,9 @@
   language: app-engine
 ---
 #Fortune Teller App:
-Let's keep adding to the Fortune Teller Apps we started earlier. We need some more handlers!
+Let's keep adding to the fortune-teller apps we started earlier. We need some more handlers!
 
+Add a new path to your project:
 ## Path 2
 
 ### **Magic 8-Ball**
@@ -17,7 +18,6 @@ Requirements:
 1. Users will eventually be prompted to enter a question when they go to this path. But for now, use a hardcoded question in the handler. userQuestion = "Will I have a good day today?"
 
 2. Ten of the possible responses that the Magic 8‐ball can give shall be positive. Five of the possible responses that the Magic 8‐ball can give shall be negative. Five of the possible responses that the Magic 8‐ball can give shall be neutral. If you want, you can use the standard [responses](http://en.wikipedia.org/wiki/Magic_8_ball# Possible_answers).
-
 
 
 ##  Done Early? Let's Stretch! You can add a third path to your app:
