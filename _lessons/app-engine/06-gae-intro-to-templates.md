@@ -3,7 +3,16 @@
   title: Intro to Templates
   language: app-engine
 ---
+# What You Need to Know:
++ Python Basics, Classes and Importing
++ How to Launch and App Engine App
++ The MVC model
++ HTML Basics
 
+# What You Will Learn:
++ 
+
+# Why This is Important:
 The **template** is the view of the MVC model. This is where our python is embedded into our HTML.  
 
 There are many templating systems for Python: <a href="https://docs.djangoproject.com/en/dev/topics/templates/Django">Django</a>, and <a href="http://jinja.pocoo.org/">Jinja</a> are just a few. You can use your template engine of choice by bundling it with your application code.
