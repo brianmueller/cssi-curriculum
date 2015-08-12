@@ -1,7 +1,7 @@
 ---
   layout: post
   title: Appengine Launching Exercise 1 & 2
-  language: resources
+  language: app-engine
 ---
 
 ## Roll Dice on the Web
