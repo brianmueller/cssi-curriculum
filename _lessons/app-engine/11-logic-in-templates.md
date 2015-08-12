@@ -10,10 +10,52 @@
 + How to Serve Static Templates
 
 # What You Will Learn:
-+ How to add logic to your templates
++ How to add logic to your templates with the properties title and unread
 
-##  Lesson Notes
-### Syntax
+##  FakeMail App
+
+To learn how to add logic to your template you we are going to create "FakeMail" app. Create a new AppEngine project called fakemail.
+
+## Your main.py file
+We will create an email class with the properties title and unread.
+```python
+import jinja2
+import webapp2
+
+env=jinja2.Environment(loader=jinja2.FileSystemLoader('templates'))
+
+class Email(object):
+    def __init__(self, title, unread):
+        self.title=title
+        self.unread=unread
+```
+Then inside your MainHandler, create an email variable with a list of emails.
+
+```python
+class MainHandler(webapp2.RequestHandler):
+    emails = [Email('Important!', True),
+    Email('Weekend plans', True),
+    Email( 'Lunch?', False)]
+
+[{'subject':'hello world', 'content' : 'I love coding'},
+{'subject':'hello world2', 'content' : 'I love coding 1'}
+{'subject':'hello world3', 'content' : 'I love coding2'}
+{'subject':'hello world4', 'content' : 'I love coding3'}]
+{'subject':'hello world5', 'content' : 'I love coding4'}
+
+
+    def get(self):
+        template = env.get_template('main.html')
+        variables = {'name':self.request.get('name'),
+                    'emails':self.emails}
+        self.response.write(template.render(variables))
+
+app = webapp2.WSGIApplication([
+    ('/', MainHandler)
+], debug=True)
+```
+
+### Jinja2 Syntax
 To add logic to a template, variables go between mustaches `{{variables}}` and code is embedded between curly brackets and percent signs {%raw %} {% code %} {% endraw %}
 ```python
 <h1>{{name}}'s cart </h1>
@@ -64,35 +106,7 @@ template_vars = {"pets" : {'willie': {'kind': 'dog', 'owner': 'eric'},
 {% endraw %}
 ```
 
-### Logic in Templates Challenge
-### Challenge
-Change our `<h2>` to wish our user a great day. First, write a list containing the “good day” messages. Then read a new template variable called `msg_times` from a query parameter. This number will be passed to our template so it knows  how many “good day” messages to show.
-
-* Add good_day_list to the HelloWorld handler
-good_day_list = ["Have a Great Day", "Have en god dag!", "Bonne journee !", "Que pase un buen dia!"]
-
-* Change the HelloWorld handler so that the new template variable, `msg_times` can be read from a query parameter and passed to the template.
-
-* Add loop logic to your template so that
-`http://localhost:8080/helloworld?msg_num=2`
-  Should show the first two messages:
-  * Have a Great Day!
-  * Have en god dag!
-
-* Add a conditional statement so that
-`http://localhost:8080/helloworld`
-and
-`http://localhost:8080/helloworld?msg_id=5`
-get handled appropriately.
+### Logic in Templates Exercise
 
 
-###  Stretch Lab -
-Create a brand new template and handler called GoodbyeWorld that renders an entirely new template, goodbyeworld.html.
-* Include at least one conditional statement
-* Pass data from the GoodbyeWorld handler via a query parameter in the url
-* Include a loop that prints outs 'Goodbye' in many different languages. goodbye_list = ["Goodbye","Adios", "Ciao", "Arrivederci"]
-* Make sure to edit the routes so that
-`http://localhost:8080/helloworld`
-and
-`http://localhost:8080/goodbyeworld`
-go to two different places
+###  Stretch Lab
