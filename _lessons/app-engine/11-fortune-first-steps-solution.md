@@ -1,9 +1,11 @@
 ---
   layout: post
-  title: Fortune Teller Potential Solutions
+  title: Fortune Teller Day 1 Potential Solutions
   language: app-engine
 ---
 Before moving on to adding user functionality today, feel free to clone this repository onto your local machine so we can all start on the same page.
+
+This code will give you access to an 8ball and Fortune Cookie handler that displays a random fortune on two separate templates. You will need to add template variables, additional logic, forms and change how static files are handled.
 
 Notice that because multiple handlers need a way to access a message indexed at either a random  or  specific number, a global function, `getMessage()` is defined. `getMessage()` is outside any of the handler classes so that it can be used multiple times:
 

@@ -3,6 +3,17 @@
   title: Template Variables with Fortune Teller
   language: app-engine
 ---
+# Template Variables with Fortune Teller
+Path: /fortunecookie
+Change your fortune cookie handler so that `localhost:8080/fortunecookie?/num=2` displays the 2nd fortune in your list. However be sure that the default,  `localhost:8080`, still gives a random fortune.
+
+
+Path: /8ball
+Create a dictionary with three keys: "positive", "neutral" and "negative" Their corresponding values are a list of 8ball responses. `localhost:8080/8ball?/type=pos` will give the 2nd response from your positive list of 8 ball responses.
+
+You can make your own lists of responses, or use the [default values](https://en.wikipedia.org/wiki/Magic_8-Ball#Possible_answers)
+
+
 ##  Reminders
 ### Passings variables to a template:
 
@@ -35,7 +46,7 @@ To access those variables, use the self.request.get() method:
 
 You can also set a default value by adding an optional second argument, `default_value`:
 
-`self.request.get('location', default_value='Chicago')}`
+`self.request.get('feeling', default_value='happy')}`
 
 ###  STRETCH CHALLENGE
 * Read up on detecting user's location with html [here](http://www.developerdrive.com/2012/01/using-html5-to-determine-user-location/)
