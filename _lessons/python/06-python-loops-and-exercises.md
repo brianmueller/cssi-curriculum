@@ -77,7 +77,7 @@ else:
 
 print "You counted to 5"
 ```
-# Loops Exercises:
+# Loops Exercises - 
 
 ###  Add Ten and Divide By Two
 ```

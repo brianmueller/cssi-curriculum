@@ -1,6 +1,6 @@
 ---
   layout: post
-  title: Advanced CSS
+  title: CSS Box Model
   language: css
 ---
 # What You Need to Know:

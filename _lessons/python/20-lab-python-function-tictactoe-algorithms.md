@@ -1,6 +1,6 @@
 ---
   layout: post
-  title: Lab: Python Algorithm Challenge - Tic Tac Toe
+  title: Lab -  Python Algorithm Challenge - Tic Tac Toe
   language: python
 ---
 

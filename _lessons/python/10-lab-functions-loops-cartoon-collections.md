@@ -1,6 +1,6 @@
 ---
   layout: post
-  title: Lab: Python List Functions and Loops
+  title: Lab -  Python List Functions and Loops
   language: python
 ---
 ##  What You Will Learn
@@ -9,7 +9,7 @@ You're going to get familiar with iterating through lists.
 
 ##  Instructions
 
-There are three functions to complete in this lab:
+There are three functions to complete in this Lab - 
 
 1. Dwarf Roll Call
 2. Summon Captain Planet

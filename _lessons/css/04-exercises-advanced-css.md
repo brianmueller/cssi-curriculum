@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Exercises: Advanced CSS
+title:  Exercises -  Advanced CSS
 language: css
 ---
 

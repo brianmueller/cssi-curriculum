@@ -1,6 +1,6 @@
 ---
   layout: post
-  title: Exercises: Python Lists
+  title: Exercises -  Python Lists
   language: python
 ---
 

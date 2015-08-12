@@ -1,6 +1,6 @@
 ---
   layout: post
-  title: Lab: Python Functions - Fly the Friendly Skies
+  title: Lab -  Python Functions - Fly the Friendly Skies
   language:
 ---
 
