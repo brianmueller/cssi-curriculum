@@ -3,7 +3,6 @@
   title: Fortune Teller Potential Solutions
   language: app-engine
 ---
-
 Before moving on to adding user functionality today, feel free to clone this repository onto your local machine so we can all start on the same page.
 
 Notice that because multiple handlers need a way to access a message indexed at either a random  or  specific number, a global function, `getMessage()` is defined. `getMessage()` is outside any of the handler classes so that it can be used multiple times:

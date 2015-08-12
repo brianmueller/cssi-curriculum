@@ -3,6 +3,17 @@
   title: Logic In Templates
   language: app-engine
 ---
+# What You Need to Know:
++ Introduction to the Web
++ Python Basics and Classes
++ How to Launch an App Engine App
++ How to Serve Static Templates
+
+# What You Will Learn:
++ How to add logic to your templates
++ Understanding GET and POST requests
++ Understanding the MVC framework
+
 ##  Lesson Notes
 ### Syntax
 To add logic to a template, variables go between mustaches `{{variables}}` and code is embedded between curly brackets and percent signs {%raw %} {% code %} {% endraw %}
@@ -77,7 +88,7 @@ and
 get handled appropriately.
 
 
-###  Stretch Lab - 
+###  Stretch Lab -
 Create a brand new template and handler called GoodbyeWorld that renders an entirely new template, goodbyeworld.html.
 * Include at least one conditional statement
 * Pass data from the GoodbyeWorld handler via a query parameter in the url
