@@ -27,7 +27,8 @@ This is our **Minimal Viable Product(MVP)** - an app that will display the greet
 
 + Create a new application by going to the File menu and picking "New Application..."
 
-+ Name your application “appengine-practice”   _*
++ Name your application “appengine-practice”   _* when naming apps never use uppercase letters or underscores *_
+
 + Click the browse button to save the application in the desktop directory.  
 
 + Enter 8080 in the port field if it's not already there (Not admin port!)
