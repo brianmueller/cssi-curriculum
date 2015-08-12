@@ -9,7 +9,7 @@
 + Understand what a Many-to-Many relationship symbolizes
 + Can implement such a relationship with App Engine's Datastore
 
-##  Why This is Important / Why Should You Care?
+##  Why This is Important?
 
 Often we want to represent real world concepts in code. For example we might want to store all of the tags on a tumblr photo in our database. In this case a photo can have many tags, but a tag can relate to many photo's as well. This is another very important way to represent data.
 

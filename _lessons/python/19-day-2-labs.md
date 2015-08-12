@@ -19,7 +19,7 @@ Can you get this TIC TAC TOE game up to speed? How would you tell whether someon
 [JUKEBOX LAB](https://github.com/google-cssi/cssi-5-python-jukebox-lab)[Functions, Loops, Console Input, Conditional Statements]
 You're going to write a jukebox that introduces itself to the user and then asks for input. There are a number of ways to accept user input. As an example, let's build a program that asks a user for their name and says hello to that user using the gets command.
 
-[PYTHONIC LANGUAGE](https://github.com/learn-co-curriculum/cssi-5-python-your-language)[Functions, Interpreter]
+[PYTHONIC LANGUAGE](https://github.com/google-cssi/cssi-5-python-your-language)[Functions, Interpreter]
 For this challenge, you are going to write an interpreter for your own programming language, called "Pythonic".
 
 

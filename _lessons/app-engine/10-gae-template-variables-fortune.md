@@ -1,8 +1,19 @@
 ---
   layout: post
-  title: Template Variables Challenge
+  title: Template Variables with Fortune Teller
   language: app-engine
 ---
+# Template Variables with Fortune Teller
+Path: /fortunecookie
+Change your fortune cookie handler so that `http://localhost:8080/fortunecookie?/num=2` displays the 2nd fortune in your list. However be sure that the default,  `http://localhost:8080`, still gives a random fortune.
+
+
+Path: /8ball
+Create a dictionary with three keys: "positive", "neutral" and "negative". Their corresponding values are a list of 8ball responses. `http://localhost:8080/8ball?/type=pos` will give the 2nd response from your positive list of 8 ball responses.
+
+You can make your own lists of responses, or use the [default values](https://en.wikipedia.org/wiki/Magic_8-Ball#Possible_answers), which contain 10 positive, 5 neutral and 5 negative answers.
+
+
 ##  Reminders
 ### Passings variables to a template:
 
@@ -35,13 +46,7 @@ To access those variables, use the self.request.get() method:
 
 You can also set a default value by adding an optional second argument, `default_value`:
 
-`self.request.get('location', default_value='Chicago')}`
-
-##  AppEngine Template Variables Mini Challenge
-###  CHALLENGE
-* Modify helloworld.py to read a new template parameter called `greeting` and pass it to the helloworld.html template.
-* Edit your HTML so that it displays the greeting and the name.
-* A url like `http://localhost:8080/helloworld?name=Norah&greeting=Howdy` should say "Howdy Norah!"
+`self.request.get('feeling', default_value='happy')}`
 
 ###  STRETCH CHALLENGE
 * Read up on detecting user's location with html [here](http://www.developerdrive.com/2012/01/using-html5-to-determine-user-location/)
