@@ -11,4 +11,4 @@ You don't quite know how to make them dynamic - that is, receive data from Pytho
 
 Each template should include a title, at least one image, a default message and a link to the wikipedia article about each fortune-telling method.
 
-Remember you'll need to add the jinja2 and webapp2 libraries.
+Remember you'll need to add the jinja2 and webapp2 libraries in order to render templates.
