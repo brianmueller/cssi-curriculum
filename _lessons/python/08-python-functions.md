@@ -267,10 +267,68 @@ MessWithList(a_list)
 print a_list
 ```
 
+Parameters can be optional. In the function definition, set a default value for the parameter, then the function can call it with or without that argument:
+```python
+def count_up(end,start=0):
+  for i in range(start,end):
+    print i
+
+# These two are equivalent
+count_up(10,0)
+count_up(10)
+
+# Sometimes this is helpful - it does the same thing
+count_up(end=10,start=0)
+# If you specify the parameters, you can mix up the order
+count_up(start=0,end=10)
+```
+
 ## Super Parrot
-TODO - like a list of things
-TODO - multiple parameters
-TODO - return a list or dictionary
+Write a function `like()` that takes a list as a parameter and **prints out** "I like ______ " for each of the items in the list.
+
+You should be able to call it like this:
+```python
+like(["crackers","pizza","pirates","treasure"])
+```
+
+and get out:
+```python
+I like crackers
+I like pizza
+I like pirates
+I like treasure
+```
+
+Write a function `greet()` that takes a name parameter and an age parameter, and **returns** a greeting string like "Hi (name)! You're (age) years old." You should be able to call it like this:
+```python
+print greet("One-Eyed Paul",67)
+```
+Which would print
+```python
+Hi One-Eyed Paul! You are 67 years old.
+```
+
+Now, modify the `greet()` function so that the age parameter is optional. The example with One-Eyed Paul should still work, but so should this one:
+
+```python
+print greet("Peg-Leg Zeke")
+```
+Which should return:
+```python
+Hi Peg-Leg Zeke! You can keep your age a secret.
+```
+
+Write a function multi_greet() that takes a list of names as the only parameter, and **returns** a list of greeting strings:
+
+```python
+multi_greet(["Hook-hand Ramona","One-Eyed Paul","Peg-Leg Zeke","Patchy"])
+```
+
+Which would return:
+
+```python
+["Hi Hook-hand Ramona! I'm Polly.", "Hi One-Eyed Paul! I'm Polly.","Hi Peg-Leg Zeke! I'm Polly.","Hi Patchy! I'm Polly."]
+```
 
 # Conclusion / So What?
 Functions are the building block of programs. They let you create reusable machines that perform the tasks you need. This will make life a lot easier and save a ton of typing!
