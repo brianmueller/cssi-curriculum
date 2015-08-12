@@ -13,7 +13,8 @@ Today's review will be in the form of "Choose Your Own Adventure": That is, choo
 #  Python
 
 Begin the Day 5 Python warmup on loops, lists, and dictionaries:
-* [Day 5 Python warmup](https://github.com/learn-co-curriculum/cssi-5-python-warmup) **`NEW`**
+* [Day 5 Python warmup](https://github.com/google-cssi/cssi-5-python-warmup)
+**`NEW`**
 
 Finish the labs from the other days:
 
