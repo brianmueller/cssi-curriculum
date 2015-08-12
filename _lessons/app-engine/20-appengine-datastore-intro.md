@@ -50,10 +50,13 @@ student.put()
 We create the Student *entity* on the first line and then we store it in the database with the method call to `put()`.
 
 ###  Running the code with App Engine
+In order to see your database changes reflected immediately in your website run the serve with the following command:
 
 ```
-dev_appserver.py --datastore_consistency_policy=consistent students
+dev_appserver.py --datastore_consistency_policy=consistent [path to your App Engine code]
 ```
+
+If you don't do this you will need to refresh the page after you put things in the database to see the new items on the page.  If you are in the folder that has all your App Engine code then the `[path to your App Engine code]` is `.`, period.
 
 ###  Datastore viewer
 
@@ -133,3 +136,8 @@ Databases allow developers to store information in between user sessions. This o
 ##  Hints and Hurdles
 
 + Make sure you call `put()` when writing to the database or your *entity* won't get saved.
+
+## Resources
+
++ [Slides by Luis Ibanez on Datastore](https://github.com/google-cssi/datastore-slides) : Just open index.html
++ [Review and walkthrough slides by Victoria Kirst](https://github.com/google-cssi/cssi-9-datastore-review)
