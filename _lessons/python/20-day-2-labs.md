@@ -22,6 +22,7 @@ You're going to write a jukebox that introduces itself to the user and then asks
 [PYTHONIC LANGUAGE](https://github.com/learn-co-curriculum/cssi-5-python-your-language)[Functions, Interpreter]
 For this challenge, you are going to write an interpreter for your own programming language, called "Pythonic".
 
+
 [ALICE IN WONDERLAND 1 STRETCH LAB](https://github.com/google-cssi/cssi-5-python-alice)[Functions, Algorithm]
 Using the code snippet in alice.py as a starting point, analyze the text of Alice in Wonderland, in alice.txt, to determine how many unique words are in the book.
 
