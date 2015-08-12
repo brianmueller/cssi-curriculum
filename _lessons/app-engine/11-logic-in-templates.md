@@ -17,6 +17,7 @@
 ##  Lesson Notes
 ### Syntax
 To add logic to a template, variables go between mustaches `{{variables}}` and code is embedded between curly brackets and percent signs {%raw %} {% code %} {% endraw %}
+
 ```python
 <h1>{{name}}'s cart </h1>
 <table>
