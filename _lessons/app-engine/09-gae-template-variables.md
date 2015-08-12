@@ -7,7 +7,11 @@
 ###  Using Variables in Templates
 In Jinja, the syntax for interpolating strings is to put the expression between mustaches, like this: {{ variable }}.
 
-In hello.html, instead of Hello World, write Hello {{ name }}. Now our page will change to greet anyone whose name is stored in the variable 'name'.
+In hello.html, instead of Hello World, write Hello {{ user_name }}.
+```
+<h1>Hello {{user_name}}</h1>
+```
+Now our page will change to greet anyone whose name is stored in the variable 'name'.
 
 ###  Passing Variables to the Template
 In order for Jinja to have access to the variable when it renders the template, we need to pass the variable 'name' from our controller, helloworld.py and pass it to the template, hello.html.
@@ -17,11 +21,11 @@ In our helloworld.py:
 ```python
 class HelloHandler(webapp2.RequestHandler):
   def get(self):
-    template_vars = {"name": "CSSI Chicago"}
+    my_vars = {"user_name": "CSSI Chicago"}
     template = jinja_environment.get_template('templates/hello.html')
-    self.response.out.write(template.render(template_vars))
+    self.response.out.write(template.render(my_vars))
 ```
-Every time we call render(), we can pass it a dictionary of values as an argument. The variables in the dictionary are passed to the template, and are then available in the template.
+Every time we call render(), we can pass it a dictionary of values as an argument. The variables in the dictionary are passed to the template, and are then available in the template. Notice that the key, user_name, is what we use in the template, hello.html.
 
 ##  Getting Data from the Request
 We’ve made our HelloWorld app a little smarter, because we can pass it a dictionary of key-value pairs and use them in the template. But right now that key:value pair is hardcoded in our handler. Instead, let's get the data from the user.
@@ -70,3 +74,39 @@ Notice that in this handler, we are defining how to respond to a GET request (`d
 
 # Conclusion
 Template variables are passed from the handler to the template as an argument in the render() function. The variables can either be a dictionary or a list. To get variables from a url, use `self.request.get()`.
+
+# Cartoon Trivia Challenge
+You are going to make a simple web app that gets a cartoon charatcter from the url's query string and then gives the user a made-up fact about that character.
+
+Pass a dictionary of key:values as an argument to template.render():
+
+  `template.render({"character": "Popeye"})`
+
+Make a cartoon.html template that uses the {{character}} key to display a made-up fact about that character. Did you know bananas were first discovered on an is
+
+Often times you'll want to do this as two seperate steps in order to make your code easier to read  
+* Make a dictionary of values
+```python
+my_variables = {"first_name": "Beyonce",
+                  "last_name": "Knowles",
+                  "home_town": "Houston",
+                  "profession": "Hero"}
+```
+* Pass that dictionary as an argument to template.render():
+
+   `template.render(my_variables)`
+
+
+### Getting variables from a URL
+
+A url can pass variables through its query string which starts after the question mark character. An ampersand (&) indicates a new variable:
+
+`http://amazon.com/home?item_name="bannana%phone"&seller_id=19`
+
+To access those variables, use the self.request.get() method:
+
+`template_vars = {"item": self.request.get('item_name')}`
+
+You can also set a default value by adding an optional second argument, `default_value`:
+
+`self.request.get('location', default_value='Chicago')}`
