@@ -1,6 +1,6 @@
 ---
   layout: post
-  title: Conditional Statements
+  title: JavaScript Conditional Statements
   language: javascript
 ---
 
