@@ -31,7 +31,8 @@ CSS! CSS stands for Cascading Style Sheets. We write CSS in separate files, so t
 7. Copy the boiler plate code below in your "playlist.html" file
 
 # Boiler Plate Code
-```
+
+```html
 <!DOCTYPE html>
 <html>
   <head>
@@ -56,9 +57,11 @@ CSS! CSS stands for Cascading Style Sheets. We write CSS in separate files, so t
   </body>
 </html>
 ```
+
 # Linking our Stylesheet
 We write our CSS in a separate file. Each html page must include a reference to the external style sheet file. Notice between the `<head> </head>` tags there is a link that looks like this:
-```
+
+```html
 <link rel="stylesheet" type="text/css" href="style.css">
 ```
 This links our new playlist_style.css page to our html page so we can apply styling to our HTML file.
@@ -66,7 +69,8 @@ This links our new playlist_style.css page to our html page so we can apply styl
 # Selectors
 Open style.css, let's make our `<h1>` tags a different color. The **selector** defines (or “selects”) which elements these styles apply to.
 To make all `<h1>` tags the color red we use a h1 type selector:
-```
+
+```html
 h1 {
  color: blue;
 }
@@ -79,6 +83,7 @@ Colons and semicolons are important - they end our statements.
 
 # Various Selectors
 There are three kinds of selectors:
+
 + **Type selector**: selects elements by html tag.
 + **Class selector**: selects all the html tags with the same class attributes.
 + **ID selector**: selects the single html tag by the unique ID attribute. No two HTML elements should have the same id.
@@ -86,7 +91,8 @@ There are three kinds of selectors:
 <img src = "https://raw.githubusercontent.com/learn-co-curriculum/cssi-1.5-css-basics/master/images/3.png" height "100" width "200">
 
 Adding a CSS file We’ll define the CSS styles in a separate file. Open playlist_style.css in Atom try changing the colors of the h2 headings.
-```
+
+```html
 h2 {
  color: green;
 }
@@ -137,6 +143,7 @@ Add CSS styling to your personal page.
 + cd username.github.io
 + touch style.css
 + Copy and paste the stylesheet link into your index.html page. It should be between the `<head></head>` tags
-```
+
+```html
 <link rel="stylesheet" type="text/css" href="style.css">
 ```

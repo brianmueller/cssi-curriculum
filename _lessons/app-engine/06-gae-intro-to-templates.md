@@ -128,7 +128,7 @@ class MainHandler(webapp2.RequestHandler):
         template = jinja_environment.get_template('templates/hello.html')
         self.response.out.write(template.render())
 ```
-+   You can run the app and, Hooray we have styling!
++   You can run the app and hooray we have styling!
 
 # Conclusion:
 With templates we are able to start bringing our structuring and styling powers to the pages of our web apps.

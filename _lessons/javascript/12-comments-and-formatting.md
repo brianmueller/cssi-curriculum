@@ -1,14 +1,14 @@
 ---
   layout: post
-  title: Comments and Formatting
+  title: JavaScript Comments and Formatting
   language: javascript
 ---
 
-## After the lesson, you'll understand:
+# What You Will Learn:
 + importance of comments, formatting, and documentation
 + how to write well commented, well formatted JavaScript
 
-##  Why This is Important:
+# Why This is Important:
 Look in the `samples` folder in the Github repository. Both files do exactly the same thing, but one makes sense and the other doesn't.
 
 What would you do if you had to fix a bug in one of these programs?

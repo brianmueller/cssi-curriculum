@@ -4,9 +4,9 @@
   language: javascript
 ---
 
-## After this lesson, you'll be able to understand:
-+ The browser represents html pages with the document object model (DOM)
-+ We can use JavaScript and jQuery to select and modify elements
+# What You Will Learn:
++ How the browser represents HTML pages with the document object model (DOM)
++ The use of JavaScript and jQuery to select and modify elements
 
 So far, we have used JavaScript to do some math and work with some data. Today, we get to use JavaScript on its home turf - manipulating HTML elements in the browser.
 
@@ -22,12 +22,12 @@ Let’s start with a little example, to give you a taste of the power of JavaScr
 4. Look at the tweets Taylor has sent out very closely
 
 
-
 BAM! You are a twitter master! How cool are you! So popular!
 
 Now, how did that work?
 ## The DOM
 Your browser keeps all of the elements of the webpage in a tree structure called the Document Object Model. Basically, it keeps track of all of the html elements from the html page, their styles, and the relationships between them - who is nested in who, which elements have which parents and children.
+
 ```html
  <body>
   <ul>
@@ -42,6 +42,7 @@ Your browser keeps all of the elements of the webpage in a tree structure called
   </ul>
 </body>
 ```
+
 A way to visualize the DOM for that table would be:
 
 ![Tree representation of the elements above](http://i.imgur.com/8fj2Uka.png)
@@ -59,6 +60,6 @@ names.text('Your Name');
 
 Once we have all the elements we want, we can update them with another new method - `.text()`. This method accesses the  text inside an element. Since we passed the .text method a string - 'Your Name'-  all the text inside every element in the `names` array was changed to 'Your Name'
 
-Try selecting other html elements on the page and updating their text! What happens?
+Try selecting other HTML elements on the page and updating their text! What happens?
 
 The selector syntax - $() - and the .text() method actually aren't part of the JavaScript baked into the browser. They actually come from the **jQuery library** - a big, commonly used set of useful JavaScript functions. In order to use this syntax on our pages, we'll need to link up to a JavaScript library.

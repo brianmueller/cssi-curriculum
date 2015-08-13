@@ -51,9 +51,10 @@ Your html webpage should include
 + a subheader (using h2-h6 tags)
 +	a p tag with a short descriptive paragraph
 +	an image (consider using your android Avatar if you can’t find a quick picture that you like)
-+	An list of links to your g+ page, your github page, or another social media page (you will need the <li> tags and the <a> tag)
++	An list of links to your g+ page, your github page, or another social media page (you will need the ``<li>`` tags and the ``<a>`` tag)
 
 # Adding pages
+
 Add additional pages to your site by creating separate html files
 + Create a new page, like a favorite page: `touch favorites.html`
 +	To link to pages in the same site, use an `<a>` tag.

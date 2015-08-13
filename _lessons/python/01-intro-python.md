@@ -23,11 +23,13 @@ Python is a scripting language - it is used to perform tasks. Those tasks might 
 
 # Python Interpreter
 Open your terminal and type...
-```
+
+```python
 $ python
 ```
 You'll see something like...
-```
+
+```python
 Python 2.5.1 (r251:54863, Jun 17 2009, 20:37:34)
 [GCC 4.0.1 (Apple Inc. build 5465)] on darwin
 Type "help", "copyright", "credits" or "license" for more information.
@@ -37,14 +39,16 @@ The interpreter allows you to run individual lines of Python code one at a time.
 
 ## Integers
 Let's try some basic math. The basic math operations work the same as they do in javascript. We do math with integers, which is the first datatype we can experiment with.
-```
+
+```python
 >>> 6 + 8
 14
 >>>
 ```
 
 ## Floats
-```
+
+```python
 >>> 10/3
 3
 >>>
@@ -52,7 +56,8 @@ Let's try some basic math. The basic math operations work the same as they do in
 If we divide an integer by another integer, python will only return an integer. In python, any number with a decimal is a new datatype, a float.
 
 To return a float, your math operations need to include a float.
-```
+
+```python
 >>> 10/3.0
 3.3333333333333335
 >>>
@@ -60,7 +65,8 @@ To return a float, your math operations need to include a float.
 
 ## Python Strings
 We can also use other characters, aside from numbers, like letters and punctuation. These datatypes are called strings. Put characters between a set of quotes so that the interpreter knows we're inputting a new datatype.
-```
+
+```python
 >>> 'Hello'
 'Hello'
 >>>'Hello' + ' Nicki!'
@@ -68,7 +74,8 @@ We can also use other characters, aside from numbers, like letters and punctuati
 ```
 
 ##Python Booleans
-```
+
+```python
 >>> 5==4
 False
 >>> 'five' == 'five'
@@ -79,10 +86,12 @@ Python has the == operator for checking equality. It returns a boolean value, wh
 
 ## Exiting the Interpreter
 Close the prompt with
-```
+
+```python
 >>> quit()
 ```
 A few thing to note:
+
 + When you close the prompt, the session is not saved anywhere
 + The three carrots >>> are the python prompt.  
 + The interactive mode should be used for testing out python code - if you want to be able to save your work, put it in a file!
@@ -99,17 +108,19 @@ When developers want to save their work or run multiple lines of code, they must
 + open -a Atom practice.py
 
 Let's write the most basic file we can, to test that we can run a script.
-```
+
+```python
 print 'hello, world'
 print 5 * 4
 ```
 Save. Back in the terminal, run the script with python and the name of your file, like this:
 
-```
+```python
 $ python practice.py
 ```
 
 A few things to note here:
+
 + The .py ending tells us that it is a Python file
 + You need to be in the same directory as the python script
 + Python scripts are lines of code executed from top to bottom

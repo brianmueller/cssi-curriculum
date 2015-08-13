@@ -1,11 +1,11 @@
 ---
   layout: post
-  title: Javascript Objects
+  title: JavaScript Objects
   language: javascript
 ---
 
-## After the Lesson you'll be able to understand:
-+ What is an object
+# What You Will Learn:
++ What's an object
 + object notation
 + key:value pairs
 + differences between arrays and objects
@@ -20,7 +20,6 @@ An object is a list of associated data pairs. Unlike arrays, objects do not have
 > var birthdays = { "Homer" : "August", "Marge": "October"}
 ```
 
-
 It's like a list of pairs of things; or a list of stickers, each of which is stuck to something else. The syntax is different, too.
 
 ```
@@ -31,12 +30,14 @@ Each sticker/object pair, also called a key/value pair in computer science, is s
 `apple` is the key, and the associated value is `red`
 
 And instead of looking up individual values with an index, we now can use the keys, or stickers.
+
 ```
 > fruitColors["apple"]
 You will get an error if you ask for something that doesn't exist.
 > fruitColors["pear"]
 ```
-Javascript also allows you to access the values by using a dot, similar to how you call a method. Try this:
+
+JavaScript also allows you to access the values by using a dot, similar to how you call a method. Try this:
 ```
 > fruitColors.apple
 ```
@@ -56,10 +57,8 @@ Then use concatenation to make a string that lists all of your favorite items. F
 You will need to use the bracket or . syntax to access each value.
 
 
-
-
 ##  Stretch Example
-Let's explore Javascript objects using a real life object.
+Let's explore JavaScript objects using a real life object.
 
 In real life, a person is an object. A person has **properties** like firstName, surname, age, and gender. A person's ability to express her thoughts can be defined as a **method** _talk_.
 
@@ -85,7 +84,8 @@ var person = {
         talk: function(){console.log('Hello')}}
 ```
 
-###  Challenge
+### Challenge
 Make a new object called dog, with properites: name, breed, size, and function, bark.
+
 #  References
 [Site Point JS Objects](http://www.sitepoint.com/back-to-basics-javascript-object-syntax/)

@@ -21,18 +21,20 @@ Python has lots of prebuilt string methods that help us use and modify strings.
 Let's explore how to use some string methods, and then jump into some challenges. Remember, you can always look back at these pages as a reference, or search for the method that you need. It's good to practice using these methods, but it's always okay to look up the function name and the syntax.
 
 # Printing Strings
-```
+
+```python
 print 'hello, world!'
 ```
 displays
-```
+
+```python
 hello, world!
 ```
 
 # User Input
-Remember in Python, if you want to get text from a user, you can use the raw_input() function. 
+Remember in Python, if you want to get text from a user, you can use the raw_input() function.
 
-```
+```python
 >>> name = raw_input('Enter your name: ')
 Enter your name: Joseph
 >>> name
@@ -43,14 +45,16 @@ The raw_input() function allows the user to input any answer. The input() functi
 
 # String Concatenation
 The process of joining two strings is called ***concatenation*** in programming. This is one of those things that might seem intuitive to a human but needs to be spelled out explicitly for the computer. For instance, when I run this, what will display?
-```
+
+```python
 celebrity_couple = 'Kim' + 'ye'
 print celebrity_couple
 ```
 Python doesn't add anything extra - if you want a space between your words, you need to put it there!
 
 When you try to concatenate a string with a datatype other than another string you will get an error.
-```
+
+```python
 tv_show= 30 + "rock"
 print tv_show
 TypeError: cannot concatenate 'str' and 'int' objects
@@ -60,33 +64,41 @@ TypeError: cannot concatenate 'str' and 'int' objects
 A substring is a part of a string.  To get a substring from a string, use square brackets and specify the range of characters that you want from the string. Just like in javascript arrays and python lists, string characters are indexed starting at 0.
 
 Grabbing a specific character:
-```
+
+```python
 >>> google = 'android'
 >>> print google[0]
 a
 ```
 
 Grabbing a substring of a range of characters:
-```
+
+```python
 >>> google = 'android'
 >>> print google[0:4]
 andr
 ```
+
 As you might be able to guess, the selection works like this:
-```
+
+```python
 <string>[<first character position>: <last character position +1>]
 ```
+
 Here are a couple handy shortcuts for selecting particular parts of strings:
-```
+
+```python
 >>> print google[3:] #  character position 3 to the end
 roid
 >>> print google[:5] #  From the beginning to character position 4
 andro
 ```
+
 # String Length
 
 Python gives us the len() function to determine a string's length.
-```
+
+```python
 >>> short = "o"
 >>> long_string = "(pumba) When I was a young warthog… (timon) When he was a young waaarthoooooooooooooog!"
 >>> len(short_string)
@@ -97,7 +109,8 @@ Python gives us the len() function to determine a string's length.
 
 # Replace Function
 Replace() replaces a substring of a string with another substring.
-```
+
+```python
 >>> google = 'android'
 >>> googley = google.replace('android', 'ANDROID')
 >>> print googley
@@ -106,7 +119,8 @@ ANDROID
 #  Lower and Upper Function
 
 lower() and upper() make strings lowercase and uppercase respectively.
-```
+
+```python
 >>> celebrity = 'Beyonce'
 >>> print celebrity.lower()
 beyonce
@@ -116,7 +130,8 @@ BEYONCE!!!
 
 # Strip Function
 The strip() function removes leading and trailing white space.
-```
+
+```python
 >>>print '     spaces everywhere     '.strip()
 spaces everywhere
 ```
@@ -131,20 +146,22 @@ This is the newer version of using variables within string in Python.
 The string is in quotes. The placeholder for the variable is surrounded by curly brackets.  The entire string is followed by .format(). Inside the parenthesis, declare what the substituted variable will be.
 
 The Spongebob example uses a keyword argument, 'character', which is assigned to a global variable, 'name'.
-```
+
+```python
 name = "Spongebob Squarepants"
 print "Who lives in a Pineapple under the sea? {character}".format(character=name)
 >> Who lives in a Pineapple under the sea? Spongebob Squarepants.
 ```
 The hobby example uses two keyword arguments: 'name' and 'hobby', which are assigned to strings within .format()
 
-```
+```python
 print "{name} is the best at {hobby}".format(name='Charlie', hobby='playing piano')
 >>Charlie is the best at playing piano
 ```
 
 This final example uses positional arguments:
-```
+
+```python
 print "There are {0} students at CSSI in {1}!".format(30, "Chicago")
 >>There are 30 students at CSSI in Chicago!
 ```
@@ -153,7 +170,7 @@ The older way to use variables in strings and uses the % operator.
 
 Again the whole string is in quotes. The placeholder for the variable is a percent sign and the first letter of the datatype. (%d int, %s string, %f/%g float). The entire string is followed by a percent sign and the name of the variable
 
-```
+```python
 print "The %s have %d %s championships in %d years" %("Chicago",3, "NHL", 3)
 >>The Chicago have 3 NHL championships in 3 years
 ```

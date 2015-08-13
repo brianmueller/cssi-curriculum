@@ -1,6 +1,6 @@
 ---
   layout: post
-  title: Summary Python vs. JavaScript
+  title: Python vs. JavaScript
   language: javascript
 ---
 

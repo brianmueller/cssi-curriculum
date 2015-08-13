@@ -1,16 +1,16 @@
 ---
   layout: post
-  title: Javascript Loops
+  title: JavaScript Loops
   language: javascript
 ---
 
-#### After the lesson, you'll be able to:
+# What You Will Learn:
 + Understand how loops run an operation multiple times
 + Understand how an exit condition stops a loop
 + Iterate over arrays using for loops and while loops
 + Convert repeatable tasks into loops
 
-#### Key Points:
+## Key Points:
 + Loops let you repeat a bit of code until an exit condition is met
 + A loop's exit condition is a boolean statement that is evaluated during each loop; if it's false, the loop stops
 + Loops can be very useful for iterating (stepping through) an array and doing something to each element
@@ -22,15 +22,19 @@ A loop is one of the foundational tools in any programmer's toolkit. It allows a
 This can be useful in many circumstances but is often used with arrays. Arrays can have any number of elements and a loop allows us to access each one of those elements and do something with it.
 
 Let's start with an example array of numbers.
+
 ```
 var numbers = [0, 1, 2, 5, 9]
 ```
+
 Ok, what if we want to do something to each number. Like multiply each number by 5. We could do it manually:
+
 ```
 numbers[0] = numbers[0] * 5;
 numbers[1] = numbers[1] * 5;
 number[2] = numbers[2] * 5;
 ```
+
 This would take forever.
 
 A better way to do this is to set up a little machine with instructions on how to iterate (go through) every number in the array and do something specific to each one. We call this a loop.
@@ -38,6 +42,7 @@ There are two basic types of loops in JavaScript: for loops and while loops. The
 
 ## While loop
 Let's say we want to make a while loop that multiplies every number in our numbers array by 5. It would look like this:
+
 ```
 var numbers = [0, 1, 2, 5, 9];
 var i = 0;
@@ -60,6 +65,7 @@ Try using console.log(numbers); both before and after the loop to see how our ar
 
 ## For loop
 We can accomplish the exact same thing with the more concise for loop. It would look like this:
+
 ```
 var numbers = [0, 1, 2, 5, 9];
 for(var i = 0; i < numbers.length; i = i + 1)
@@ -67,6 +73,7 @@ for(var i = 0; i < numbers.length; i = i + 1)
   numbers[i] = numbers[i] * 5;
 }
 ```
+
 In a for loop, our initialization, exit condition, and increment all happen in one line separated by a semicolon `;`.
 
 Let’s walk through each part of this.
@@ -79,7 +86,7 @@ Let’s walk through each part of this.
 + Inside the curly brackets are instructions for what should happen to each element that we loop through
   + `numbers[i] = numbers[i] * 5` - For each element, reassign that element a value that is five times greater.
 
-##  Student Practice
+## Student Practice
 Create a iteration.js doc.
 
 ### Part 1, A Loop with  Numbers

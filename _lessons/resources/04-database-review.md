@@ -1,54 +1,55 @@
 ---
   layout: post
-  title: Database Review
+  title: Database Cheat Sheet
   language: resources
 ---
-#DataBases
-##Clients make request to the server and the server sends a response back
-What you can do with databases
+
+## What you can do with databases:
 + Create: Query/Read
 + Read: Put information into it/write
 + Update: Delete from the database
 + Delete: Edit/Update Data
 
-##Questions to ask yourself:
-What data do I need to represent?
+## Questions to ask yourself:
++ What data do I need to represent?
 + What do I call it?
 + What properties do I call it?
-+ How does it relate to other models? Always have a key property
-  -One to Many relationship
-  -Many to Many relationship
-  -Key Properties are how we relate models
++ How does it relate to other models? With a key property in a...
+  + One to Many relationship
+  + Many to Many relationship
 
-#Creating and Reading a Request
+## Creating and Reading a Request
 
-##Three ways a user can create a request:
-1) Click on a link
-2) Submit a form
-3) Type into the url
+#### Three ways a user can create a request:
++ Click on a link
++ Submit a form
++ Type into the url
 
-##Three things are handlers doing:
-1) Read the request: self.request.get(key) getting the key from the request
-2) Logic that interacts with the database
-3) Send a response: self.response.write(render(template)) render with data.
+#### Three things are handlers doing:
++ Read the request: self.request.get(key) getting the key from the request
++ Logic that interacts with the database
++ Send a response: self.response.write(render(template)) render with data.
 
-##Reading the Request:
+## Reading the Request:
 If I put this in the url
   ``/detail?key={{model.key.urslsafe()}}``
 I read the request by
   ``self.request.get(key)``
-The key on the left is used to get the value on the right
+The key on the left is used to get the value on the right.
 
-##In the Python handler:
+#### In the Python handler:
 How do we get the key out of the handler out of the request?
-  ```python
+
+```python
   urlsafe_key=self.request.get('key') #get url safe key from the request
   product_key= ndb.Key(urlsafe=urlsafe_key) #Turn it into a real key object
   product= product_key.get() #get the object from the database
 ```
-#Creating a Model
 
-1) Creating a model for product in the python
+## Creating a Model
+
+1) Creating a model for product in the python:
+
 ```python
   class Product(ndb.Model):
       productname=ndb.StringProperty()
@@ -58,8 +59,8 @@ How do we get the key out of the handler out of the request?
       sell_count= ndb.IntegerProperty() #find popularity of which items are sold the most
   ```
 
-2) In my html I will need a form that will have one field for each property that the user(the seller on ebay) needs to supply
-*In general the property variable name should be the same as the name in your html form*
+2) In my html I will need a form that will have one field for each property that the user (the seller on ebay) needs to supply. In general the property variable name should be the same as the name in your html form.
+
 ```python
   <form action="/product" method="post">
     <input type="text" name="productname">
@@ -69,7 +70,9 @@ How do we get the key out of the handler out of the request?
     <button>Submit</button>
   </form>
 ```
+
 3) Back in the Python I will have a handler called something like "ProductHandler"
+
 ```python
     class ProductHandler(webapp2.RequestHandler):
       def get(self):
@@ -89,19 +92,22 @@ How do we get the key out of the handler out of the request?
         3)Send Response
           self.redirect('/product?key=' + product.key.urlsafe())
 ```
-#Asking the database to return all the models
 
-=> query().fetch()- asking the database and returns a list of models
-=> get()- returns a single model
-=> put() - store in data base
+#### Asking the database to return all the models
 
-Asking the database to get all of the things of a certain kind. (All the products in the product model)
++ query().fetch()- asking the database and returns a list of models
++ get()- returns a single model
++ put() - store in data base
 
+How do you ask the database to get all of the things of a certain kind if all the products are in the same product model?
+
+```python
 all_product = Product.query().fetch()
 all_people = Person.query().fetch()
 all_posts = Post.query().fetch()
+```
 
-If I don't want all of the things in a certain kind but want to filter. (All the products that are sold out in the product model)
+What if I don't want all of the things in a certain kind but want to filter? (ex. All the products that are sold out in the product model)
 
 * A filter goes in the query to only return certain models
 * A filter always has the form 'Model.property==value'
@@ -111,25 +117,31 @@ available_product= Product.query(Product.sold_out == False).fetch()
 affordable_products= Product.query().fetch(Product.price < 100).fetch()
 post_for_a_user=Post.query(Post.user == current_user).fetch()
 ```
-#Key Properties
+## Key Properties
 
--Think of key properties as an arrow from one model to another
--Key lets you get or fetch a full object with properties associated with it
--Keys are like phone numbers where you can call the object and ask for all of its properties
--You can also use objects to access the key property
--Every model has a key, you don't need to define a key. You access it with model.key
++ Think of key properties as an arrow from one model to another
++ Keys are like phone numbers where you can call the object and ask for all of its properties
++ Keys let you get or fetch a full object with properties associated with it
++ You can also use objects to access the key property
++ Every model has a key, you don't need to define a key. You access it with model.key
 
-#URL Safe Key: used to pass sensitive information
--If you're linking to a page that represents a model in the html template:
-  ``<a href="/detail?key={{model.key.urslsafe()}}">See details about this model</a>``
--If you are passing a url safe key in a form that you don't want to show the user.
--Necessary if I am having user edit something related to the model or if I am adding information about the model (like a comment on a blogpost)
+# URL Safe Key: used to pass sensitive information
++ If you're linking to a page that represents a model in the html template:
+
   ```python
-  <form action="/something" method="post">
-    <input type="hidden" name="model_key" value="{{model.key.urlsafe()}}">
-  </form>
+   <a href="/detail?key={{model.key.urslsafe()}}">See details about this model</a>
   ```
-#One to Many
++ If you are passing a url safe key in a form that you don't want to show the user:
+
+```python
+<form action="/something" method="post">
+  <input type="hidden" name="model_key" value="{{model.key.urlsafe()}}">
+</form>
+```
++ This is necessary if I am having user edit something related to the model or if I am adding information about the model (like a comment on a blogpost)
+
+
+# One to Many Relationships
 
 How do we relate models to one another? One user to many posts.
 In a one-to-many relationship, each of the "many" has the key property pointing to the "one."
@@ -150,6 +162,7 @@ class Child(ndb.Model)
 a. Get the "one" that owns the "many"
 We are on a page /child?key=...
 We want to show the information about the mom of the child:
+
 ```python
   class ChildHandler(webapp2.RequestHandler):
     def get(self):
@@ -159,8 +172,10 @@ We want to show the information about the mom of the child:
       mom_key= child.mom_key #
       mom = mom_key.get() #
 ```
-What if we are on the /mom?key=...
+
+b. What if we are on the /mom?key=...
 And we want to show the information about the mom of the child:
+
 ```python
   class MomHandler(webapp2.RequestHandler):
     def get(self):
@@ -169,9 +184,11 @@ And we want to show the information about the mom of the child:
       mom = mom_key.get() #we are getting the full mom object
       children = Child.query(Child.mom_key=mom_key).fetch() #get all the children for the mom using a query by filtering the mom.key that identifies the mom. We want to compare keys with keys  
 ```
-# Further Examples:
 
-##Ebay example
+## Further Examples:
+
+#### Creating a new model example:
+
 ```python
 class Bid(ndb.Model):
    product_key =ndb.KeyProperty(kind=Product)
@@ -189,7 +206,8 @@ class Bid(ndb.Model):
          self.response.write(template.render(template_values))
 ```
 
-# One to One Relationship Example
+#### One to One Relationship Example:
+Add one player to a team:
 
 ```python
 from google.appengine.ext import ndb
@@ -211,13 +229,19 @@ curry.put()
 ```
 
 
-One to Many relationship adds a new player
-```Python
+#### One to Many relationship:
+
+Add a new player to the same team:
+
+```python
 thompson = Player(name="Klay Thompson", team= warriors_key, id="thompson")
 thompson.put()
 ```
 
-Many to Many relationships multiple products and buyers
+#### Many to Many relationships:
+
+A website with multiple products and buyers:
+
 ```python
 from google.appengine.ext import ndb
 
