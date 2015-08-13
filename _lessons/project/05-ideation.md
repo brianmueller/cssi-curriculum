@@ -17,10 +17,6 @@ As you use your wonderfully talented and creative brains, don't forget to rememb
 Focus on the most **basic** functionality of your app, then once that works, you can add features.
 ![a picture representing MVP as a scooter to a car, not a car with no wheels to a working car](http://blog.deming.org/wp-content/uploads/2014/11/minimal-viable-product-henrik-kniberg.png)
 
-
-
-
-
 ### Time to Plan
 Don't forget to "Yes-and" everything your team says!
 
