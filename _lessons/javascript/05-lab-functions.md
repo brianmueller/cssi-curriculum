@@ -4,7 +4,7 @@
   language: javascript
 ---
 
-Lets create some functions! Add your code to functions.js, and open index.html in the browser and check the dev inspector to see your results!
+Let's create some functions! Fork and clone the lab files, add your code to functions.js, and open index.html in the browser, then check the dev inspector to see your results!
 
 ##  1. A Bit Nervous
 Sometimes we aren't totally sure - let's make a function to hedge our statements.

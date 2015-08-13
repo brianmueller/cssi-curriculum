@@ -1,7 +1,7 @@
 ---
   layout: post
   title: Exercises -  Python Objects
-  language: python
+  language: resources
 ---
 
 ##  Instructions:
