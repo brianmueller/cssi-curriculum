@@ -12,9 +12,9 @@
 # What You Will Learn:
 + How to add logic to your templates with the properties title and unread
 
-To learn how to add logic to your template you we are going to create "FakeMail" app. Create a new AppEngine project called fakemail.
+To learn how to add logic to your template you we are going to create "FakeMail" app. **Create a new AppEngine project called fakemail**.
 
-## Your main.py file
+# In the main.py file:
 We will create a variable called email_list with a list of dictionaries containing our inbox emails.
 
 ```python
@@ -40,21 +40,21 @@ app = webapp2.WSGIApplication([
 ```
 
 ### Jinja2 Syntax
-To add logic to our html template, variables go between mustaches `{{variables}}`. The jinja2 syntax for embedding python code in our template is to use curly brackets and percent signs.
+To add logic to our html template, variables go between mustaches ``{% raw %} {{variables}}{% endraw %}``. The jinja2 syntax for embedding python code in our template is to use curly brackets and percent signs.
 
-```python
+```html
 <html>
   <body>
     <h1>FakeMail</h1>
     <h2>Welcome {{name}}</h2>
-    <ul>
+    <ul>{% raw %}
       {% for email in emails %}
         <li>
           {% if email.unread %}
             (unread)
           {% endif %}
           {{email.subject}}</li>
-      {% endfor %}
+      {% endfor %}{% endraw %}
     </ul>
   </body>
 </html>
@@ -63,7 +63,7 @@ To add logic to our html template, variables go between mustaches `{{variables}}
 ## Exercise FakeMail
 Add logic in the code that searches whether the email has the words "help, money and account" and if so the email should be marked "spam".
 
-##Stretch Exercise
+## Stretch Exercise
 Create an email class with the subject, unread, and spam properties instead of having a list of dictionaries with emails.
 ```python
 class Email(object):

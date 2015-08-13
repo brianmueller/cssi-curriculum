@@ -1,6 +1,6 @@
 ---
   layout: post
-  title: Decks 
+  title: Decks
   language: resources
 ---
 # Intro to the Web
@@ -28,6 +28,7 @@
 # Google App Engine
 + [Carter's Introduction to Google App Engine Slides](https://docs.google.com/presentation/d/18hCcUh1e_PhMGo_5-TR40ug7PohrmOaSfDAkjcDeFJc/edit#slide=id.p)
 
++[Victoria's App Engine Review](https://docs.google.com/presentation/d/13ioT7X02X2nn2i6qFBxqLRL51SSwK8ZAciVSvui2H6I/edit#slide=id.p)
 # Other
 + [Georgia's Intro to CS + Culture/Expectations](https://docs.google.com/a/google.com/presentation/d/18P6Ny8sjkppQwS9GeQgZoVaTACvkRGPgQAOU4_t8pyM/edit?usp=drive_web)
 

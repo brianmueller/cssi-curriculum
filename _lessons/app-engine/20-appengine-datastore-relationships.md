@@ -141,10 +141,10 @@ There are some benefits and drawbacks to this way of doing things. In this examp
 
 A few reasons!
 
-##### 1. Lunchboxes and Kindergartners are seperate objects
+#### 1. Lunchboxes and Kindergartners are seperate objects
 Before, we put the whole Lunchbox object inside of the Kindergartener with a StructuredProperty - making the kid carry it everywhere. In the database, it meant that each Kindergartener object was larger, which might slow down our reads and writes. But with KeyProperty, we put a property on the lunchbox, saying which kindergartener it belongs to - like a smart teacher would put nametages on lunchboxes. The Kindergarteners can run and play, without carrying their Lunchboxes around with them.
 
-##### 2. Ability to add more models and grow
+#### 2. Ability to add more models and grow
 With this ‘nametags’ approach (keeping KeyProperties on objects), we can also represent more complicated relationships. When building big awesome web apps, there are lots of times we want to keep track of things that are more complicated than just a few properties.
 
 What if one day, a Kindergartener brought in two lunchboxes? Or a pair of siblings shared a lunchbox? It's important to structure your database relationships in a way that makes sense for your application.
