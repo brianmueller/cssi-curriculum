@@ -1,6 +1,6 @@
 ---
   layout: post
-  title: Github Quick Guide
+  title: Github Workflow
   language: git
 ---
 # What You Need to Know:

@@ -1,6 +1,6 @@
 ---
   layout: post
-  title: Intro to Git and Github Pages
+  title: Git and Github Pages
   language: git
 ---
 # What You Need to Know:
@@ -52,4 +52,4 @@ The previous steps will only work if you don't already have a username.github.io
 
 
 # Conclusion
-Two words: Open Source. There are over eight million people who use GitHub to store their code. Having a free account on GitHub means that anyone in the community can fork or clone your repositories and make changes to or contribute to your codebase. It’s all about people building publicly accessible applications together.
+There are over eight million people who use GitHub to store their code. Having a free account on GitHub means that anyone in the community can fork or clone your repositories and make changes to or contribute to your codebase. It’s all about people building publicly accessible applications together.

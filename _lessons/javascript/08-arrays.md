@@ -4,7 +4,7 @@
   language: javascript
 ---
 
-## After the lesson, you'll understand:
+# What You Will Learn:
 + What an array is
 + JS array syntax
 + assigning an array to a variable
@@ -49,7 +49,7 @@ Let’s initialize an array for our students:
 Square brackets `[ ]` denote the contents of an array. An array can contain any combination of data types.  An array can be stored in a variable just like a number or string.
 You'll notice that we don't write the index of the elements anywhere. The computer _automatically_ makes an index starting at 0 and incrementing by 1 for each element.
 
-## Accessing and Modifying Elements
+# Accessing and Modifying Elements
 To access an element of an array, just call the name of your array variable and the index that the element is at.
 
 ```
@@ -75,7 +75,7 @@ Just like we got the length for our strings with a string method, we can also ge
 
 This prints out '6' since our students array contains 6 elements. (Notice though that the last element of our array only has an index of '5', this will become important when discussing loops.)
 
-## Add and Remove items from an array
+# Add and Remove items from an array
 We can also add and remove items from an array. Arrays actually have methods built in to them. Remember that methods are just a set of instructions.
 
 ```

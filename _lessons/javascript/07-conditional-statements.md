@@ -11,9 +11,8 @@
 + if/else if statements
 + Comparison operators
 + Introduction to Logical Operators
-+ Syntax
 
-## Conditional statements
+# Conditional Statements
 Now that we are getting the hang of manipulating our variables, let’s experiment with conditional statements. A conditional statement is a set of commands that executes if a specified condition is true (remember our data type boolean, with a value of true or false?)
 
 ```
@@ -70,7 +69,7 @@ Here is a list of all the Logical Operators and what they do:
 
 <img src="https://raw.githubusercontent.com/learn-co-curriculum/cssi-2.5-conditional-statements/master/js-logical-operators.png">
 
-## Student Challenge
+# Student Challenge
 **Skee-ball Rater**
 
 ![Skee-ball](http://robertkaplinsky.com/wp-content/uploads/2013/03/skeeball_cover.jpg)

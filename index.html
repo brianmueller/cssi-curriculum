@@ -4,23 +4,4 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Curriculum</h1>
-  <!-- Defines the order of presentation -->
-  {% assign languages = "intro command-line python git html css javascript jquery app-engine apis project resources" | split: ' ' %}
-
-  {% for language in languages %}
-    <h1>{{ language }}</h1>
-    <ul class="post-list">
-      {% for post in site.lessons %}
-        {% if post.language == language %}
-        <li>
-          <h2>
-            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-          </h2>
-        </li>
-        {% endif %}
-      {% endfor %}
-    </ul>
-  {% endfor %}
-
 </div>

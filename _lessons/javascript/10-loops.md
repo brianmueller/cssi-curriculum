@@ -10,13 +10,13 @@
 + Iterate over arrays using for loops and while loops
 + Convert repeatable tasks into loops
 
-## Key Points:
+# Key Points:
 + Loops let you repeat a bit of code until an exit condition is met
 + A loop's exit condition is a boolean statement that is evaluated during each loop; if it's false, the loop stops
 + Loops can be very useful for iterating (stepping through) an array and doing something to each element
 + A loop that doesn't have a valid exit condition will run forever and is called an infinite loop. These are bad, most of the time
 
-## Concept
+# Concept
 A loop is one of the foundational tools in any programmer's toolkit. It allows a bit of code to be repeated many times.
 
 This can be useful in many circumstances but is often used with arrays. Arrays can have any number of elements and a loop allows us to access each one of those elements and do something with it.
@@ -40,7 +40,7 @@ This would take forever.
 A better way to do this is to set up a little machine with instructions on how to iterate (go through) every number in the array and do something specific to each one. We call this a loop.
 There are two basic types of loops in JavaScript: for loops and while loops. They generally accomplish the same thing but their syntax is different.
 
-## While loop
+# While loop
 Let's say we want to make a while loop that multiplies every number in our numbers array by 5. It would look like this:
 
 ```
@@ -63,7 +63,7 @@ while (i < numbers.length)
 
 Try using console.log(numbers); both before and after the loop to see how our array has changed. Try using alert(numbers); instead
 
-## For loop
+# For loop
 We can accomplish the exact same thing with the more concise for loop. It would look like this:
 
 ```
@@ -89,19 +89,19 @@ Let’s walk through each part of this.
 ## Student Practice
 Create a iteration.js doc.
 
-### Part 1, A Loop with  Numbers
+# Part 1: A Loop with  Numbers
 Set up a _for_ loop with a numbers array -  print out each number, doubled.
 
 Next, wrap your loop in a function, doubleNumbers that accepts a numbers array instead of hardcoding one specific array into the function.
 .
-### Part 2, A Loop with String Methods
+# Part 2: A Loop with String Methods
 Create an array of your top 5 favorites movies. Now create a function called myFavorites().
 
-This function should
-+ take in an array of favorites
-+ for each favorite, it should alert to the screen something like “The Shawshank Redemption? That is my favorite too!”
+This function should:
+1. Take in an array of favorites.
+2. For each favorite, it should alert to the screen something like “The Shawshank Redemption? That is my favorite too!”
 
 Now create a new array of your favorite songs. Try calling the myFavorites() function with the songs array.
 
-### Stretch: The Movie Critic
+# Stretch: The Movie Critic
 Change myFavorites() into a _while_ function.  The condition  should check to make sure that the movie is not Demon Islan, Gigli or Santa with Muscles.

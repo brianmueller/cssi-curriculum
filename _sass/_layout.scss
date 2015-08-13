@@ -23,6 +23,12 @@
     }
 }
 
+.sidebar-nav {
+  float: left;
+  border-right: 1px solid $grey-color-light;
+}
+
+
 .site-nav {
     float: right;
     line-height: 56px;
