@@ -5,7 +5,7 @@
 ---
 
 ## After the lesson, you'll be able to understand:
-+ JS data types
++ JavaScript data types
 + Strings and string methods
   + length
   + upper and lower case
@@ -75,7 +75,6 @@ Sometimes, there are multiple syntaxes that do the same thing.
 When we add strings to each other, we stick one right on the end of the other. This is called concatenation, and we can do it with the .concat() method, or with the '+'.
 
 
-
 ###  Assigning Variables and Stringing Methods
 You can make a new variable from the result of a function call.
 ```
@@ -104,8 +103,8 @@ You can see since length is a property rather than a method, its notation does n
 **Challenge:**
 Given the string  var text = "ELEPHANTBEARMOUSECOW" , make the 'MOUSE' portion into a lowercase 'mouse'.  Store the value back into 'text'.
 
-Not sure how? Remember you can also search the web for documentation on js
-string methods, talk to a classmate, or consult your ducky droid!
+Not sure how? Remember you can also search the web for documentation on JavaScript
+string methods, talk to a classmate, or consult your Android Buddy!
 
 ## Resources
 [W3 Schools String Methods](http://www.w3schools.com/js/js_string_methods.asp)
