@@ -3,7 +3,7 @@
   title: JavaScript Functions
   language: javascript
 ---
-## After the lesson, you'll be able to understand:
+# What You Will learn:
 + What is a function
 + Declaring a function
 + How to call a function
@@ -11,8 +11,7 @@
 + Returning values
 + NICO
 
-
-## What is a function?
+# Why This is Important:
 A function holds a set of actions that will run when we call that function. This helps us control the flow of our program and allows us to repeat a set of actions multiple times.
 
 Writing functions lets us package code into blocks that we can reuse. This will prevent us from writing the same code over and over again.
@@ -54,7 +53,7 @@ And then we can use the function like this:
 ```
 
 
-## Declaration
+# Declaration
 A function is a set of instructions that we write out once and reuse over and over. We call creating a new set of instructions **declaring a function**.
 
 The syntax for writing JS functions is very specific. It looks like this:
@@ -75,7 +74,7 @@ function goGetLunch() {
 };
 ```
 
-##  Calling a function
+# Calling a function
 We use a function with its name. The name for this is calling the function.
 
 ```
@@ -84,7 +83,7 @@ goGetLunch();
 
 This is the equivalent of telling the computer - do those steps in the goGetLunch function. The parentheses are necessary to let the browser know that we want to run the instructions.
 
-## Passing in Parameters
+# Passing in Parameters
 Parameters allow you to pass values into functions - they help make functions reusable. Instead of using the same values every time you use the function, you can use the same set of instructions on different data.
 
 ```
@@ -108,7 +107,7 @@ When you call a function like this and pass values to it, those values are calle
 
 In the above example, `student` in the function definition is the parameter. But when we actually call the function with a student's name, the strings "Joe", "Jill", "Josie" are arguments.
 
-##  Return Values
+# Return Values
 So far, the functions we've made have had side effects - printing something out to the console - but they haven't passed results back. When we used the addition function, it didn't just print something - we could store the result in a variable.
 
 To pass results, we **return** a value.
@@ -127,7 +126,7 @@ When we have a return statement, we leave the function and give back that value.
 16
 ```
 
-## N.I.C.O
+# N.I.C.O
 We can break down the creation of functions into four things that every function has:
 + **Name** - Decide an appropriate name for the function
 + **Input (Parameters)**  - Figure out what inputs, if any, are needed to accomplish what the name describes

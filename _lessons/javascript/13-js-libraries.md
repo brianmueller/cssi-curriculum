@@ -7,7 +7,7 @@ Libraries give you access to code that someone else wrote.
 
 Let’s see how we can borrow a function by copying and pasting it into a JavaScript file.
 
-###  Using New Javascript Functions in HTML
+# Using New JavaScript Functions in HTML
 Open this lesson on Github and clone the sample folder onto your local machine.  You should see
 * an index.html page
 * a javascript file called main.js - which is pretty empty.
@@ -30,7 +30,7 @@ function addListItem(text){
 Fortunately, we don’t have to rely on copying and pasting in order to share code. In fact, copying and pasting code is really bad practice. Instead we can use external libraries.
 
 
-###  Using External Libraries
+# Using External Libraries
 
 We've seen that we can save our javascript in external files, then include them via `script` tags. This is a good engineering practice even when we aren’t using someone else’s code. Keeping functions in different files and loading them with `script` lets us see the different pieces of our app in the file structure.
 
@@ -88,5 +88,5 @@ There are tons of JavaScript libraries. A good place to find some of the more po
 1. Find a library you want to use.
 2. Include it with a `<script>` tag
 3. Search the documentation for the function you need
-4. Try it out. 
+4. Try it out.
 5. Repeat!

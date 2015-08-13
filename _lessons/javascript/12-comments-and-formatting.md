@@ -23,18 +23,20 @@ The code that is easier to read is much easier to work with! In the software ind
 + Consistency
 + Case
 + DRY
-
 + Line Length
 + Folder structure
 + Over-commenting
 + Comments before code
 
-##  Comments
-In html, things should be named well, indented clearly, and commented when needed with:  
+# Comments
+In html, things should be named well, indented clearly, and commented when needed with:
+
 ```
 <!-- HTML comment  -->
 ```
+
 In CSS, we formatted nicely, reused what we could, and wrote comments like this:
+
 ```
 /* this can go on a single line */
 /*
@@ -45,19 +47,21 @@ In CSS, we formatted nicely, reused what we could, and wrote comments like this:
    lines
 */
 ```
+
 In JavaScript, comments will be even more important! Unlike HTML and CSS, which just describe the page, JavaScript takes actions - it will be harder to understand what something is from just looking at it. Let's see what JavaScript comments look like:
+
 ```
 // this is a JavaScript comment
 /* this is a JavaScript comment
 as well! It goes until the */
 ```
 
-## Naming
+# Naming
 Meaningful names for variables and functions are even more important than good comments in your code. Naming is also one of the hardest parts about coding!
 > "There are two hard things in computer science: cache invalidation, naming things, and off-by-one errors."
 > Jeff Atwood, cofounder of StackOverflow
 
-#### Rules of thumb
+# Rules of thumb
 + look up the rules for case syntax with variable and function names (JavaScript tends to use camelCase)
 + give variables and parameters meaningful names
   + think about what the variable represents, where it is coming from, what its role is

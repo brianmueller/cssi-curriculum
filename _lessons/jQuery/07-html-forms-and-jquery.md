@@ -3,7 +3,10 @@
   title: Html Forms And jQuery
   language: jquery
 ---
+# What You Will Learn:
++ Getting data from HTML Forms with jQuery
 
+# Why This is Important:
 Lots of the interaction on the web happens through forms. In general, when you type something into a text box, clicking a checkbox or radio button, or sliding a slider, you are interacting with an HTML Form.
 
 Facebook status update? Form. Tweet? Form. Instagram picture upload? Form!
@@ -13,25 +16,33 @@ So, how do we get form data with jQuery?
 As users are entering text in HTML text fields or changing values of checkboxes, sliders, and radio buttons, the browser is smart enough to already be updating the DOM with that information. Because the data is in the DOM, we can get it with JavaScript, and use it!
 
 If we have an html input on our webpage:
+
 ```
 Enter your text here:
 <input type="text">
 ```
 
 Then we can get it with jQuery:
+
 ```
 var user_text = $('input').val();
 ```
+
 And once we have it, we can use what we know to show it back to them:
+
 ```
 $('# results').text(user_text);
 ```
+
 Of course, we can manipulate the text before displaying it to the user.
+
 ```
 var user_text = $('input').val();
 $('# results').text(pigLatin(user_text));
 ```
+
 HTML Forms have all kinds of input that we can play with.
+
 ```
 <form>
   Name:
@@ -58,7 +69,8 @@ HTML Forms have all kinds of input that we can play with.
  <button onclick="showResults()">Show Results</button>
 </form>
 ```
-We see:
+
+#### We see:
 - text inputs
 - select from options
 - dropdown list

@@ -12,7 +12,7 @@
 # Why This is Important:
 We’ve been using the console to play around and test JavaScript core concepts. What if we want to create JavaScript that we can save for later, or use to add dynamic interaction to our HTML/CSS website?
 
-## Saving and Linking JavaScript
+# Saving and Linking JavaScript
 Well, first off, we can save our JavaScript as a text file with a .js extension. Go ahead and create a `my_script.js` file and open it up in Atom.
 
 Let's create a basic program so that we can test that everything is working.
@@ -39,7 +39,7 @@ You can add as many different scripts as you like. The `src` property is versati
 
 After adding the script tag, save the html file and load it up in the browser. Check your console, and see your message printed out!
 
-##  Separation of Concerns
+# Separation of Concerns
 HTML, CSS, and JavaScript work together to create the dynamic web pages we see on the web today. We keep each in their own files, but linked together provide structure, style and dynamic interactivity to the page.
 
 In the early wild west days of the internet, it was common to see HTML, CSS, JavaScript together in one document. Browsers will still support this behavior - many examples and introductions you'll see online use inline styles and scripts. Having everything in one file made the code nearly indecipherable, a jumbled mess that was hard to understand and update when there were problems. HTML, CSS, and JavaScript play different roles, and keeping them in separate docs helps you and anyone who has to read your code understand what is happening.

@@ -4,12 +4,13 @@
   language: jquery
 ---
 
-##  Instructions:
-Fork and clone this lab, then complete the drills below.
+# Instructions:
+Fork and clone [this](https://github.com/google-cssi/cssi-4-jquery-warmup) lab, then complete the drills below.
 
-###  1. Selector Drills
+# 1. Selector Drills
 
 Given the following HTML page:
+
 ```html
 <!DOCTYPE html>
 <html>
@@ -27,6 +28,7 @@ Given the following HTML page:
   </body>
 </html>
 ```
+
 What would be the output of the following jQuery commands?
 
 ```javascript
@@ -55,9 +57,10 @@ $(div).text();
 
 Make your guesses before running the code. You can check your answers by opening http://jsbin.com, copying the HTML into the HTML tab, and copying the jQuery commands into the Console tab.
 
-###  2. Manipulating the DOM
+# 2. Manipulating the DOM
 
 Given the following HTML page:
+
 ```html
 <!DOCTYPE html>
 <html>
@@ -81,7 +84,7 @@ Write JavaScript to do the following:
 
 The HTML file and JavaScript stub file are available in this git repository in the directory ```animals```. Put your JavaScript in ```animals-script.js``` and load ```animals.html``` to test your answers.
 
-###  3. Event Handlers
+# 3. Event Handlers
 Open the contents of ```cookies/cookies.html``` in Chrome. You should see something like:
 ![cookie monster lab](http://i.imgur.com/NMHh8mCl.jpg "Cookie Monster Lab")
 
@@ -92,13 +95,13 @@ Modify ```cookies-script.js``` and ```cookies.html``` to accomplish the followin
 3. Implement "EAT ALL the cookies": Remove all the cookies from the pink plate when "EAT ALL the cookies" button is clicked.
 4. Implement "EAT a cookie": Remove a single cookie from the pink plate when the  "EAT a cookie" button is clicked.
 
-###  4. Code reading: Forms and Event handlers
+# 4. Code reading: Forms and Event handlers
 Remember the form in the Deli Counter lab? Now you've learned enough to understand the contents of the ```index.html``` and ```lib/app.js``` file!
 
 Take some time to look through those files again and describe in English how it works to your neighbor:
 https://github.com/learn-co-students/js-deli-counter-google-cssi-test-2015
 
-###  5. Coding: Forms and Event Handlers
+# 5. Coding: Forms and Event Handlers
 Open the contents of ```todo/todo.html``` in Chrome. You should see something like:
 ![todo lab](http://i.imgur.com/5yCxP8ul.png "To-Do List Lab")
 
@@ -111,9 +114,10 @@ Modify ```todo-script.js``` and ```todo.html``` to accomplish the following:
   *  Implement "Cross off": Clicking each list item should cross the item off the list by making it appear with a ~~strike~~ through it.
   *  Implement "Delete": Add a "Delete" button next to every item of the list. Clicking this button should remove the item from the list.
 
-###  6. An Annoying JS Bug
+# 6. An Annoying JS Bug
 
 Given the following ```wontwork.html``` page:
+
 ```html
 <!DOCTYPE html>
 <html>
@@ -129,6 +133,7 @@ Given the following ```wontwork.html``` page:
 ```
 
 And the following ```wontwork-script.js``` file:
+
 ```javascript
 function magicWand() {
   $('# weather').text('Sunny!');
@@ -136,8 +141,7 @@ function magicWand() {
 magicWand();
 ```
 
-Answer the following questions:
-
+#### Answer the following questions:
 1. When you load ```wontwork.html```, what appears in the ```h1```: "Sunny!" or "Rainy :("? Why?
 2. Modifying only ```wontwork-script.js```, how do you fix this bug?
 

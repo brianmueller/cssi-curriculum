@@ -25,7 +25,8 @@ Let’s start with a little example, to give you a taste of the power of JavaScr
 BAM! You are a twitter master! How cool are you! So popular!
 
 Now, how did that work?
-## The DOM
+
+# The DOM
 Your browser keeps all of the elements of the webpage in a tree structure called the Document Object Model. Basically, it keeps track of all of the html elements from the html page, their styles, and the relationships between them - who is nested in who, which elements have which parents and children.
 
 ```html
