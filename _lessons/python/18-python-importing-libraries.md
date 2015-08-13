@@ -3,18 +3,28 @@
   title: Python Libraries and Modules
   language: python
 ---
+# What You Need to Know:
++ Python Basics and Classes
 
-## Importing a Class
-+ A class saved in its own .py file can be said to be in its own module. The module can be imported into another .py file with a couple lines of code at the top of the script:
+# What You Will Learn:
++ How to use Python libraries and modules
++ Syntax for importing
+
+# Why This is Important:
+Importing modules and libraries allow you to quickly expand your Python coding powers by accessing a wealth of useful functions and classes.
+
+# Importing a Class
+A class saved in its own .py file can be said to be in its own module. The module can be imported into another .py file with a couple lines of code at the top of the script:
 
 ```python
 import musician
 from musician import *
 ```
+
 The first line imports the musician.py file itself. The second line imports all the classes and functions contained in that musician.py file.
 
 
-## Importing a Library/Module
+# Importing a Library/Module
 A Python Library is a module containing python scripts written and collected by someone else. There are tons of useful Python libraries out there that we can import into our scripts.
 
  <a href="http://pythontips.com/2013/07/30/20-python-libraries-you-cant-live-without/">Here’s a great list of possibilities! </a>
@@ -28,17 +38,21 @@ import random
 
 print random.randint(1,3)
 ```
-## Exercise: Monopoly Auto Roller Mini App
+
+# Exercise: Monopoly Auto Roller Mini App
 In Monopoly, at the beginning of each turn, a player rolls two six sided dice. The numbers rolled on each die are added together to tell the player how many spaces to move. If the player rolls doubles, if they roll the same value on each die, then the player gets to move the total number of space, AND gets to roll again. Every time we run our monopoly dice app, it will tell us how many spaces we should move, and whether we have rolled doubles and get to go again, or whether it is the next player's turn.
 
 The program should print a string that looks something like this if you roll doubles:
 ```python
 Doubles! Move 6 spaces and roll again.
 ```
+
 And if you don't roll doubles:
+
 ```python
 Move 8 spaces. Next player's turn!
 ```
+
 Remember to import your random library at the start of your script!
 
 # Conclusion:
