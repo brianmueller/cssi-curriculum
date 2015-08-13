@@ -1,0 +1,19 @@
+---
+layout: page
+---
+<div class='language-description'>
+  {{ content }}
+</div>
+
+<ul class="post-list">
+  {% for post in site.lessons %}
+  <!-- exclude the nav pages from the list of posts -->
+    {% if post.language == page.language and post.type != "landing" %}
+    <li>
+      <h2>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </h2>
+    </li>
+    {% endif %}
+  {% endfor %}
+</ul>
