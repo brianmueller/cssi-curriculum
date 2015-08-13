@@ -19,3 +19,4 @@ Lead Instructors should be familiar with the whole curriculum - even if a module
 
 ## Curriculum Notes:
 + Don't cover Many to Many (Datastore relationships) in class.  Its super confusing and most student projects won't use it.
++ More time on CSS

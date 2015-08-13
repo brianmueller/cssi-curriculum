@@ -1,3 +1,9 @@
+# Best Practices for Teaching CSSI
+
+## Before CSSI
++ Practice with git and Github. It's super helpful to be familiar with the bugs that students will see before they see them. Project week in particular will be filled with merge conflicts.
++ Practice HTML and CSS Basics. The javascript and python programming will be easy to figure out - CSS positioning you mostly need to memorize.
+
 # Best Practices for CSSI Curriculum
 
 ## General Daily Practice
