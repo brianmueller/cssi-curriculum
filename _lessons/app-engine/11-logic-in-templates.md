@@ -12,8 +12,6 @@
 # What You Will Learn:
 + How to add logic to your templates with the properties title and unread
 
-##  FakeMail App
-
 To learn how to add logic to your template you we are going to create "FakeMail" app. Create a new AppEngine project called fakemail.
 
 ## Your main.py file

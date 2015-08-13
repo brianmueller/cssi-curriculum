@@ -3,17 +3,6 @@
   title: Adding Logic to Fortune Teller
   language: app-engine
 ---
-# What You Need to Know:
-+ Introduction to the Web
-+ Python Basics and Classes
-+ How to Launch an App Engine App
-+ How to Serve Static Templates
-
-# What You Will Learn:
-+ How to add logic to your templates
-+ Understanding GET and POST requests
-+ Understanding the MVC framework
-
 
 # Adding Logic to Fortune Teller
 
