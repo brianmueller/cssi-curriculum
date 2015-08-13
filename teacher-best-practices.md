@@ -1,6 +1,10 @@
 # Best Practices for CSSI Curriculum
 
+## Before CSSI
++ Practice with git and Github. It's super helpful to be familiar with the bugs that students will see before they see them. Project week in particular will be filled with merge conflicts.
+
 ## General Daily Practice
+<<<<<<< HEAD
 
 ###Delivering content:
 + Why is your lesson important- Every lesson should start with a WHY. Why is this topic important, relevant and exciting?! Find ways to connect with student's background knowledge and every day life.
@@ -32,6 +36,16 @@
 +  Many students did not attend breakout sessions if they were phrased as review or beginners. Phrase breakout sessions to be topical rather than review/advanced
 + Develop a glossary for all the new terms students learn for each language. It can be a shared google doc or written on poster paper.
 
+=======
++ Use the same technology (editor, terminal, etc.) as the students
++ Every lesson should be accompanied by student practice - students should be coding for 5 - 20 minutes without any new lecture material after every new concept.
++ Incorporate live coding in your lessons when possible.
++ Have students pair program as much as reasonable. If half of the class has their laptops closed and students talk through their thoughts as they code, they will learn to communicate about programs *and* two pairs of eyes will catch many more bugs. Early on, it works best if you specifically assign partners for coding.
++ You do not need to answer a student's question to completion, or debug all the way - ask them what they ought to search online, or where they should look to find an error message. Tell them you'll check back in
++ As you code along, share your experience as a real engineer.
++ As you make mistakes, walk very slowly through your thoughts and process as you debug.
++ When you draw on knowledge that you've gained over the years, share where you learned that knowledge, and indicate whether it is something they should know or something they should forget and look up when they need it.
+>>>>>>> c4c1739d11b6b1b5cdacf01ac50d3ece6136924e
 
 ## Python
 
