@@ -1,0 +1,18 @@
+<nav class="sidebar-nav">
+  <div class="wrapper">
+
+    <!-- Defines the order of presentation -->
+    {% assign languages = "intro command-line python git html css javascript jquery app-engine apis project resources" | split: ' ' %}
+
+    <!-- {% for language in languages %}
+      <h1>{{ language }}</h1>
+    {% endfor %}
+     -->
+    {% for lesson in site.lessons %}
+      {% if lesson.type == "landing" %}
+        <a href="{{ lesson.url }}"><h3>{{lesson.title}}</h3></a>
+      {% endif %}
+    {% endfor %}
+
+  </div>
+</nav>
