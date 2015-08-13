@@ -31,11 +31,12 @@ The process of writing code is the process of debugging. As a programmer, you wi
 
 In GoogleAppEngineLauncher, pressing the **Logs** button will open the **Log Console** window, which will show your error messages.
 
+```python
 <kbd style="color:red">ERROR    2015-06-17 22:19:45,960 cgi.py:122] Traceback (most recent call last):</br>
   File "/Users/Development/appengine-practice/main.py", line 6, in module</br>
     print 'Hello, world!' - 8</br>
 TypeError: cannot concatenate 'str' and 'int' objects</kbd>
-
+```
 + The error messages include information that tells you which file you are actually running and where it is located. Always check and be sure you are running and working on the file you think you are!
 
 
@@ -55,6 +56,7 @@ else
 
 Partner Exercise 2: This longer program contains more than one error. Copy and paste it into main.py  
 Use the console to help you track them down, and fix them all.
+
 ```python
 def TalkLikeAJedi(sentence):
   """Converts a sentence to Jedi-speak. Adapted from Python 3 for Absolute Beginners: http://www.google.com/books?id=sQGFIX_0xCUC&pg=PA242"""
@@ -78,6 +80,7 @@ Logging is a means of tracking events that happen when a program runs.The loggin
 You can use the logging module by importing it at the top of your script:  <kbd>import logging</kbd>
 
 It allows you to add logging statements to your script. Like this:
+
 ```python
 logging.info('Hello, doing some logging!')
 ```
@@ -85,6 +88,7 @@ Once the page is reloaded, the logging statement will appear in the log console.
 
 # Partner Programming Logging Exercise 1:
 Try copy and pasting this script into main.py:
+
 ```python
 import logging
 

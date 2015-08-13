@@ -13,8 +13,6 @@
 
 Often we want to represent real world concepts in code. For example we might want to store all of the tags on a tumblr photo in our database. In this case a photo can have many tags, but a tag can relate to many photo's as well. This is another very important way to represent data.
 
-##  Lesson
-
 ###  Many-to-Many Models
 
 Using our Teams model from before, let’s go over an example of a many:many relationship. A team has many fans, and a fan can support many teams. This is a many:many relationship.

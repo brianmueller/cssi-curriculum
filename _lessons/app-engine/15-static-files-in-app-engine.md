@@ -36,12 +36,25 @@ handlers:
 ```
 In this example, a directory name "img" contains all of our locally stored image files.
 
-## STUDENT PROJECT: UPLOADING PROFILE PAGE TO GAE
+## Exercise: Upload Your Personal Page onto Google App Engine
 
 Move your profile page HTML and CSS files into the webapp2 framework. Doing this will allow you to add some additional features (like custom user messages, blog posts and comments) to your already awesome profile page.
 
-You will need to remember
-* The webapp2 framework
-* template.render()
-* static_dir
-* Optionally use self.request.get() to pass in a template variable and have your page respond.
++ Add templates for all of your profile project html files (blog, home, pictures)
++ Add handlers for each of those pages and make sure the render the correct templates
++ Change your routes so that `localhost:8080/blog` goes to the correct place
+
+You will need to remember:
+
++ The webapp2 framework
++ template.render()
++ static_dir
++ Optionally use self.request.get() to pass in a template variable and have your page respond.
+
+Challenge yourself:
+
+* Use self.error(404) to add an error msg for an unknown url
+* Add template variabes
+* Add a form
+* Add conditional or loop logic
+* Use geolocation. [Read up](http://www.developerdrive.com/2012/01/using-html5-to-determine-user-location) on detecting user's location with html and apply it to your profile page

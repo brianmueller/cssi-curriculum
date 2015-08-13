@@ -3,11 +3,10 @@
   title: Fortune Teller Challenge
   language: app-engine
 ---
-#Fortune Teller App:
+# Fortune Teller App:
 Let's keep adding to the fortune-teller apps we started earlier. We need some more handlers!
 
-Add a new path to your project:
-## Path 2
+Add a new path to your project: ***Path 2***
 
 ### **Magic 8-Ball**
 

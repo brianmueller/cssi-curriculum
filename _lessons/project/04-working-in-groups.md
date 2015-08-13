@@ -14,10 +14,10 @@
 ### Lesson
 As you might have noticed we have used pairs and teams often in the first 2 weeks of class. This is intentional. All great engineers need to collaborate to be successful
 
-#### CHALLENGE 1. Brainstorm as many teamwork strategies as you can.
+#### Brainstorm as many teamwork strategies as you can:
 Here's a few to start with:
-* Compromising
-* Having Empathy
+* Compromise
+* Have Empathy
 * Specific Division of Roles
 
 ### CSSI Helpful Hints Around Project Mode

@@ -1,7 +1,8 @@
 # Site settings
-title: Google CSSI Curriculum
+title: Google CSSI
 email: cssi@google.com
-description: > # does it not work?
+github_username: google-cssi
+description: > # About The Program
   The Computer Science Summer Institute is a three week program for rising college
   freshmen starting a degree in Computer Science or a related field. This site
   houses the curriculum for the three week course.
