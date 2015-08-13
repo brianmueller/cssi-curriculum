@@ -3,7 +3,8 @@ layout: post
 title: jQuery Basics
 language: jquery
 ---
-Okay, so we know how to include the jQuery library, and we’ve seen that it can help us change the text on elements we select. jQuery is a whole lot more than that, though! It makes tons of things we’d want to do a breeze!
+# Why This is Important:
+The jQuery library makes tons of things we’d want to do on the web with JavaScript a breeze!
 
 # Benefits of jQuery:
 + finding particular elements on the page
