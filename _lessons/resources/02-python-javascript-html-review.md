@@ -11,16 +11,9 @@ Here are some labs and resources to review Python, Javascript and HTML, choose y
 ###  If you'd like to review...
 
 #  Python
-<<<<<<< HEAD
 
 Begin the Day 5 Python warmup on loops, lists, and dictionaries:
 * [Day 5 Python warmup](https://github.com/google-cssi/cssi-5-python-warmup)
-**`NEW`**
-
-=======
->>>>>>> f39d3ffc57d9f602264a1aeb2bb7e603e2f2204f
-Finish the labs from the other days:
-
 * [Nested lists and dictionaries](https://learn.co/tracks/google-cssi/4-python-intro/python-labs/lab-nested-lists-and-dictionaries)
 * [Cartoon Collections](https://github.com/google-cssi/cssi-4-cartoon-collections)
 
@@ -36,7 +29,7 @@ Check out these slides and resources:
   * JavaScript is also discussed later in the course (though using raw JavaScript, no jQuery)
 
 Try out a lab from University of Washington:
-* [Journal Lab](http://courses.cs.washington.edu/courses/cse154/15sp/labs/lab2-journal.shtml) **`NEW`**
+* [Journal Lab](http://courses.cs.washington.edu/courses/cse154/15sp/labs/lab2-journal.shtml) 
   * Follow the instructions and ignore the bits that would only be relevant to UW students, i.e. checking in with a TA, uploading to "Webster"
 
   #  JavaScript / jQuery
@@ -45,7 +38,7 @@ Try out a lab from University of Washington:
 
   * [Deli Counter](https://learn.co/tracks/google-cssi/2-javascript-intro/labs/lab-deli-counter)
   * [Day 3 JavaScript warmup](https://github.com/learn-co-curriculum/cssi-3-javascript-warmup)
-  
+
   * [Day 4 jQuery warmup](https://github.com/learn-co-curriculum/cssi-4-jquery-warmup)
 
   If you've completed all the labs and have other specific questions, flag down a TA!
