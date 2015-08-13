@@ -18,18 +18,20 @@ If you get stuck, remember that you're not just learning to program - you're lea
 # Variable Assignment
 Variables are like buckets that store pieces of information. We name the variable and fill it with pieces of data that are relevant. Variables can store any type of data (strings, integers, floats, etc).
 
-```
+```python
 >>> x = 15;
 >>> x
 15
 ```
 
 You can use the variable by name - just type it where you would otherwise want the data it has inside. For instance, the following statements are equivalent:
+
 ```python
 >>> 30/5
 6
 ```
 and:
+
 ```python
 >>> students = 30
 >>> instructors = 5
@@ -39,7 +41,8 @@ and:
 
 #  Variable Re-assignment
 We can change what's in the box at any time.
-```
+
+```python
 >>> minion = 'Kevin'
 >>> minion
 'Kevin'
@@ -47,7 +50,8 @@ We can change what's in the box at any time.
 Kevin
 ```
 What will happen when we run the following?
-```
+
+```python
 >>> name = "Kevin"
 >>> name = "Carl"
 >>> print name
@@ -58,6 +62,7 @@ On the first line, we assigned the value `"Kevin"` to the variable `name`. On th
 # Naming Conventions
 
 What if we want to have more than one word in our variable name? Like:
+
 ```python
 >>> despicable me = "Gru"
 >>> print despicable me
@@ -68,6 +73,7 @@ Python gives us an error!
 Python doesn't know what despicable is because of the space between the words despicable and me. The space confuses the computer!
 
 If we want a multi-word variable name, we can instead separate the words with underscores:
+
 ```python
 >>> despicable_me = "Gru"
 >>> print despicable_me
@@ -77,23 +83,28 @@ And no error! this_style_is_called_snake_case. It's a little bit more readable t
 
 # Practice
 Enter each of these into Python.  Some will work, some will give an error message.  Figure out why.
-```
-college = 'Illinois'
+
+```python
+college = 'Stanford'
 print college
 ```
-```
-'college' = 'Illinois'
+
+```python
+'college' = 'Stanford'
 print college
 ```
-```
-college = Illinois
+
+```python
+college = Stanford
 print college
 ```
-```
+
+```python
 major = 'Computer Science'
 print major
 ```
-```
+
+```python
 major = college
 print major
 print college

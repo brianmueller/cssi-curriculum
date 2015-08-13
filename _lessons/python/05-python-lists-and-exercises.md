@@ -15,16 +15,20 @@ In this lesson you will learn how to create a Python list.
 
 # Lists
 A list is the most basic Python data structure. It is a list of objects or values. The syntax for a list is a set of objects enclosed in brackets. To create an empty list, set a variable equal to empty brackets:
-```
+
+```python
 >>> empty_list = []
 ```
 To create a list with some objects in it, just add the elements separated by commas:
-```
+
+```python
 >>> groceries = ['Eggs', 'Milk','Butter']
 ```
+
 ### Accessing items in a list
 List items have an index and are accessed by calling their index number. Numbering in the list starts at 0.
-```
+
+```python
 >>> groceries[0]
 'Eggs'
 >>> groceries[1]
@@ -37,7 +41,8 @@ List items have an index and are accessed by calling their index number. Numberi
 
 ### Modifying a List
 The easiest way to modify a list’s content is to just access the list object by its index (numerical place in the list) and use the assignment operator.
-```
+
+```python
 >>> groceries
 ['Eggs', 'Milk','Butter']
 >>> groceries[0] = 'Bread'
@@ -45,19 +50,23 @@ The easiest way to modify a list’s content is to just access the list object b
 ['Bread', 'Milk', 'Butter']
 ```
 Another convenient way to modify a list is the append() method. The append method allows you to add an element at the end of a list.
-```
+
+```python
 >>> groceries.append('Asparagus')
 >>> groceries
 ['Bread', 'Milk', 'Butter', 'Asparagus']
 ```
+
 ### List Methods
 Using the len function, you can return the number of items in a list:
-```
+
+```python
 >>> print len(groceries)
 3
 ```
 Here are some other list methods that will come in handy:
-```
+
+```python
 groceries.extend(['Rutabaga', 'Ice Cream'])
 ['Bread', 'Milk', 'Butter', 'Asparagus','Rutabaga', 'Ice Cream']
 
@@ -73,6 +82,7 @@ groceries.sort()
 
 ###  'In' and 'Not' Operator
 What if you have a list of groceries and you want to check if ‘apples’ is in that list? Or a list of names and you want to check to see if someone is present? Use the 'in' operator.
+
 ```python
 if 'albert' in students:
   print 'good, albert is here'
@@ -80,6 +90,7 @@ else:
   print 'gosh, where is albert?!'
 ```
 To check if an element is absent from a list, use the 'not' in operator:
+
 ```python
 if 'albert' not in students:
   print 'where is albert?!'
@@ -87,7 +98,8 @@ if 'albert' not in students:
 
 ### range(): building lists of numbers easily
 It is frequently useful to be able to generate a list of numbers. Rather than have you type out all the numbers you want, Python makes this easy:
-```
+
+```python
 >>> print range(0,10)
 [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 >>> print range(0,100,10)
@@ -96,8 +108,9 @@ It is frequently useful to be able to generate a list of numbers. Rather than ha
 Generally, ranges have the form:
 `range(<start_int>, <end_int>, <interval>)`
 
-#List Countries Exercise
+# List Countries Exercise
 <img src="https://s3.amazonaws.com/after-school-assets/globe.jpeg" align="right" width="300px" hspace="10">
+
 + Create a new Python file called countries.py. Create a list called `four_letter_countries` with the following countries (in this order):
 	- Chad
 	- Cuba

@@ -52,7 +52,7 @@ Create a new python file called `warmup1.py` and complete the following:
 5. Write a functions called `ModeTemperature` that takes a list parameter called `daily_temperatures` and returns the most common temperature in the list. If there is more than one mode, return the first mode found.
 6. Write a function called `MedianTemperature` that takes a list parameter called `daily_temperatures` and returns the median element of the list.
 
-###  2. Loops and Dictionaries Drills
+###  3. Loops and Dictionaries Drills
 
 Given the following dictionary:
   ```python
@@ -89,7 +89,7 @@ Given the following dictionary:
 1. Write a loop that prints out each person's name along with their favorite food in the form of "(name) loves (food)", e.g. "victoria loves pizza"
 2. Write a loop that prints out each person's name along with their favorite food in the form of "(name) Loves (food)", with each word capitalized, e.g. "Victoria Loves Pizza" and "Cookie Monster Loves Cookies".
 
-###  3. Creating Lists and Dictionaries
+###  4. Creating Lists and Dictionaries
 
 1. Write a function called `Deltas` that takes a list parameter called `daily_temperatures` and returns a list of the differences between each temperature. For example, `Deltas([73, 75, 70])` should return `[2, -5]`.
 2. Write a function called `GetUniqueFavorites` that takes a dictionary parameter called `name_to_favorite_food` and returns a list of all the unique favorite foods.

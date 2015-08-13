@@ -1,6 +1,6 @@
 ---
   layout: post
-  title: Profile Page Templating & Work Time
+  title: App Engine Profile Page 
   language: resources
 ---
  Import all of your old static files into your profile page webapp and add features.

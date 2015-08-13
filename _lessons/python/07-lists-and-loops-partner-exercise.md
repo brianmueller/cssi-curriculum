@@ -3,15 +3,15 @@
   title: Python Lists and Loops Partner Practice
   language: python
 ---
-##Lists and Loops Partner Practice
+## Lists and Loops Partner Practice
 
-Add Ten and Divide By Two
+Add Ten and Divide By Two:
 
 ``some_numbers =[2, 52, 19, 46, 1000]``
 
 Use a loop to add ten to each number and then divide it by two and print this new number to the screen.
 
-Reverse Presidents
+Reverse Presidents:
 
 ``presidents = ["George Washington", "John Adams", "Thomas Jefferson", "James Madison", "James Monroe", "John Quincy Adams"]``
 

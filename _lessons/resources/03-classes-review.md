@@ -1,11 +1,8 @@
 ---
   layout: post
-  title: Exercises -  Python Objects
+  title: Classes Review
   language: resources
 ---
-
-##  Instructions:
-Fork and clone this lab, then complete the exercises below.
 
 ###  1. Jukebox Redux!
 
