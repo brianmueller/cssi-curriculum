@@ -1,6 +1,6 @@
 ---
   layout: post
-  title: Javascript Functions
+  title: JavaScript Functions
   language: javascript
 ---
 ## After the lesson, you'll be able to understand:
@@ -12,7 +12,7 @@
 + NICO
 
 
-##  What is a function?
+## What is a function?
 A function holds a set of actions that will run when we call that function. This helps us control the flow of our program and allows us to repeat a set of actions multiple times.
 
 Writing functions lets us package code into blocks that we can reuse. This will prevent us from writing the same code over and over again.
@@ -24,6 +24,7 @@ Imagine you are a cashier. Every time a customer checks out, you need to
 3. Print out the total
 
 If you were using the JavaScript console, this set of actions might look like:
+
 ```
 > 33 + 19 // add the prices of the items
 52
@@ -32,6 +33,7 @@ If you were using the JavaScript console, this set of actions might look like:
 > 52 - 7.8 // subtract the coupon from the price
 44.2
 ```
+
 That process takes time, and if you do it hundreds of times each day, you are bound to make some mistakes. Instead, we can write a function that will do all the work for us:
 
 ```
@@ -41,7 +43,9 @@ function checkout(item1, item2, coupon){
   console.log(total);
 };
 ```
+
 And then we can use the function like this:
+
 ```
 > checkout(33,19,.15)
 44.2
@@ -60,6 +64,7 @@ function name() {
     // instructions here
 };
 ```
+
 The instructions go inside the curly braces.
 
 ```
@@ -76,10 +81,12 @@ We use a function with its name. The name for this is calling the function.
 ```
 goGetLunch();
 ```
+
 This is the equivalent of telling the computer - do those steps in the goGetLunch function. The parentheses are necessary to let the browser know that we want to run the instructions.
 
 ## Passing in Parameters
 Parameters allow you to pass values into functions - they help make functions reusable. Instead of using the same values every time you use the function, you can use the same set of instructions on different data.
+
 ```
 function goGetLunch(student) {
   console.log('hey, ' + student);
@@ -88,12 +95,15 @@ function goGetLunch(student) {
   console.log('walk out the door');
 }
 ```
+
 Then we can call it like this:
+
 ```
 goGetLunch("Joe");
 goGetLunch("Jill");
 goGetLunch("Josie");
 ```
+
 When you call a function like this and pass values to it, those values are called arguments. We can reuse this function, and change the name of the student we address by adding a different student argument.
 
 In the above example, `student` in the function definition is the parameter. But when we actually call the function with a student's name, the strings "Joe", "Jill", "Josie" are arguments.
@@ -102,11 +112,13 @@ In the above example, `student` in the function definition is the parameter. But
 So far, the functions we've made have had side effects - printing something out to the console - but they haven't passed results back. When we used the addition function, it didn't just print something - we could store the result in a variable.
 
 To pass results, we **return** a value.
+
 ```
 function addTwice(x,y){
     return x+x+y+y;
 }
 ```
+
 When we have a return statement, we leave the function and give back that value. By saying return we’re asking the function to give us back the answer.
 
 ```
