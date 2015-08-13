@@ -3,14 +3,14 @@
   title: Intro to JavaScript and the Developer Console
   language: javascript
 ---
-## After the lesson, you'll be able to:
+# What You Will Learn:
 + Understand and define key programming concepts
 + Use the JavaScript console
 + Understand the console is for testing, does not permanently store code
 + Use Arithmetic Operators in console
 + Use and concatenate strings in console
 
-## Why JavaScript?
+# Why This is Important:
 JavaScript is what gives the web its "magic".  The most useful and interesting applications on the internet today are mostly all powered by JavaScript.
 
 
@@ -25,22 +25,27 @@ This gives you an area down at the bottom of the screen, called the console. The
 
 ## Simple interpretation
 Try typing these lines, pressing enter after each one:
+
 ```
 >4
 >2+3
 >2*3
 ```
-Note that your friend the interpreter mostly just repeats what you say, but evaluates mathematical expressions. JavaScript performs basic math as you would expect, with the operators +, -, /, *.  A less familiar operator is %, or modulo. See if you figure out what modulo does.
+
+Note that your friend the interpreter mostly just repeats what you say, but evaluates mathematical expressions. JavaScript performs basic math as you would expect, with the operators ` +, -, /, * .`  A less familiar operator is %, or modulo. See if you figure out what modulo does.
 
 ```
 > 10 % 5
 ```
+
 ```
 > 11 % 5
 ```
+
 ```
 > 13 % 5
 ```
+
 ```
 > 16 % 5
 ```
@@ -68,9 +73,11 @@ So now we know we can do math in the  console. The interpreter will do things to
 ```
 >"my string"
 ```
+
 Note that you have to put text inside quotes before the interpreter can understand them. Anything between quotes is called a string.
 
 Now try adding two strings together:
+
 ```
 >"first name" + " last name"
 ```
@@ -80,6 +87,7 @@ Combining strings with the + operator is called concatenation.
 JavaScript uses + symbol for math when it is operating on numbers, but when it sees strings, it will concatenate (link together) the text.
 
 Let’s test this. Try entering these three different expressions:
+
 ```
 >1 + 1
 >”1” + “1”
