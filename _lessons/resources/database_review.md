@@ -1,7 +1,7 @@
 ---
   layout: post
   title: Database Review
-  language: python
+  language: resources
 ---
 #DataBases
 ##Clients make request to the server and the server sends a response back
@@ -241,7 +241,7 @@ georgia.put()
 carter= Buyer(name="Carter", id="carter")
 carter.put()
 
-ProductBuyer(product=books.key, buyer=carter.key).put() 
+ProductBuyer(product=books.key, buyer=carter.key).put()
 ProductBuyer(product=clothes.key,buyer=georgia.key).put()
 ProductBuyer(product=books,key,buyer=georgia.key).put()
 
