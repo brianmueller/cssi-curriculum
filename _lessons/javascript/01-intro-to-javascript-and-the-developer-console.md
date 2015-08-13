@@ -1,11 +1,11 @@
 ---
   layout: post
-  title: Intro to Javascript and the Developer Console
+  title: Intro to JavaScript and the Developer Console
   language: javascript
 ---
 ## After the lesson, you'll be able to:
 + Understand and define key programming concepts
-+ Use the JS console
++ Use the JavaScript console
 + Understand the console is for testing, does not permanently store code
 + Use Arithmetic Operators in console
 + Use and concatenate strings in console
@@ -16,11 +16,11 @@ JavaScript is what gives the web its "magic".  The most useful and interesting a
 
 ## Using the Console
 
-We can play-around with Javascript in the Javascript Console. This is like a playground to experiment with Javascript.
+We can play-around with JavaScript in the JavaScript Console. This is like a playground to experiment with JavaScript.
 
 To get to the console, open chrome, and navigate to any webpage.  Press <kbd>command</kbd> + <kbd>option</kbd> + <kbd>J</kbd>
 
-This gives you an area down at the bottom of the screen, called the console. The ">" symbol is called the prompt, where you can type js code.
+This gives you an area down at the bottom of the screen, called the console. The ">" symbol is called the prompt, where you can type JavaScript code.
 
 
 ## Simple interpretation
@@ -63,7 +63,7 @@ Here are some other mathematical operators:
 
 
 ## Strings
-So now  we know we can do math in the js console. The interpreter will do things to pieces of text, too. In programming we call bits of text "strings".  
+So now we know we can do math in the  console. The interpreter will do things to pieces of text, too. In programming we call bits of text "strings".  
 
 ```
 >"my string"
