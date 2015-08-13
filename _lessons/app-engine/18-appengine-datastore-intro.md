@@ -34,7 +34,10 @@ from google.appengine.ext import ndb
 
 Before we actually store data, you need to figure out how to structure it. The structure of our data is called a model. This is like a giant spreadsheet. Each column of the spreadsheet is a property and each row is a new entity.
 
-For example, let's pretend we wanted to think-through the model for a Student. A student will have a name, a university, and a birthday. Students don’t have to provide their birthday though. These parts of a student (name, university, birthday) are called properties. Notice that properties have a type. In this case, we are using strings (for name and university) and an integer (for the age). Properties can also be required or optional.
+For example, let's pretend we wanted to think-through the model for a Student. Essentially we just need to build a Student class, which inherits from ndb.Model.
+
+A student will have a name, a university, and a birthday. Students don’t have to provide their birthday though. These parts of a student (name, university, birthday) are called properties. Notice that properties have a type. In this case, we are using strings (for name and university) and an integer (for the age). Properties can also be required or optional.
+
 
 ```python
 class Student(ndb.Model):
@@ -215,6 +218,17 @@ Databases allow developers to store information in between user sessions. This o
 ##  Hints and Hurdles
 
 + Make sure you call `put()` when writing to the database or your *entity* won't get saved.
+
+
+##Datastore Exercise
+
+Now that you know how to create new entities, view them, update them and delete them (CRUD), it's time to practice the skills you learned.
+
+1. Create a model for a Dragon with at least three properties, one should be the name.
+2. Create at least two entities for the Dragon class and store them in datastore.
+3. Create a query that returns all the names of the dragon.
+4. Change the name of one of the Dragon's to Slayer
+5. Delete Slayer from datastore.
 
 ## Resources
 

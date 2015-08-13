@@ -124,6 +124,11 @@ Images use an `<img>` tag to embed an image in a webpage.
 `<img src="your_image_location">`
 
 
+## Activity: Celebrity Fan Site
+Open a new html page and name it celebrity_fansite.html
+<img src="https://screenshot.googleplex.com/wV4kEYSvrvk.png">
+
+
 ## Indentation
 HTML is not the easiest to read. It's designed to be clear for the browser to understand, but not always for humans. Indentation help make your code easier to understand and debug.
 

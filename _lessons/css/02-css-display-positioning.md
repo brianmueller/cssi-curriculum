@@ -24,6 +24,10 @@ You've seen how to select and style individual CSS elements. Now, we'll look at 
 
 Positioning is tricky - the view window isn't always the same size, and elements often need to change size and position relative to each other and to the window.
 
+## Empire State Code Along:
+Fork and Clone this Lab and follow along while your instructor codes.
+https://github.com/google-cssi/hs-empire-state-css-challenge
+
 ## Display and Positioning
 This section covers some of the least intuitive parts of CSS. Buckle your seatbelts.
 
@@ -206,6 +210,11 @@ section {
 And we get:
 
 ![Blue box on top of orange box](http://i.imgur.com/wLhnXJl.png)
+
+## Activity: Fansite
+
+Open your celebrity_style.css file:
+<img src="https://screenshot.googleplex.com/O3nrgkkdNAf.png">
 
 ## Clearfix Class
 Here’s an example of a common CSS problem. We want to put, say, a picture and a block of text and have them float next to each other inside another block (we’ll make it pink with an orange border). Here’s our code:
