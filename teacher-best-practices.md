@@ -5,8 +5,18 @@
 + Why is your lesson important- Every lesson should start with a WHY. Why is this topic important, relevant and exciting?! Find ways to connect with student's background knowledge and every day life.
 + Chunking lectures- Stop after each new skill and ask the class to rank their understanding from 1-5 or show a thumbs up and thumbs down. Rule of thumb is with every new skill students should have at least 10 minutes of practice.
 + Talk aloud- When you are coding to talk through your thought process. When you run into an error DON'T PANIC, model debugging and searching for documentation.
++ Be creative about naming variables especially when data is being passed in multiple places rather than just using x and y.
 
-###Check for student understanding:
+```python  
+def add (dog,cat):
+  return dog + cat
+
+platypus= 50
+giraffe= 20
+
+add (platypus,giraffe)
+```
+### Check for student understanding:
 
 + Fist to Five- Ask students how comfortable they feel by showing 1-5, one being they need help from a teacher, 3 being they need more practice, and 5 being they could teach this to another student. Consider introducing the eyes closed fist of five which can be more illuminating and helpful.
 + Awkward silence- After you ask a question, allow the silence to linger a little longer than is comfortable can get students to speak up. If no one speaks up that is a sign that the class didn't understand the concept. Go back and reteach the last skill.

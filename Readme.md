@@ -21,7 +21,7 @@ Jekyll will build the site and make it available at localhost:4000 (by default -
 ## Git + Github
 
 + Emphasize the concept of source control
-+ An kinesthetic example: boxes and envelopes. Two boxes - 1 labeled Server-Github (remote), the other labeled Client-Your Mac (local). Create a directory (put an envelope) into the local machine. touch a new file (put an index card into the envelope). then touch another file. git add . (put a "stamp on each index card"), then git commit (close the envelope, write the message outside the envelope), the get push, actually move it from the local box to the server box. (But then explain the files don't actually move, a copy actuall moves - so have another envelope with those two files ready and put that in the local box). Right now there are two identical directories with the same files. But if you edit one index card in one directory, it doesn't neccessarily change the other file. This is why we must pull/push. 
++ A kinesthetic example: boxes and envelopes
 
 ## Commandline
 
@@ -34,6 +34,7 @@ Jekyll will build the site and make it available at localhost:4000 (by default -
 ### Content
 
 + Math operators and string methods are boring to teach in isolation; they don't represent basic, reusable concepts but instead targeted solutions for particular problems.  For reference, structuring the material this way makes sense but for introducing them it makes more sense to not have the instructor present them but to have a guided lab introduce them.
++ When explaining loops, in loops the syntax is for small thing in big thing. Where the big thing is a predefined datatype, the small can be named anything because its local to the loop.
 + One way to introduce loops, lists and conditionals is to using the running example of "print all the days in the year (Jan 1 .. Dec 31)" and then worked on simplifying that to introduce loops and lists (and then conditionals to get st/nd/rd/th suffixes).
 
 ### Instructional Delivery Methods
