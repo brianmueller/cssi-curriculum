@@ -105,14 +105,19 @@ class MainHandler(webapp2.RequestHandler):
 ```
 
 #### Using the Template Variables
-When your template variables get passed from the handler to the template, you can use them by surrounding them with mustaches `{{ }}`
+When your template variables get passed from the handler to the template, you can use them by surrounding them with mustaches `{% raw %}{{ }}{% endraw %}`
+
 ```html
 <html>
 <head>
 	<title>Your CSSI Story!</title>
 </head>
 <body>
-	<p> Once upon a time {{noun1}} wanted to learn to {{activity}} at Google. So {{noun1}} flew to Mountain View and met {{teacher}}. To {{noun1}}'s surpise {{celebrity}} was also in the class! Together {{noun1}} and {{celebrity}} decided to work on a project about {{show}}. {{noun1}} had so much {{fun}}</p>
+	<p>{% raw %} Once upon a time {{noun1}} wanted to learn to {{activity}}
+  at Google. So {{noun1}} flew to Mountain View and met {{teacher}}.
+  To {{noun1}}'s surpise {{celebrity}} was also in the class!
+  Together {{noun1}} and {{celebrity}} decided to work on a project about {{show}}.
+  {{noun1}} had so much {{fun}}{% endraw %}</p>
 </body>
 </html>
 

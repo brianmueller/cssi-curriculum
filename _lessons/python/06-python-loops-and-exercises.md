@@ -31,6 +31,7 @@ for name in ["Finn", "Jake", "Marceline"]:
 Note that the variable `name` is what we are calling each element within the list. We could call that variable anything: `character`, `person`, `actor`. It doesn't matter, as long as we continue to use that variable later within the _for_ block.
 
 Alternatively, we can declare a variable `names` which contains a list of our lovely characters, and then use the same syntax.
+
 ```python
 # same result, slightly different syntax
 
@@ -53,6 +54,7 @@ my_range = range(1,4)
 for i in my_range:
   print "I am looping and am currently on %d." % i
 ```
+
 ### While Loops
 While loops continue to repeat _while_ - or as long as - a certain condition is met. A while loop has a block of code and a condition.
 
@@ -67,6 +69,7 @@ while n < 5:
 ```
 #####  Example 2: A While/Else Loop
 This code is similar to the first _while_ loop example, except that there is an `else` statement. Once the condition `n<5` is not met, the instructions in the `else` block are executed. Then, the entire _while_ loop is exited, and the next instruction (to print `"You counted to 5"`) is executed.
+
 ```python
 n = 0
 while n < 5:
@@ -77,22 +80,14 @@ else:
 
 print "You counted to 5"
 ```
-# Loops Exercises - 
+# Loops Exercises -
 
 ###  Add Ten and Divide By Two
-```
+
+```python
 some_numbers =[2, 52, 19, 46, 1000]
 ```
 Use a loop to add ten to each number in the list and then divide it by two and print this new number to the screen.
-
-###  Reverse Presidents
- ```
- presidents = ["George Washington", "John Adams", "Thomas Jefferson", "James Madison", "James Monroe", "John Quincy Adams"]
- ```
-Use a loop to print out a string with the name reversed for each of the presidents in the `presidents` list.
-
-###  10 Bottles of Milk on the Wall
-Create an list with all the numbers from 10 down to 0. Using a loop, for every number print the string "___ bottles of milk on the wall", filling in the blank with the number in your list.
 
 # Conclusion
 Creating, modifying and accessing lists are important for every programmer, as is being able to use _for_ loops and _while_ loops. Practicing these small examples are a great way to build your foundation as a strong developer.

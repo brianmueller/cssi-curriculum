@@ -3,21 +3,26 @@
   title: JavaScript Arrays Practice
   language: javascript
 ---
-## Instructions:
+## Arrays Practice Instructions:
 
 ### 1. Arrays:
 
 Arrays are lists of elements, similar to a bookshelf that has slots to store different books (the elements) in a single shelf. Books can be fetched by identifying their position in the shelf (index).
 
 *  To declare an empty array, we can use the following construct:
+
 ```javascript
 var myArr = [];
 ```
+
 *  If we know already what elements we want to store in the array, we can put them inside the brackets:
+
 ```javascript
 var myArr2 = [element, anotherElement];
 ```
+
 Elements can be strings, numbers, boolean, or even *undefined*. If you leave a blank spot in an array it creates a blank shelf space (undefined) placeholder. Keeping these characteristics in mind, make a new array, `myArr`, with four elements that will behave in the following ways:
+
 ```javascript
 myArr[0]
   --> 'Hello'
@@ -28,8 +33,8 @@ myArr[2]
 myArr[3]
   --> true
 ```
-*  We can insert new values into any space in the array using the positions index. Change the undefined item in `myArr` to equal the string "Stuff" instead.
 
+*  We can insert new values into any space in the array using the positions index. Change the undefined item in `myArr` to equal the string "Stuff" instead.
 
 ### 2. Overwriting:
 We can overwrite all the elements of an array by assigning a new value to each of them. Or if we have two arrays, we can replace all elements of the first with those of the second in one statement, by assigning one array to the other.
