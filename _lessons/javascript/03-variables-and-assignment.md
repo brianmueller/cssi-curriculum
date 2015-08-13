@@ -1,6 +1,6 @@
 ---
   layout: post
-  title: Variables and Assignment
+  title: JavaScript Variables and Assignment
   language: javascript
 ---
 The interpreter has been great for doing little calculations, but it doesn't remember values from line to line. To help it remember, we will tell it we're making a variable.
