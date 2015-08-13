@@ -1,6 +1,6 @@
 ---
 layout: post
-title: APIs
+title: Intro to APIs
 language: apis
 ---
 ##  What You Will Learn:

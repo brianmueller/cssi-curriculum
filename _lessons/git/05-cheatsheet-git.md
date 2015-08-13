@@ -4,8 +4,6 @@
   language: git
 ---
 
-# Git
-
 [Official Github Cheatsheet](https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf)
 [Git-tower Cheatsheet](http://www.git-tower.com/blog/git-cheat-sheet/)
 

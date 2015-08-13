@@ -1,6 +1,6 @@
 ---
   layout: post
-  title: Github Walkthrough
+  title: Intro to Git and Github - Forking and Cloning
   language: git
 ---
 # What You Need to Know:
