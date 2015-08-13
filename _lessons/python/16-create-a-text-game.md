@@ -10,7 +10,7 @@ Think about all the basic programming knowledge we've built upon this week (data
 ###  The Task
 You will build a command line game that uses raw_input. If you're not feeling creative - you can make a basic trivia game. Otherwise there are other ideas below.
 
-####Trivia Game
+#### Trivia Game
 
 ```python
 answer1 = raw_input ("What is the capital of Illinois?: ")
@@ -25,7 +25,7 @@ Feature 4: ask more than one question, tally the number of correct responses and
 Feature 5 STRETCH: use a dictionary of questions and a dictionary of answers
 
 
-####Other Ideas
+#### Other Ideas
 1. FORTUNE TELLER - have users enter their name and give them a fortune based on some characteristic in their name (number of letters, number of vowels, location of first vowel, first letter etc)
 2. MASH - Update the classic paper and pencil game. Users enter a number and find out their future job, dwelling, future partner and a shocking life event. You will need arrays for this game
 3. MADLIBS - Users are prompted to enter  adjectives, nouns, adverbs etc to build a fun story
