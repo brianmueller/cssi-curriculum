@@ -38,18 +38,24 @@ You will get an error if you ask for something that doesn't exist.
 ```
 
 JavaScript also allows you to access the values by using a dot, similar to how you call a method. Try this:
+
 ```
 > fruitColors.apple
 ```
 
 You can also reassign values.
 
-`fruitColors["apple"] = "green"`
+```
+fruitColors["apple"] = "green"
+```
 
 Finally, you can use Object.keys() to list all of the keys in an object.
-`Object.keys(fruitColors)`
 
-##  Student Practice
+```
+Object.keys(fruitColors)
+```
+
+## Student Practice
 Create an object called favorites which has keys: book, ice cream flavor, city, and color.
 
 Then use concatenation to make a string that lists all of your favorite items. For example "My favorite things are Lord of the Rings, mint chocolate chip, Chicago and the color green."
@@ -57,7 +63,7 @@ Then use concatenation to make a string that lists all of your favorite items. F
 You will need to use the bracket or . syntax to access each value.
 
 
-##  Stretch Example
+# Stretch Example
 Let's explore JavaScript objects using a real life object.
 
 In real life, a person is an object. A person has **properties** like firstName, surname, age, and gender. A person's ability to express her thoughts can be defined as a **method** _talk_.
@@ -84,7 +90,7 @@ var person = {
         talk: function(){console.log('Hello')}}
 ```
 
-### Challenge
+# Challenge
 Make a new object called dog, with properites: name, breed, size, and function, bark.
 
 #  References

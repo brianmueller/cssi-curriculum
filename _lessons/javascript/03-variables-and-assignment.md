@@ -3,6 +3,11 @@
   title: JavaScript Variables and Assignment
   language: javascript
 ---
+# What You Will Learn:
++ Syntax for variables
++ How to assign variables
+
+# Why This is Important:
 The interpreter has been great for doing little calculations, but it doesn't remember values from line to line. To help it remember, we will tell it we're making a variable.
 
 We can think of a variable like a bucket. Inside of the bucket we can store data. The bucket has a name we declare, and we assign data(a value) to it using an '=' sign.

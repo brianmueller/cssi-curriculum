@@ -14,7 +14,7 @@
 JavaScript is what gives the web its "magic".  The most useful and interesting applications on the internet today are mostly all powered by JavaScript.
 
 
-## Using the Console
+# Using the Console
 
 We can play-around with JavaScript in the JavaScript Console. This is like a playground to experiment with JavaScript.
 
@@ -23,7 +23,7 @@ To get to the console, open chrome, and navigate to any webpage.  Press <kbd>com
 This gives you an area down at the bottom of the screen, called the console. The ">" symbol is called the prompt, where you can type JavaScript code.
 
 
-## Simple interpretation
+# Simple interpretation
 Try typing these lines, pressing enter after each one:
 
 ```
@@ -67,7 +67,7 @@ Here are some other mathematical operators:
 | --       	| decrement 	| decreases by 1 	| x=1; x--; x=0   |
 
 
-## Strings
+# Strings
 So now we know we can do math in the  console. The interpreter will do things to pieces of text, too. In programming we call bits of text "strings".  
 
 ```
@@ -93,7 +93,6 @@ Let’s test this. Try entering these three different expressions:
 >”1” + “1”
 >”1” + 1
 ```
-
 
 1 + 1 is a mathematical expression adding two numbers, while “1” + “1” is an expression concatenating two strings of the character 1. If you try to add a string and a number, both pieces are treated as strings and concatenated into a bigger string.
 
