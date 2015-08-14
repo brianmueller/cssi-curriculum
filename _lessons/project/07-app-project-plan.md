@@ -3,10 +3,10 @@
   title: Project Plan
   language: project
 ---
-### What You Will Learn
+# What You Will Learn:
 * Complete your Project Plan
 
-#### Directions
+# Directions:
 * You will have about an hour to get a head start on your project plan.
 * Make a copy of [this template.](https://docs.google.com/a/google.com/document/d/12qPuYRBiP1AR6rJjbyzG2p_bm--bJ5SPVWK_cTpvA8w/edit?usp=sharing)
 * Make a COPY, don't start writing your brilliant plans in the master version
