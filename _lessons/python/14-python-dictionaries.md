@@ -188,5 +188,5 @@ cat
 mouse
 ```
 
-# In Conclusion
+# Conclusion:
 Dictionaries are phenomenally useful tools for representing all kinds of data. They are similar to lists but rather than having and index (0,1,2,3) you have keys for each value!
