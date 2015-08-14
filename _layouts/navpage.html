@@ -7,8 +7,7 @@ layout: page
 
 <ul class="post-list">
   {% for post in site.lessons %}
-  <!-- exclude the nav pages from the list of posts -->
-    {% if post.language == page.language and post.type != "landing" %}
+    {% if post.language == page.language %}
     <li>
       <h2>
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
