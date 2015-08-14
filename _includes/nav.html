@@ -4,8 +4,12 @@
     <!-- Defines the order of presentation -->
     {% assign languages = "command-line python git html css javascript jquery app-engine apis project resources" | split: ' ' %}
 
-    {% for landing in site.landings %}
-        <a href="{{ landing.url }}"><h3>{{ landing.title }}</h3></a>
+    {% for language in languages %}
+      {% for landing in site.landings %}
+        {% if landing.language == language %}
+          <a href="{{ landing.url }}"><h3>{{ landing.title }}</h3></a>
+        {% endif %}
+      {% endfor %}
     {% endfor %}
 
   </div>
