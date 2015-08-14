@@ -16,13 +16,13 @@ Click the "Run" button in GoogleAppEngineLauncher.
 
 This creates a new dice directory with app.yaml and main.py files in it. Open this file to see what they look like. Go to `http://localhost:8082/` and see what happens.
 
-### Task 1:
+## Task 1:
 Copy your dice-rolling program into main.py and modify it so that it writes a list of die rolls when you go to `http://localhost:8082/roll.`
 
-### Task 2:
+## Task 2:
 Modify your program so when you go to http://localhost:8082/roll?times=5 it prints 5 dice rolls, when you go to http://localhost:8082/roll?times=30 it prints 30 dice rolls, etc..
 
-## Prime App Challenge
+### Prime App Challenge
 
 When you finish these exercises, you can take the Prime Challenge. Modify the primes app from the 6.3 Logging and Debugging Lesson, according to the following specification:
 

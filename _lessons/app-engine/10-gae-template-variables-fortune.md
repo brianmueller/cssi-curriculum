@@ -1,6 +1,6 @@
 ---
   layout: post
-  title: Template Variables with Fortune Teller
+  title: Fortune Teller Part.4 - Template Variables
   language: app-engine
 ---
 # Template Variables with Fortune Teller
@@ -14,8 +14,8 @@ Create a dictionary with three keys: "positive", "neutral" and "negative". Their
 You can make your own lists of responses, or use the [default values](https://en.wikipedia.org/wiki/Magic_8-Ball#Possible_answers), which contain 10 positive, 5 neutral and 5 negative answers.
 
 
-##  Reminders
-### Passings variables to a template:
+#  Reminders
+#### **Passings variables to a template:**
 
 Pass a dictionary of key:values as an argument to template.render():
 
@@ -34,7 +34,7 @@ my_variables = {"first_name": "Beyonce",
    `template.render(my_variables)`
 
 
-### Getting variables from a URL
+#### **Getting variables from a URL**
 
 A url can pass variables through its query string which starts after the question mark character. An ampersand (&) indicates a new variable:
 
@@ -48,6 +48,6 @@ You can also set a default value by adding an optional second argument, `default
 
 `self.request.get('feeling', default_value='happy')}`
 
-###  STRETCH CHALLENGE
+# **STRETCH CHALLENGE**
 * Read up on detecting user's location with html [here](http://www.developerdrive.com/2012/01/using-html5-to-determine-user-location/)
 * How could you use this browser feature and some python logic to display a different message based on where the user was located? How could you do it solely in javascript?

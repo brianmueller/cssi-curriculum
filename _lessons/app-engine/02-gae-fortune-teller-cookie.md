@@ -1,6 +1,6 @@
 ---
   layout: post
-  title: Fortune Teller Challenge
+  title: Fortune Teller Challenge Part. 1
   language: app-engine
 ---
 # Fortune Teller App
@@ -8,7 +8,7 @@ We are starting a Fortune Teller App that we will build on over the course of se
 
 Create a new App Engine application named fortune-teller, then read the requirements below and implement the path as specified. Note that the requirements may be vague, ambiguous, or just incomplete. Think about how you are deciding between different ways of implementing things.
 
-## Path 1:
+# Path 1:
 
 ### **Fortune Cookie**
 

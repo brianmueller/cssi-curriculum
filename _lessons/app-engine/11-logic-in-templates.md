@@ -39,7 +39,7 @@ app = webapp2.WSGIApplication([
 ], debug=True)
 ```
 
-### Jinja2 Syntax
+# Jinja2 Syntax
 To add logic to our html template, variables go between mustaches ``{% raw %} {{variables}}{% endraw %}``. The jinja2 syntax for embedding python code in our template is to use curly brackets and percent signs.
 
 ```html
@@ -60,10 +60,10 @@ To add logic to our html template, variables go between mustaches ``{% raw %} {{
 </html>
 ```
 
-## Exercise FakeMail
-Add logic in the code that searches whether the email has the words "help, money and account" and if so the email should be marked "spam".
+# Exercise FakeMail
+Add logic to the code that searches whether the email has the words "help, money and account" and if so the email should be marked "spam".
 
-## Stretch Exercise
+# Stretch Exercise
 Create an email class with the subject, unread, and spam properties instead of having a list of dictionaries with emails.
 ```python
 class Email(object):

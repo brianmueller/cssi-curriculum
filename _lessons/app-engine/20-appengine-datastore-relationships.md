@@ -4,15 +4,14 @@
   language: app-engine
 ---
 
-##  What You Will Learn:
-
+# What You Will Learn:
 + Understand why we would want to represent relationships between data in a database
 
-##  Why This is Important?
+# Why This is Important?
 
 In many web applications, we don’t just care about the data itself - we care about the relationships between data. A giant list of all the posts on facebook wouldn’t be very interesting - we want to associate posts to users, so that you see posts from your friends, not from random people everywhere.
 
-##  Lesson
+# Lesson
 
 Here we will talk about different ways we could potentially show the relationships between data. As an example, we'll build a database that keeps track of a Kindergarten class. One thing we know about kindergarteners - they’re always losing track of their lunchboxes! Let’s see what we can do make sure that we know whose lunch is whose.
 
@@ -27,7 +26,7 @@ Each kindergartener has a lunchbox, each lunchbox has a kindergartener. How coul
 2. Lunchbox as an ndb model and a structured property of a Kindergartener
 3. Lunchbox as another ndb model referenced by the kindergartener.  
 
-###  1. Relating objects by not relating objects
+# 1. Relating objects by not relating objects
 
 We know what the first way would look like already - just more properties on kindergartener!
 
@@ -86,7 +85,7 @@ Voila! The code makes sense!
 
 Kindergarteners each have a Lunchbox. We also get some other benefits from this separation: if we ever wanted to have Lunchboxes independent of Kindergarteners - say there were high schoolers who also brought lunch - we can reuse our code. Nice!
 
-###  3. Objects related by reference to their keys
+# 3. Objects related by reference to their keys
 
 The third way is even more interesting! It uses a new ndb property - KeyProperty. In this case, each lunchbox will be associated with their owner using a unique identification, a nametag if you will, which is the coding world is called a key.
 
@@ -149,5 +148,5 @@ With this ‘nametags’ approach (keeping KeyProperties on objects), we can als
 
 What if one day, a Kindergartener brought in two lunchboxes? Or a pair of siblings shared a lunchbox? It's important to structure your database relationships in a way that makes sense for your application.
 
-#### Conclusion
+# Conclusion:
 Managing keys which point to objects makes our code more comprehensible and works faster and more efficiently. We'll use KeyReference to represent relationships in our apps.
