@@ -4,16 +4,16 @@
   language: app-engine
 ---
 
-##  What You Will Learn:
+# What You Will Learn:
 
 + Understand what a Many-to-Many relationship symbolizes
 + Can implement such a relationship with App Engine's Datastore
 
-##  Why This is Important?
+# Why This is Important:
 
 Often we want to represent real world concepts in code. For example we might want to store all of the tags on a tumblr photo in our database. In this case a photo can have many tags, but a tag can relate to many photo's as well. This is another very important way to represent data.
 
-###  Many-to-Many Models
+# Many-to-Many Models
 
 Using our Teams model from before, let’s go over an example of a many:many relationship. A team has many fans, and a fan can support many teams. This is a many:many relationship.
 
