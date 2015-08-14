@@ -26,6 +26,7 @@
   7. Copy the boiler plate code below and you will have your first html page!
 
 # Boilerplate code:
+
 ```html
 <!DOCTYPE html>
 <html>  
@@ -54,7 +55,6 @@ Your html webpage should include
 +	An list of links to your g+ page, your github page, or another social media page (you will need the ``<li>`` tags and the ``<a>`` tag)
 
 # Adding pages
-
 Add additional pages to your site by creating separate html files
 + Create a new page, like a favorite page: `touch favorites.html`
 +	To link to pages in the same site, use an `<a>` tag.
