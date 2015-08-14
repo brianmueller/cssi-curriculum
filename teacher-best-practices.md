@@ -4,14 +4,7 @@
 |Teaching Strategies|How to Do it|CSSI Example|Video Example:|
 |---|---|---|---|
 | Check for Understanding(CFU)|Checks for Understanding are pre-planned questions that assess whether students are understanding the material you present. Throughout your lesson plan questions to ask students to collect data on whether your students are understanding concepts in order to make real time decisions about moving forward or reteaching a concept.|If the number 24 is in between quotes is it consider a string or a number? Why? |https://www.youtube.com/watch?v=atTFFzcvqfE |
-|Temperature Check   |Temperature checks are different ways to get instant student feedback from the entire class instead of just one student. This can be a simple “thumbs up” or “thumbs down” if you understand or a “fist to five” After taking the temperature, make sure you act on it: you can switch up seats, do a break out, or jot down student’s names to loop in with them later|“We just learned javascript objects. Show me:
-1 if you need help from a teacher
-2 If you need help from a partner
-3 you are doing okay
-4 You feel confident in your understanding
-5 You can teach this to someone else
-Then pair up the people that show 4’s and 5’s with people that put up 2s and 3’s. Then you can work with people that show 1’s
-Make sure they have a clear question they are trying to explain. |https://www.youtube.com/watch?v=z-Foqskz-1M   |
+|Temperature Check   |Temperature checks are different ways to get instant student feedback from the entire class instead of just one student. This can be a simple “thumbs up” or “thumbs down” if you understand or a “fist to five” After taking the temperature, make sure you act on it: you can switch up seats, do a break out, or jot down student’s names to loop in with them later|“We just learned javascript objects. Show me a fist to five (1 if you need help from a teacher 2 If you need help from a partner 3 you are doing okay 4 You feel confident in your understanding 5 You can teach this to someone else) Turn to a partner and whoever has the highest number explain the concept.|https://www.youtube.com/watch?v=z-Foqskz-1M|
 |   |   |   |   |
 |   |   |   |   |
 |   |   |   |   |
