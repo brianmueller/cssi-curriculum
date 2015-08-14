@@ -47,6 +47,14 @@ add (platypus,giraffe)
 ###Individual lab work:
 
 + Don't give away the answer- Coach students towards answering their own question rather than giving them the answers. Encourage them to search online for documentation or direct them towards where their error message might be.
++ When a student asks a technical question, resist the urge to take the keyboard. Allow the student to remain as the driver.
++ Don’t accept a student's word when you ask “Do you get it?” and they say, “Yes”
+  + Ask them to explain it back to you in english and walk you through the code
+  + If they are having trouble walk them through it again in plain english
+  + Repeat until they can walk you through it independently and confidently
+  + Having them verbalize the concept is very important and will be validating for them!
+  + If another person asks the same question, empower the student you just worked with to teach the content to that person because they are now an expert!
+
 
 ###Group work:
 
@@ -55,6 +63,8 @@ add (platypus,giraffe)
 ###Culture and motivation:
 
 + Encourage rubber ducky debugging. Have students explain their code before you giving trying to help find a solution to their code.
++ Reinforce that error messages are GREAT!! Error messages are the means of the computer communicating with us where the bug is.
+Failure is the first step in learning. If you notice a student getting frustrated or discouraged remind them that every programmer has gone through this process and is continuing to fail everyday! Trust the process
 
 ###Logistics:
 
