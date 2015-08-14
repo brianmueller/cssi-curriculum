@@ -1,4 +1,17 @@
 # Best Practices for Teaching at CSSI
+### Instructional Strategies
+
+|   |   |   |   |
+|---|---|---|---|
+|   |   |   |   |
+|   |   |   |   |
+|   |   |   |   |
+|   |   |   |   |
+|   |   |   |   |
+|   |   |   |   |
+|   |   |   |   |
+|   |   |   |   |
+|   |   |   |   |
 
 ###Delivering content:
 
