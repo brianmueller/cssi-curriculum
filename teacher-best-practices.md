@@ -1,7 +1,7 @@
 # Best Practices for Teaching at CSSI
 ### Instructional Strategies
 
-|   |   |   |   |
+| Teaching Strategies   | How to Do it  |CSSI Example   | Video Example: |
 |---|---|---|---|
 |   |   |   |   |
 |   |   |   |   |
