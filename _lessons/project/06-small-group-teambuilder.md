@@ -3,15 +3,15 @@
   title: Teambuilding Exercise
   language: project
 ---
-### What You Will Learn
+# What You Will Learn:
 * Develop a Team Name
 * Work Through Natural Team Tendencies
 
-### Why This is Important / Why Should You Care?
+# Why This is Important:
 * This is a low stress way to observe your group’s communication styles
 * Also a fun break in the day before you jump into project planning
 
-### Saving Sam [Site Specific]
+# Saving Sam [Site Specific]
 Materials:
 * Gummy Worm (Sam)
 * Gummy “Life Saver” preserver
