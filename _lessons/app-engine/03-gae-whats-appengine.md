@@ -13,8 +13,7 @@
 + Understanding GET and POST requests
 + Understanding the MVC framework
 
-# Motivation
-
+# Why This is Important:
 **Google App Engine** is a Platform as a Service (PaaS) offering that lets you build and run applications on Google’s infrastructure. You upload your files through the App Engine interface and your app gets hosted on Google's servers. App Engine connects the back-end and front-end for you.
 
 Before we continue to make our own webapps, we need to speak very briefly about how anyone on the internet can access the code that you write at home.
@@ -32,25 +31,16 @@ The webapps you build will
 
 A server is a computer that waits (listens) for requests and sends back responses. Clients are usually individuals on their web browser, and their requests might be typing in a certain URL or submitting certain information.
 
-<<<<<<< HEAD
 # Requests
 When building apps on App Engine you will need to consider how your users will interact with your app.
-=======
-###  Requests
-When building webapps on App Engine you will need to consider how your users will interact with your app.
->>>>>>> bbb104b2505dc61e322eca58b5a49d616dedf2a8
+
 There are two ways that a client (users) can make a request (send data): **GET** and **POST**
  + GET - data is stored within a URL
  + POST - data is submitted and temporarily stored
 
 You will learn how to deal with both of these types of requests later today.
 
-<<<<<<< HEAD
 # MVC
-=======
-
-###  MVC
->>>>>>> bbb104b2505dc61e322eca58b5a49d616dedf2a8
 In week 1, we learned front-end languages: HTML, CSS and JS and a back-end language: Python. Webapps need a way to connect the front-end, the back-end and will often need a database.
 
 The way that many people refer to the connections between everything a webapp might need is MVC or Model-View-Controller.
