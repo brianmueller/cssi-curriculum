@@ -3,7 +3,7 @@ layout: post
 title: Cheatsheet - Command Line
 language: command-line
 ---
-
+# Command Line Cheatsheet:
 +  `~`: The tilde means you’re in your user's home directory, can be replaced with `/users/<your_name>/`
 + `pwd`: pwd means print working directory - it tells us where we are.
 + `ls`: check what directories are within the directory where you are standing by using
