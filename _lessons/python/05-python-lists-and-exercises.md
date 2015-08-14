@@ -7,7 +7,7 @@
 + Command-line Basics
 + Basic Python syntax and datatypes
 
-# What You Will Learn
+# What You Will Learn:
 + How to create a list in Python syntax
 
 # Why This is Important:
@@ -25,7 +25,7 @@ To create a list with some objects in it, just add the elements separated by com
 >>> groceries = ['Eggs', 'Milk','Butter']
 ```
 
-### Accessing items in a list
+# Accessing items in a list
 List items have an index and are accessed by calling their index number. Numbering in the list starts at 0.
 
 ```python
@@ -39,7 +39,7 @@ List items have an index and are accessed by calling their index number. Numberi
 ['Milk', 'Butter']
 ```
 
-### Modifying a List
+# Modifying a List
 The easiest way to modify a list’s content is to just access the list object by its index (numerical place in the list) and use the assignment operator.
 
 ```python
@@ -57,7 +57,7 @@ Another convenient way to modify a list is the append() method. The append metho
 ['Bread', 'Milk', 'Butter', 'Asparagus']
 ```
 
-### List Methods
+# List Methods
 Using the len function, you can return the number of items in a list:
 
 ```python
@@ -80,7 +80,7 @@ groceries.sort()
 ['Bread', 'Butter', 'Ice Cream', 'Milk']
 ```
 
-###  'In' and 'Not' Operator
+# 'In' and 'Not' Operator
 What if you have a list of groceries and you want to check if ‘apples’ is in that list? Or a list of names and you want to check to see if someone is present? Use the 'in' operator.
 
 ```python
@@ -96,7 +96,7 @@ if 'albert' not in students:
   print 'where is albert?!'
 ```
 
-### range(): building lists of numbers easily
+# range(): building lists of numbers easily
 It is frequently useful to be able to generate a list of numbers. Rather than have you type out all the numbers you want, Python makes this easy:
 
 ```python
@@ -108,7 +108,7 @@ It is frequently useful to be able to generate a list of numbers. Rather than ha
 Generally, ranges have the form:
 `range(<start_int>, <end_int>, <interval>)`
 
-# List Countries Exercise
+### List Countries Exercise
 <img src="https://s3.amazonaws.com/after-school-assets/globe.jpeg" align="right" width="300px" hspace="10">
 
 + Create a new Python file called countries.py. Create a list called `four_letter_countries` with the following countries (in this order):
@@ -134,8 +134,8 @@ Generally, ranges have the form:
 
 + Add **Peru** to the start of the list
 
-#  What does your final list look like?
+#### What does your final list look like?
 
 
-# Conclusion
+# Conclusion:
 Creating, modifying and accessing lists are important for every programmer, as is being able to use _for_ loops and _while_ loops. Practicing these small examples are a great way to build your foundation as a strong developer.
