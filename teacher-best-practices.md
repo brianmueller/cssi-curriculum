@@ -16,6 +16,7 @@ giraffe= 20
 
 add (platypus,giraffe)
 ```
+
 ### Check for student understanding:
 
 + Fist to Five- Ask students how comfortable they feel by showing 1-5, one being they need help from a teacher, 3 being they need more practice, and 5 being they could teach this to another student. Consider introducing the eyes closed fist of five which can be more illuminating and helpful.
