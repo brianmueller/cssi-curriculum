@@ -65,6 +65,10 @@ add (platypus,giraffe)
 + Encourage rubber ducky debugging. Have students explain their code before you giving trying to help find a solution to their code.
 + Reinforce that error messages are GREAT!! Error messages are the means of the computer communicating with us where the bug is.
 Failure is the first step in learning. If you notice a student getting frustrated or discouraged remind them that every programmer has gone through this process and is continuing to fail everyday! Trust the process
++ When asking students how they are doing in the framework of learning zones. Ask them if they are in their safe zone, stretch zone, or strain zone.
++ Remember students are new to computer science so as much as possible introduce concepts using metaphors and real life examples that are relevant to them.
++ As much as possible, refer to each student by their name. If students don’t have their place card ask them to take it out and put it on their desk. 
++ Be authentic and show students that you're excited to help!
 
 ###Logistics:
 
