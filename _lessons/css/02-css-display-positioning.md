@@ -24,14 +24,14 @@ You've seen how to select and style individual CSS elements. Now, we'll look at 
 
 Positioning is tricky - the view window isn't always the same size, and elements often need to change size and position relative to each other and to the window.
 
-## Empire State Code Along:
+# Empire State Code Along:
 Fork and Clone this Lab and follow along while your instructor codes.
 https://github.com/google-cssi/hs-empire-state-css-challenge
 
-## Display and Positioning
+# Display and Positioning
 This section covers some of the least intuitive parts of CSS. Buckle your seatbelts.
 
-### Display
+#### Display
 The display property has [many possible settings](https://developer.mozilla.org/en-US/docs/Web/CSS/display). The most commonly used are none, inline, block, and inline-block.
 
 ```html
@@ -54,7 +54,7 @@ display: inline-block;
 ```
 An element with display: inline-block; shares some of both properties. It sets its width and height in the same way as block, but can exist on the same line as other elements. There are no tags that default to inline-block.
 
-## Examples
+# Examples
 Here is some HTML and CSS for two elements. Below you can see an example of what happens with the elements when their display property is set to inline, block, and inline-block, respectively.
 
 ```html
@@ -76,10 +76,10 @@ div.green {
 
 ![Examples of three different display properties](http://4.bp.blogspot.com/-TiwOixlooJk/U4UyEnv_XpI/AAAAAAAACFs/NuuLz2IvoZ4/s1600/css-display-block-vs-inline-block.png)
 
-##Complete exercises 4-6 on Display Property:
+# Complete exercises 4-6 on Display Property:
 https://github.com/victoria/advanced-css-review
 
-## Position
+# Position
 The position property has four possible values: static, relative, absolute, and fixed. By default, all elements have `position: static;`.
 
 ```html
@@ -143,7 +143,7 @@ position: fixed;
 ```
 An element with `position: fixed;` does not take up space in the normal flow of objects. It is very similar to `position: absolute;` except for one key feature: it will always stay in the exact same place in the window, even if you scroll in any direction. This makes it a popular choice for headers (and sometimes footers) if you want them to follow the user around the page.
 
-## Float
+# Float
 Elements can given the display property  [float](https://docs.google.com/document/d/1txE9GpKF3CtZXZBgcma5v3W-FRlOEuZJZ8QHFAvlG4w/edit# heading=h.vmcqvnili4n0), which can be set to left, right, or none. By default the float property is set to none.
 If float is set to left, the element will automatically “float” up and to the left until it hits either the edge of its parent element or the edge of another element with float: left; (the rule is similar for float: right;).
 
@@ -211,12 +211,12 @@ And we get:
 
 ![Blue box on top of orange box](http://i.imgur.com/wLhnXJl.png)
 
-## Activity: Fansite
+# Activity: Fansite
 
 Open your celebrity_style.css file:
 <img src="https://screenshot.googleplex.com/O3nrgkkdNAf.png">
 
-## Clearfix Class
+# Clearfix Class
 Here’s an example of a common CSS problem. We want to put, say, a picture and a block of text and have them float next to each other inside another block (we’ll make it pink with an orange border). Here’s our code:
 
 ```html
@@ -272,5 +272,5 @@ Now, just add the above to our CSS and change our HTML like so:
 And voilá!
 ![Smileyface text no  background](http://i.imgur.com/vc3ccGc.png)
 
-#Conclusion
+# Conclusion
 Display and Positioning properties allow you to control the layout of your webpage!
