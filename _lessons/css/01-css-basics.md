@@ -134,6 +134,14 @@ Copy that the @import url and paste it at the top of your CSS file
 Integrate the fonts into your CSS:
 <img src="https://raw.githubusercontent.com/learn-co-curriculum/cssi-1.5-css-basics/master/images/8.png">
 
+# Activity: Celebrity Fansite
+Create a new file called "celebrity_style.css" Open your celebrity_fansite.html Copy and paste the stylesheet link into your index.html page. It should be between the `<head></head>` tags
+
+```html
+<link rel="stylesheet" type="text/css" href="celebrity_style.css">
+```
+<img src= "https://screenshot.googleplex.com/L8wVXoi8qeC.png">
+
 # Conclusion
 Now you know how to add styling to your HTML pages. Use different types of selectors to change elements within your HTML page.
 

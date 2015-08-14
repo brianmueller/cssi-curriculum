@@ -117,6 +117,10 @@ border-radius: 10px;
 ```
 border-radius is also how we make elements appear like ovals or circles. If you set your border-radius to 50%, it will automatically become an oval. If, in addition, your content + padding makes a square, setting your border-radius to 50% will make a circle.
 
+## Activity: Celebrity Fansite:
+Open your  "celebrity_style.css" file:
+<img src="https://screenshot.googleplex.com/b7YuGbLP9Xu.png">
+
 ## Complete exercises 7 and 8 on the box model:
 https://github.com/victoria/advanced-css-review
 

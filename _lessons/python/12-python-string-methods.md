@@ -152,6 +152,7 @@ name = "Spongebob Squarepants"
 print "Who lives in a Pineapple under the sea? {character}".format(character=name)
 >> Who lives in a Pineapple under the sea? Spongebob Squarepants.
 ```
+
 The hobby example uses two keyword arguments: 'name' and 'hobby', which are assigned to strings within .format()
 
 ```python
@@ -165,6 +166,7 @@ This final example uses positional arguments:
 print "There are {0} students at CSSI in {1}!".format(30, "Chicago")
 >>There are 30 students at CSSI in Chicago!
 ```
+
 ***%s***
 The older way to use variables in strings and uses the % operator.
 
@@ -175,15 +177,15 @@ print "The %s have %d %s championships in %d years" %("Chicago",3, "NHL", 3)
 >>The Chicago have 3 NHL championships in 3 years
 ```
 
-## Exercise: User Input App
+# Exercise: User Input App
 Let's build a simple input/output app. The main objective is to create an application that _takes in user input, does something with that input, and then prints out an output_.
 
-###  Get User Input
+# Get User Input
 The first thing we need to do is take in user input with the `raw_input()` method. When an executed Python program hits the method `raw_input()`, the program pauses and waits for the user to enter text into the terminal.
 
 The way `raw_input()` takes in data from the user is important to remember. It does not interpret the data entered, it merely returns exactly what the user enters, the raw data. The second thing to remember is that `raw_input()`  takes exactly one line of input. Once the user presses enter, what is on that line is what raw_input() returns.
 
-###  The Challenge: A Visit to My Favorite City
+# The Challenge: A Visit to My Favorite City
 Let's build an application to plan tourists' visits to your favorite city. Create a new file with `touch trip.py` in terminal. Open `trip.py` with Atom to start writing your program.
 
 Ask the user where they would like to stay, what sites they want to visit, what food they want to eat, and how many nights they want to stay. For each question, take input from the user and store it in a variable. <img src="https://s3.amazonaws.com/after-school-assets/greetings.jpg" align="right" width="300" hspace="20">
@@ -202,8 +204,8 @@ Nights: 3
 
 Remember, you can execute your code by typing `python trip.py` in terminal from inside the directory of this lab. Good luck!
 
-#  Conclusion
+# Conclusion
 There are a lot of string methods that we can access in python. Whenever you don't remember if one exists, or the syntax, you can always look up the documentation.
 
-#  References
+# References
 [Python String Interpolation Guide] (https://mkaz.com/2012/10/10/python-string-format/)

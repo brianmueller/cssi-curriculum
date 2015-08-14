@@ -29,6 +29,7 @@ How do we use them? The python syntax for declaring a dictionary is with {curly 
 ```python
 empty_dict = {}
 ```
+
 To create a dictionary with values in it, set key-value pairs separated by colons and commas:
 
 ```python
@@ -65,6 +66,7 @@ cartoon_species = {'bugs': 'rabbit',
 
 cartoon_species['bugs'] = 'bunny' # reassigns rabbit to bunny
 ```
+
 You can also use this technique to add key-value pairs to a dictionary that don’t already exist. For instance, with my_dict, I could do the following:
 
 ```python

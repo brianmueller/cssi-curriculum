@@ -9,16 +9,15 @@
 + How to Launch an App Engine App
 
 # What You Will Learn:
-+ About what App Engine is and how it works on the web
 + Client server relationships
 + Understanding GET and POST requests
 + Understanding the MVC framework
-+ How routes and handlers work
 
-# Why This is Important:
+# Motivation
+
 **Google App Engine** is a Platform as a Service (PaaS) offering that lets you build and run applications on Google’s infrastructure. You upload your files through the App Engine interface and your app gets hosted on Google's servers. App Engine connects the back-end and front-end for you.
 
-Before we continue to make our own web apps, we need to speak very briefly about how anyone on the internet can access the code that you write at home.
+Before we continue to make our own webapps, we need to speak very briefly about how anyone on the internet can access the code that you write at home.
 
 ###  Clients and Servers
 The internet is a network of computers that communicate with each other using HTTP, which defines how data is deliverd. We won't cover HTTP too much during CSSI but you can read more about it [here](http://www.tutorialspoint.com/http/http_overview.htm).
@@ -27,19 +26,20 @@ The computers can either be clients, servers or often times both.
 
 ![Client and Server Diagram](https://mdn.mozillademos.org/files/4291/client-server.png)
 
-The apps you build will
+The webapps you build will
 * Get data from a client -  a request
 * Use a server to send data back -  a response.
 
 A server is a computer that waits (listens) for requests and sends back responses. Clients are usually individuals on their web browser, and their requests might be typing in a certain URL or submitting certain information.
 
 ###  Requests
-When building apps on App Engine you will need to consider how your users will interact with your app.
+When building webapps on App Engine you will need to consider how your users will interact with your app.
 There are two ways that a client (users) can make a request (send data): **GET** and **POST**
- + GET - data is stored within a URL path
+ + GET - data is stored within a URL
  + POST - data is submitted and temporarily stored
 
 You will learn how to deal with both of these types of requests later today.
+
 
 ###  MVC
 In week 1, we learned front-end languages: HTML, CSS and JS and a back-end language: Python. Webapps need a way to connect the front-end, the back-end and will often need a database.
