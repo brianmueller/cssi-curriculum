@@ -3,8 +3,20 @@
 
 |Teaching Strategies|How to Do it|CSSI Example|Video Example:|
 |---|---|---|---|
-| Check for Understanding(CFU)|Checks for Understanding are pre-planned questions that assess whether students are understanding the material you present. Throughout your lesson plan questions to ask students to collect data on whether your students are understanding concepts in order to make real time decisions about moving forward or reteaching a concept.|If the number 24 is in between “” is it consider a string or a number? Why? |https://www.youtube.com/watch?v=atTFFzcvqfE |
-|   |   |   |   |
+| Check for Understanding(CFU)|Checks for Understanding are pre-planned questions that assess whether students are understanding the material you present. Throughout your lesson plan questions to ask students to collect data on whether your students are understanding concepts in order to make real time decisions about moving forward or reteaching a concept.|If the number 24 is in between quotes is it consider a string or a number? Why? |https://www.youtube.com/watch?v=atTFFzcvqfE |
+|Temperature Check   |Temperature checks are different ways to get instant student feedback from the entire class instead of just one student. This can be a simple “thumbs up” or “thumbs down” if you understand or a “fist to five”
+
+After taking the temperature, make sure you act on it: you can switch up seats, do a break out, or jot down student’s names to loop in with them later   |“We just learned javascript objects. Show me:
+
+1 if you need help from a teacher
+2 If you need help from a partner
+3 you are doing okay
+4 You feel confident in your understanding
+5 You can teach this to someone else
+
+Then pair up the people that show 4’s and 5’s with people that put up 2s and 3’s. Then you can work with people that show 1’s
+
+Make sure they have a clear question they are trying to explain.   |https://www.youtube.com/watch?v=z-Foqskz-1M   |
 |   |   |   |   |
 |   |   |   |   |
 |   |   |   |   |
@@ -16,7 +28,7 @@
 ###Delivering content:
 
 + Why is your lesson important- Every lesson should start with a WHY. Why is this topic important, relevant and exciting?! Find ways to connect with student's background knowledge and every day life.
-+ Chunking lectures- Stop after each new skill and ask the class to rank their understanding from 1-5 or show a thumbs up and thumbs down. Rule of thumb is with every new skill students should have at least 10 minutes of practice.
++ Chunking lectures- Stop after each new skill and get a class temperature check (thumbs up/thumbs down or a fist to five). Consider reteaching the skill if students are confused or have students turn and talk to their partners.
 + Talk aloud- When you are coding to talk through your thought process. When you run into an error DON'T PANIC, model debugging and searching for documentation.
 + Be creative about naming variables especially when data is being passed in multiple places rather than just using x and y.
 
