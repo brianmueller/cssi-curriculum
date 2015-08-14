@@ -1,10 +1,9 @@
 ---
   layout: post
-  title: Intro to CSSI
-  language: intro
+  title: Culture And Expectations
+  language: resources
 ---
 
-# Intro to CSSI
 <img src= "http://4.bp.blogspot.com/-AU0aZPUBjFQ/VK74gygcU9I/AAAAAAAALng/7OiC-zMVDwQ/s1600/Screen%2BShot%2B2015-01-08%2Bat%2B4.36.35%2BPM.png" alt="google_cssi">
 
 #  Goals as a Community

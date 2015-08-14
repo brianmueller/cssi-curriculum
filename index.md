@@ -1,7 +1,6 @@
 ---
-  layout: post
-  title: Welcome to CSSI
-  language: intro
+layout: default
+title: Welcome to CSSI
 ---
 
 ![Google CSSI](http://flatironschool-uploads.s3.amazonaws.com/cssilogo.png)

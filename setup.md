@@ -1,7 +1,6 @@
 ---
-layout: post
-title: Setup for CSSI
-language: intro
+layout: default
+title: Setup
 ---
 
 To do the exercises in the CSSI curriculum, you'll need certain programs installed - these might be installed already, but check to make sure!
