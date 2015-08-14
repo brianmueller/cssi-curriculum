@@ -3,14 +3,14 @@ layout: post
 title: Intro to Python
 language: python
 ---
-# What You Will Learn
+# What You Will Learn:
 +	Interact with python (interpreter, text editor + run from command line)
 + Understand Basic concepts in python
 + Print a string
 + Add and multiply numbers
 + Understanding and error
 
-# Why Should You Care?
+# Why This is Important:
 Python is a scripting language - it is used to perform tasks. Those tasks might be scientific calculations and data analysis, binding together the pieces of a game engine, or, as we'll be using it next week, running a web app. When we run python, we don't run it through the browser, we run it directly on our machines.
 
 # Python Interpreter or Python Script
