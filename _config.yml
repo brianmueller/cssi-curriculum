@@ -9,8 +9,14 @@ description: > # About The Program
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 permalink: /:title
+
 collections:
   lessons:
+      output: true
+      defaults:
+        values:
+          layout: post
+  landings:
       output: true
       defaults:
         values:

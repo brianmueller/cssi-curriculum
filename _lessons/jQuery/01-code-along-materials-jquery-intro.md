@@ -1,6 +1,6 @@
 ---
   layout: post
-  title: jQuery Intro Lab
+  title: Setting Up For JQuery
   language: jquery
 ---
 # Code Along - jQuery Lesson

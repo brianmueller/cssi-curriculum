@@ -5,13 +5,14 @@
 ---
 
 ### Scope
-As you use your wonderfully talented and creative brains, don't forget to remember the scope of this project.
-* 4 full days of work time (Monday-Thursday) - It'll go faster than you think
-* Functionality should start simply
-  * Get user input
-  * Apply logic to user input
-  * Return something new (and wonderful!)
-* In a team of 3. What might workflow look like between your group?  
+As you use your wonderfully talented and creative brains, don't forget the scope of this project.
+
+- 4 full days of work time, Monday-Thursday (It'll go faster than you think)
+- Functionality should start simple and build up.
+  - Get user input
+  - Apply logic to user input
+  - Return something new (and wonderful!)
+- In a team of 3. What might workflow look like between your group?  
 
 ### MVP CONCEPT
 Focus on the most **basic** functionality of your app, then once that works, you can add features.
