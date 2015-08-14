@@ -1,9 +1,10 @@
 # Best Practices for Teaching at CSSI
 ### Instructional Strategies
 
-| Teaching Strategies   | How to Do it  |CSSI Example   | Video Example: |
+|Teaching Strategies|How to Do it|CSSI Example|Video Example:|
 |---|---|---|---|
-|   |   |   |   |
+| Check for Understanding(CFU)|Checks for Understanding are pre-planned questions that assess whether students are understanding the material you present. Throughout your lesson plan questions to ask students to collect data on whether your students are understanding concepts in order to make real time decisions about moving forward or reteaching a concept. Distribution between students
+Be willing to repeat material - don't wait before repeating a small chunk!   |If the number 24 is in between “” is it consider a string or a number? Why? |https://www.youtube.com/watch?v=atTFFzcvqfE   |
 |   |   |   |   |
 |   |   |   |   |
 |   |   |   |   |
