@@ -7,11 +7,11 @@
 + Understand what a One-to-Many relationship symbolizes
 + Can implement such a relationship with App Engine's Datastore
 
-##  Why This is Important:
+# Why This is Important:
 
 Often we want to represent real world concepts in code. For example we might want to store all of the posts a user has made on Facebook in our database. In this case *One* user has *Many* associated posts, but a post was only ever created by one user. This is a foundational component of database technology that allows for complex behaviors.
 
-###  One-to-Many Models
+# One-to-Many Models
 
 You can easily model the one to many relationship using `KeyProperty`, which allows us to store the key of another database model.
 
@@ -46,6 +46,7 @@ We can use the datastore viewer in our admin port to check if these entries were
 Now that we have our players, we need to add them to our team. Since the players property in the Team model has an attribute, `repeated=True`, it is expecting a list. To initalize our team, we can just include our drose entitiy that we have already created. To access that entity and all of it's information we need to use drose.key
 
  If we wanted to add a new player to the team, we could use the append method.
+ 
 ```python
 
 da_bulls= Team(city='Chicago', name='Bulls', players=[drose.key])
