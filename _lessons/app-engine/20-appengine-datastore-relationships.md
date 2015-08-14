@@ -7,12 +7,10 @@
 # What You Will Learn:
 + Understand why we would want to represent relationships between data in a database
 
-# Why This is Important?
-
+# Why This is Important:
 In many web applications, we don’t just care about the data itself - we care about the relationships between data. A giant list of all the posts on facebook wouldn’t be very interesting - we want to associate posts to users, so that you see posts from your friends, not from random people everywhere.
 
-# Lesson
-
+# Relationships
 Here we will talk about different ways we could potentially show the relationships between data. As an example, we'll build a database that keeps track of a Kindergarten class. One thing we know about kindergarteners - they’re always losing track of their lunchboxes! Let’s see what we can do make sure that we know whose lunch is whose.
 
 Let's start with our models.
@@ -48,7 +46,7 @@ This will work, but it’s confusing - Kindergarteners have logos? What is a ins
 
 We don’t want to answer questions! The code should speak for itself.
 
-###  2. Relating objects with `StructuredProperty`
+# 2. Relating objects with `StructuredProperty`
 
 The second way is more interesting, and it uses a new `ndb` property - `StructuredProperty`. `StructuredProperty` lets us use a model as a property. So each kindergartner has a lunchbox, but instead of that lunchbox have a datatype of string or integer or boolean, it had a datatype that is _**structured**_ like the Lunchbox model.
 
