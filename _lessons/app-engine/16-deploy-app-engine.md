@@ -58,6 +58,7 @@ vrk-macbookpro2:my-app
 
 # AppEngine GUI
 If you're more comfortable with the GUI, you simply need to open the .yaml file for your application. Change the application value to the exact project id from the developer's console. Then you can click Deploy on the GUI.
+
 ```
 application: **magnetic-set-102113**
 version: 1
