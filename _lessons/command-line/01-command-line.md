@@ -16,7 +16,7 @@ Students will be able to navigate their system’s file structure using the CLI 
 Understand and explain what a terminal is and why we use it
 Navigate and manipulate directories
 
-# Why This is Important?
+# Why This is Important:
 Back in the day (the 1980s!), computers only had a terminal to control them. Later on, Graphical User Interfaces (GUIs) were created to make computers more accessible and intuitive for those who weren't as computer savvy. Developers continue to use the terminal instead of the GUI because it speeds up development and allows for more fine-grained control.
 
 # Command Line
@@ -68,16 +68,16 @@ There are two ways to tell a computer about a file's *path* or where a file is l
   + `cd ../Happy/Birthday` would be the command that takes you there
   + `cd ..` moves you to the parent folder
 
-<img src="http://i.imgur.com/ViRtnaF.png"> 
+<img src="http://i.imgur.com/ViRtnaF.png">
 
-# Tips and tricks:
+# Tips and tricks
  If you start typing a directory name or file name you can click `Tab` and the command line will automatically fill in the rest of the directory/file name. If you click `Tab` twice it will show you all of the directories/files inside your current directory.
 
  Navigating your computer from the command line is a lot about muscle memory. The more practice you have the faster you will get!
 
-# Conclusion
+# Conclusion:
 As we learn to build complicated applications, being able to swiftly navigate your computer using the command line will make your life much easier. The command line will be important not just for navigation, but you'll also use it to do things like boot the local server for your web apps, write scripts to automate tasks, and execute other important functions on your computer.
 
-##  Resources
+#  Resources
 * [Level Up - Command Line Tutorial](http://leveluptuts.com/tutorials/command-line-basics)
 * [Image of Possible folder structure](http://i.imgur.com/ViRtnaF.png)
