@@ -4,8 +4,7 @@
   language: app-engine
 ---
 
-## Challenge - Add Styling to your HelloWorld App
-
+# Challenge - Add Styling to your HelloWorld App
 * Create a new file called style.css.
 * Add some simple styling in the style.css file (font color, an image border, background color)
 * Link the style.css sheet to helloworld.html
@@ -36,7 +35,7 @@ handlers:
 ```
 In this example, a directory name "img" contains all of our locally stored image files.
 
-## Exercise: Upload Your Personal Page onto Google App Engine
+# Exercise: Upload Your Personal Page onto Google App Engine
 
 Move your profile page HTML and CSS files into the webapp2 framework. Doing this will allow you to add some additional features (like custom user messages, blog posts and comments) to your already awesome profile page.
 

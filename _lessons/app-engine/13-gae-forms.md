@@ -15,10 +15,9 @@
 + How to render the user's input
 + The HTTP methods GET or POST
 
-#HTML Forms
+# HTML Forms
 
-We are going to create a [MADLIBS][http://www.madglibs.com/] app to learn html forms. Create a new
-AppEngine project called "madlibs".
+We are going to create a [MADLIBS][http://www.madglibs.com/] app to learn HTML forms. Create a new App Engine project called "madlibs".
 
 HTML form elements are used to collect user input.
 
@@ -27,8 +26,8 @@ HTML form elements are used to collect user input.
 ***Input type***:There are many different input types like text, radio, checkbox and submit. Find more input types on [w3schools](http://www.w3schools.com/html/html_form_input_types.asp)
 ***Name***: The name attribute allows us to access the form elements
 
-#Create a main.html file
-Create a templates folder with a main.html file. Create a new html form:
+# Create a main.html file
+Create a templates folder with a main.html  file. Create a new HTML form:
 
 ```html
 <html>
@@ -51,7 +50,7 @@ Create a templates folder with a main.html file. Create a new html form:
 
 ```
 
-#### Adding the  Post Method
+# Adding the  Post Method
 If you use a POST method in your template, you need to add a way for your handler to take care of those post requests.
 
 
@@ -68,11 +67,12 @@ class MainHandler(webapp2.RequestHandler):
     def post(self): ## here's the new POST method in the MainHandler
     	self.response.out.write("You have submitted your madlib")
 ```
+
 In the code above
 * When the handler receives a GET request, it's response is to render a template
 * When the handler receives a POST request, it's response is to write a message.
 
-####  Adding a Results Template
+# Adding a Results Template
 Most likely, you'll want to add a new HTML page that gets rendered after the user submits their form.
 
 Add your results.html file in the templates folder. Then in your MainHandler, be sure to make sure your template gets rendered after a POST request.
@@ -87,7 +87,7 @@ class MainHandler(webapp2.RequestHandler):
     	self.response.out.write(results_template.render())
 ```
 
-#### LINKING the HTML Form and the Handlers
+# LINKING the HTML Form and the Handlers
 In order to grab the values from our form, we just need to take advantage of the self.request.get() method and grab our values from the user.
 
 
@@ -114,7 +114,7 @@ When your template variables get passed from the handler to the template, you ca
 </head>
 <body>
 	<p>{% raw %} Once upon a time {{noun1}} wanted to learn to {{activity}}
-  at Google. So {{noun1}} flew to Mountain View and met {{teacher}}.
+  at Google. So {{noun1}} flew to Google and met {{teacher}}.
   To {{noun1}}'s surpise {{celebrity}} was also in the class!
   Together {{noun1}} and {{celebrity}} decided to work on a project about {{show}}.
   {{noun1}} had so much {{fun}}{% endraw %}</p>
@@ -122,7 +122,7 @@ When your template variables get passed from the handler to the template, you ca
 </html>
 
 ```
-### Exercise: Create your own Madlib!
+# Exercise: Create your own Madlib!
 
 * Add a new form on the same main.html
 * Grab the users input and render the results on the results.html page

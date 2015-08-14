@@ -3,27 +3,28 @@ layout: post
 title: Intro to APIs
 language: apis
 ---
-##  What You Will Learn:
+#  What You Will Learn:
 + Understand how APIs connect services on the web
 + Understand how Client Libraries wrap API functionality
 + Connect to any public facing API
 + Access the returned data from an API
 
-##  Why This is Important / Why Should You Care?
+# Why This is Important:
 APIs (Application Programming Interfaces) are a major part of the internet and allow amazing things to happen easily. There are TONS of cool ways to connect other applications to extend our app's functionality. Want to include GIFs based on user searches? Show Tweets related to your site? We can do this and much, much more using APIs!
 
-###  What is an API?
+# What is an API?
 + API stands for "Application Programming Interface".
 + In a nutshell, an API is a way for developers to interact with someone else's service.
 + On the web, APIs are usually service that sends data when you request it. It's a way for the developers of existing applications to allow other people to get their data in a controlled way.
 
-### Sending a request
+# Sending a request
 In Python, we use a library called urllib2 to get data over the internet. Let's start by getting the html from a very familiar page - www.google.com!
 
 ```python
 import urllib2
 print urllib2.urlopen("http://www.google.com").read()
 ```
+
 Save and run this code - you'll see a big mess of html printed out on the command line!
 
 What do the different pieces of this script do?
@@ -33,7 +34,7 @@ What do the different pieces of this script do?
 3. urlopen opens the url like a file. `.read()` turns the file into a string.
 4. `print` prints the string! It's a bit of a mess, but that's okay!
 
-## Getting Useful Data
+# Getting Useful Data
 The google homepage may be super useful in the browser, but getting the pure HTML from the page doesn't do much for us. Let's look at [OpenWeatherMap](http://openweathermap.org/api) data instead - it has live weather data around the world, and the API is pretty easy to learn.
 
 From looking at the documentation, we see that we can get weather data for a city by searching for it with a url query. For instance,
@@ -64,7 +65,7 @@ print data_dictionary
 
 This will print the same data, but after it has been turned into a Python dictionary. JSON is JavaScript Object Notation, and `import json` gives us access to a popular library for dealing with JSON, with functions for tasks like turning a JSON-formatted string into a Python dictionary.
 
-## Getting Data from the Data
+# Getting Data from the Data
 We've turned the response from the OpenWeatherMap API into a Python dictionary, but we still haven't done anything with it! Let's get the temperature.
 
 Take a look at the data. `temp` is a key of a dictionary inside our main dictionary. The key `main` maps to a dictionary with some of the main information about the weather - temperature, pressure, and humidity.
@@ -86,10 +87,10 @@ url = "http://api.openweathermap.org/data/2.5/weather?q=London&units=Imperial"
 
 When we run the code again, we get the more familiar Fahrenheit temperature. Celsius is available if we set `units=Metric`.
 
-###  Client Wrapper Libraries for APIs
+# Client Wrapper Libraries for APIs
 Sometimes developers will provide you with a class/module/library that makes connecting to an API much easier.  They will make sure that the correct language for that API is used and all you have to do is use the (hopefully) simple methods that they provide.  
 
-## Learning new APIs
+# Learning new APIs
 Every API is a little bit different, but in general we can follow a process for connecting to them.
 
 1. Read the documentation.
@@ -100,16 +101,16 @@ Sometimes, APIs are well documented and we can follow the instructions easily. O
 
 It's often a good idea to explore an API in the browser before trying to get the data out in python.
 
-## Conclusion / So What?
+# Conclusion
 
 APIs are the way that web applications talk to each other. They will allow you use and incorporate advanced functionality and leverage existing services in your applications.
 
-##  Hints and Hurdles
+# Resources
 + APIs are a great way to add new functionality to your project
 + Make sure you read the documentation for APIs, they all work a little differently
 + There are great tools out there to help you work with APIs such as [hurl](https://www.hurl.it/), [postman](https://www.getpostman.com/), and [apiary](https://apiary.io/). The [JSON Formatter](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=en) Chrome extension formats JSON in the browser for easy-on-the-eyes API exploration in the browser.
 
-## List of APIs that don't need Authentication
+# List of APIs that don't need Authentication
 From [here](https://shkspr.mobi/blog/2014/04/wanted-simple-apis-without-authentication/)
 
 - [Wikipedia API](https://www.mediawiki.org/wiki/API:Main_page)
@@ -131,6 +132,6 @@ From [here](https://shkspr.mobi/blog/2014/04/wanted-simple-apis-without-authenti
 - [Open CNAM Caller ID](https://www.opencnam.com/)
 - [Reddit](http://www.reddit.com/dev/api)
 
-Some Endpoints on other APIs don't require Authentication:
+Some Endpoints on other APIs that don't require Authentication:
 - [Spotify Search](https://developer.spotify.com/technologies/metadata-api/search/)
 - [Flickr Feeds](https://www.flickr.com/services/feeds/)

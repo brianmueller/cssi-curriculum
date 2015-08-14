@@ -1,12 +1,12 @@
 ---
   layout: post
-  title: Deploying an app engine app
+  title: Deploying an App Engine App
   language: app-engine
 ---
 
 We are going to deploy our App Engine app to the Internet! You can `git clone` this repo to get an example app called `my-app` to deploy.
 
-##  Instructions
+# Instructions
 
 1. Visit the [Google Developers Console](https://console.developers.google.com/project) and click "Create Project". You can also access this by clicking the Dashboard button on GoogleAppEngineLauncher
 2. You should see a dialog like this:
@@ -21,7 +21,7 @@ We are going to deploy our App Engine app to the Internet! You can `git clone` t
   ![Create screen 2](http://i.imgur.com/ZXVtYHym.png)
 4. Click "Create"
 
-###Command Line
+# Command Line
 5. Now go to Terminal, and `cd` into the directory of your App Engine project.
   * If you `git clone` this repository, this means you should `cd cssi-7-deploy-app-engine/my-app`
 6. Run this command **using your own project id**
@@ -56,7 +56,7 @@ Authentication successful.
 vrk-macbookpro2:my-app
 ```
 
-### AppEngine GUI
+# AppEngine GUI
 If you're more comfortable with the GUI, you simply need to open the .yaml file for your application. Change the application value to the exact project id from the developer's console. Then you can click Deploy on the GUI.
 ```
 application: **magnetic-set-102113**
@@ -65,7 +65,7 @@ runtime: python27
 api_version: 1
 threadsafe: yes
 ```
-###Viewing your App
+# Viewing your App
 
 7. Congratulations, your app should now be live and on the internet!
 

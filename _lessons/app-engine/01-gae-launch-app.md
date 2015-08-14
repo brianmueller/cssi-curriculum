@@ -16,13 +16,13 @@
 # Why This is Important:
 Let's get launched! We are going to learn the fundamentals of creating an app that will be hosted on Google's App Engine.
 
-## Launching a simple Hello, World App:
+# Launching a simple Hello, World App:
 
 This is our **Minimal Viable Product(MVP)** - an app that will display the greeting "Hello, world!" when you launch it in the browser.
 
 ![Bare Donut as minimum viable product, chocolate sprinkle donut as product](https://pando-assets.s3.amazonaws.com/uploads/2013/02/product_donuts-copy.jpg)
 
-## How to create our MVP app:
+# How to create our MVP app:
 + Open up GoogleAppEngineLauncher
 
 + Create a new application by going to the File menu and picking "New Application..."
@@ -43,11 +43,11 @@ You should see: Hello, world!
 CONGRATS you just made MVP app in Google App Engine.
 
 
-## What did AppEngine do for you?
+# What did AppEngine do for you?
 
 App Engine created two files in the location specified in the 'path' column of the Launcher, in this case, this should be your Desktop.
 
-###  App.yaml
+####  App.yaml
 The first file is a configuration file, app.yaml.
 
 ```yaml
@@ -69,7 +69,7 @@ libraries:
 - name: webapp2
   version: "2.5.2"
 ```
-###  Main.py
+####  Main.py
 The main.py file is a file that contains Python code surrounded by a framework called webapp2. This framework helps link the pages the user sees to the logic we want to perform on the backend.
 
 ```python
@@ -90,7 +90,7 @@ Each **handler** is a **class** with one method that runs to handle the request 
 
 The last bit of code in main.py is the **route**, which maps the URLs to their handlers.
 
-## Creating a handler
+# Creating a handler
 If you need to create a new handler, there are typically two things to do:
 
 + Create a new handler class with a unique name
@@ -117,6 +117,7 @@ app = webapp2.WSGIApplication([
     ('/count', CountHandler),
 ], debug=True)
 ```
+
 You can test this in your browser at `http://localhost:8080/count`. (If your application is running on a different port number, make sure you use the correct one.)
 Once again, your screen says: Hello, world!
 

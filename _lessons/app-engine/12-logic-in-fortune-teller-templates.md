@@ -1,6 +1,6 @@
 ---
   layout: post
-  title: Adding Logic to Fortune Teller
+  title: Fortune Teller Part. 5 - Adding Logic
   language: app-engine
 ---
 

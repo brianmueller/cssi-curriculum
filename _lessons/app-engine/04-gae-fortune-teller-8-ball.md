@@ -1,14 +1,16 @@
 ---
   layout: post
-  title: Fortune Teller Challenge
+  title: Fortune Teller Challenge Part. 2
   language: app-engine
 ---
 # Fortune Teller App:
 Let's keep adding to the fortune-teller apps we started earlier. We need some more handlers!
 
-Add a new path to your project: ***Path 2***
+Add a new path to your project:
 
-### **Magic 8-Ball**
+# Path 2.
+
+#### **Magic 8-Ball**
 
 Path: /8ball
 
@@ -19,9 +21,9 @@ Requirements:
 2. Ten of the possible responses that the Magic 8‐ball can give shall be positive. Five of the possible responses that the Magic 8‐ball can give shall be negative. Five of the possible responses that the Magic 8‐ball can give shall be neutral. If you want, you can use the standard [responses](http://en.wikipedia.org/wiki/Magic_8_ball# Possible_answers).
 
 
-##  Done Early? Let's Stretch! You can add a third path to your app:
+#  Done Early? Let's Stretch! You can add a third path to your app:
 
-### **STRETCH: Whirlybird**
+#### **STRETCH: Whirlybird**
 
 Path: /whirlybird
 
