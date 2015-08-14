@@ -4,7 +4,7 @@
   language: python
 ---
 
-# What You Will Learn
+# What You Will Learn:
 + What functions are, and how we use them in python
 + N.I.C.O (Name, Input, Code, Output)
 + How to declare functions with and without parameters
@@ -96,11 +96,11 @@ go_get_dinner("Josie");
 The `student` in our function gets assigned to the name that we pass in.
 Arguments extend the power of functions, making them far more reusable.
 
-#  Arguments vs Parameters
+# Arguments vs Parameters
 * A parameter is a variable in the function definition: "student". It's available inside the block of code in the function body.
 * An argument is the data you pass into the function's parameters when you call it: "Joe", "Jill", "Josie". It comes from outside the function.
 
-## Happy Parrot, Sad Parrot
+# Happy Parrot, Sad Parrot
 **Happy Parrot** - This parrot is so happy. It accepts a 'thing' as its argument and then returns a string where it says how happy it is about the thing!
 ```python
 def happy_parrot(thing):
@@ -115,7 +115,7 @@ Now, write functions to let the parrot express a wider range of emotions. `sad_p
 
 Be sure to call your functions after defining them, and run your code!
 
-#  Return Values vs. Printing Output
+# Return Values vs. Printing Output
 Often, we want to do something with the result of a function - not just print the output. If we want our function to have some result, we tell it to 'return' a value. The syntax for a return statement is:
 ```python
 def myFunction():
@@ -203,6 +203,7 @@ If I run `is_whole_milk()`, I'll  get back false. The function `is_whole_milk` h
 If you declare a variable inside of a function it will only be available inside of the function. This is called a local variable.
 
 Here is an example:
+
 ```python
 def milk_the_cow():
   bessy_cow = 'milked'  #  local var
@@ -217,7 +218,7 @@ If we type `bessy_cow` we’ll get an error. We are trying to access `bessy_cow`
 
 The only time `bessy_cow` exists is while the function is executing.
 
-## More to know about functions
+# More to know about functions
 Functions can accept any datatype as input. Lists, for instance:
 
 ```python
@@ -231,6 +232,7 @@ print get_max_length(['hello', 'from', 'cssi', 'at', 'google'])
 ```
 
 Functions can return any datatype, too:
+
 ```python
 def get_digits(my_string):
   digits = []
@@ -268,6 +270,7 @@ print a_list
 ```
 
 Parameters can be optional. In the function definition, set a default value for the parameter, then the function can call it with or without that argument:
+
 ```python
 def count_up(end,start=0):
   for i in range(start,end):
@@ -287,11 +290,13 @@ count_up(start=0,end=10)
 Write a function `like()` that takes a list as a parameter and **prints out** "I like ______ " for each of the items in the list.
 
 You should be able to call it like this:
+
 ```python
 like(["crackers","pizza","pirates","treasure"])
 ```
 
 and get out:
+
 ```python
 I like crackers
 I like pizza
@@ -300,10 +305,12 @@ I like treasure
 ```
 
 Write a function `greet()` that takes a name parameter and an age parameter, and **returns** a greeting string like "Hi (name)! You're (age) years old." You should be able to call it like this:
+
 ```python
 print greet("One-Eyed Paul",67)
 ```
 Which would print
+
 ```python
 Hi One-Eyed Paul! You are 67 years old.
 ```
@@ -314,6 +321,7 @@ Now, modify the `greet()` function so that the age parameter is optional. The ex
 print greet("Peg-Leg Zeke")
 ```
 Which should return:
+
 ```python
 Hi Peg-Leg Zeke! You can keep your age a secret.
 ```
@@ -330,5 +338,5 @@ Which would return:
 ["Hi Hook-hand Ramona! I'm Polly.", "Hi One-Eyed Paul! I'm Polly.","Hi Peg-Leg Zeke! I'm Polly.","Hi Patchy! I'm Polly."]
 ```
 
-# Conclusion / So What?
+# Conclusion:
 Functions are the building block of programs. They let you create reusable machines that perform the tasks you need. This will make life a lot easier and save a ton of typing!

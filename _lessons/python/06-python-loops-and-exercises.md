@@ -17,7 +17,7 @@ As a programmer, whenever you find yourself repeating an action in your code, yo
 # Loops
 Loops let us repeat a section of code over and over, even if we only type it out once.
 
-### For Loops
+# For Loops
 The most basic reason to use looping  is when you need to do something _for_ a certain number of times. To do this, Python uses a ***for loop***.
 
 #####  Example 1: Looping Through a List
