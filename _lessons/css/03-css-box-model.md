@@ -19,7 +19,7 @@ You've learned how to select and style individual CSS elements. You've also lear
 
 [Interactive CSS box model](http://guyroutledge.github.io/box-model/)
 
-## Box Model
+# Box Model
 You can think of all elements on the page as boxes. Each of these boxes has several properties that contribute to its size. These are:
 
 + ***Content***: The text and images that are inside the element.
@@ -31,7 +31,7 @@ You can think of all elements on the page as boxes. Each of these boxes has seve
 
 By default, when you set width or height on your element, it refers to the width or height of the CONTENT BOX ONLY. You must account for extra width/height if you add any padding, border, and/or margin.
 
-## Sizing Content
+# Sizing Content
 Content is sized most commonly either by using pixels:
 
 ```html
@@ -50,7 +50,7 @@ p {
 ```
 In the first example, the width and height will be the same no matter the element’s relationship to other elements.  The second one, though, takes its width and height based on its parent’s width and height. So, for instance, if the parent of our second element is 100px wide and 200px high, our second element will be 75px wide (75% of 100) and 240px high (120% of 200).
 
-## Sizing Padding and Margins
+# Sizing Padding and Margins
 Padding is sized by the properties padding-top, padding-bottom, padding-right, padding-left. To define all sides at once just use padding. Similarly, margin is sized by margin-top, margin-bottom, margin-right, margin-left, or margin. These properties are most commonly sized using pixels.
 
 Example:
@@ -95,7 +95,7 @@ div {
 If the `<p>` were above the `<div>` (or vice-versa), the space between them would be max(50, 20) = 50px, but if <p> were to the left of `<div>`, the space between them would be 20 + 50 = 70px.
 Margin collapsing actually has more rules than this, but this is the most common case.
 
-## Sizing Borders
+# Sizing Borders
 Similar to padding and margin, border can be set using border-top, border-bottom, border-right, border-left and border. Unlike with padding and margin, though, we set the style and the color of the border in addition to its width.
 The syntax goes:
 
@@ -117,14 +117,13 @@ border-radius: 10px;
 ```
 border-radius is also how we make elements appear like ovals or circles. If you set your border-radius to 50%, it will automatically become an oval. If, in addition, your content + padding makes a square, setting your border-radius to 50% will make a circle.
 
-## Activity: Celebrity Fansite:
+# Activity: Celebrity Fansite:
 Open your  "celebrity_style.css" file:
 <img src="https://screenshot.googleplex.com/b7YuGbLP9Xu.png">
 
-## Complete exercises 7 and 8 on the box model:
+# Complete exercises 7 and 8 on the box model:
 https://github.com/victoria/advanced-css-review
 
 
-
-## Conclusion
+# Conclusion:
 With css selectors, display and positioning properties, and box model you can make the webpage of your dreams!

@@ -6,17 +6,17 @@
 # What You Need to Know:
 + Have a github account
 
-#  What you Will Learn:
+#  What You Will Learn:
 + Fork and clone repositories
 
-#### Why This is Important
+# Why This is Important:
 How many of you have used Google Docs? It’s a great way to store documents online and makes it easy to collaborate with other people. It works best for files like word documents and spreadsheets, but it isn’t equipped to store code.
 
 Thankfully, there’s GitHub, which is basically the Google Docs of code. It allows developers to save code, go back to previous versions and even work on code at the same time.
 
 Forking and cloning is a huge part of a developer workflow, so we wanted to teach you guys how it actually works.
 
-#### Forking and Cloning
+# Forking and Cloning
 A repository is simply a place where the history of your work is stored like a folder on Google Drive. When you make a new copy of someone else's work, this is called forking. Let's practice.
 
 We're going to fork the Spoon-Knife repository.
@@ -34,9 +34,9 @@ In the right sidebar of the repository page on Github, click to copy the URL for
 Cloning a repository just means it is copied onto your computer from your github account.
 Terminal will prompt you to enter your username and password. Even if you can't see your password's characters, keep typing - they're purposely hidden.
 
-### Conclusion / So What?
+# Conclusion:
 Two words: Open Source. There are over eight million people who use GitHub to store their code. Having a free account on GitHub means that anyone in the community can fork or clone your repositories and make changes to or contribute to your codebase. It’s all about people building publicly accessible applications together.
 
-##  Resources
+# Resources
 
 * [Site Point - Git for Beginners](http://www.sitepoint.com/git-for-beginners/)
