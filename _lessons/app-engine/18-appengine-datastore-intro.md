@@ -4,33 +4,30 @@
   language: app-engine
 ---
 
-##  What You Will Learn:
-
+# What You Will Learn:
 + Understand what Datastore does and why it is useful
 + Store, query, and delete data in Datastore from an AppEngine app
 + Use the Datastore viewer to see the contents of your Datastore
 + Create new data models to solve a problem
 
-##  Why This is Important:
-
+# Why This is Important:
 The apps we've created so far have been kind of dumb. They can't remember anything between one request and a second request, unless we keep track with a query string or in the post request directly before. A *database* solves that problem by giving you a way to save information for later retrieval.
 
 *Datastore* is a database provided as part of App Engine. We can use it in our App Engine apps to store data in one request and then retrieve it in another request.
 
-##  Lesson Plan
-
-### Getting Started
+# Getting Started
 You can work in an existing app, a new python script or the Interactive Console - which can be found by going to your administrative port for any existing app. You can find this port number in the third column of the  GoogleAppEngineLauncher GUI.
 
 After you click on Interactive Console, you'll see a lot of default imports and a pprint statement.
 You won't need the pprint statement and will need to make sure that ndb is being imported.
 
 Regardless of how you choose to practice using datastore, you will need to import ndb using the command below. ndb stands for new database.
+
 ```python
 from google.appengine.ext import ndb
 ```
 
-###  Creating a Model
+#  Creating a Model
 
 Before we actually store data, you need to figure out how to structure it. The structure of our data is called a model. This is like a giant spreadsheet. Each column of the spreadsheet is a property and each row is a new entity.
 
@@ -46,10 +43,7 @@ class Student(ndb.Model):
   age = ndb.IntegerProperty(required=False)
 ```
 
-
-
-###  Creating an *Entity* from the model
-
+# Creating an *Entity* from the model
 An entity is like a row in a table, it is a new instance of a model. In this case, we're going to make a new student, student1. In order to store that new instance, we need to use the .put() method.
 
 ```python
@@ -59,7 +53,7 @@ student1.put()
 
 We create the Student *entity* on the first line and then we store it in the database with the method call to `put()`.
 
-###  Running the code with App Engine
+# Running the code with App Engine
 In order to see your database changes reflected immediately in your website run the server with the following command:
 
 ```
@@ -70,13 +64,13 @@ If you are in the folder that has all your App Engine code then the `[path to yo
 
 If you prefer to work from the GUI instead, you will need to refresh the page after you put things in the database to see the new items on the page.  
 
-###  Datastore Viewer
+# Datastore Viewer
 
 App Engine conveniently provides a way to look at the actual data in the datastore.  This is like looking at the entire 'spreadsheet' of the database. All you need to do is navigate to `http://localhost:8000/datastore` in your browser.
 
-###  Adding another student
+# Adding another student
 
-Below is a full example of how you can add a new student, cool_kid to your datastore. Notice that student1 is no longer within our code. This is because everytime the code is executed, a new student1 will be created unless we comment the .put method out.
+Below is a full example of how you can add a new student, cool_kid to your datastore. Notice that student1 is no longer within our code. This is because every time the code is executed, a new student1 will be created unless we comment the .put method out.
 
 ```python
 from google.appengine.ext import ndb
@@ -92,7 +86,7 @@ cool_kid = Student(name="The Fonz",university="cssi")
 cool_kid.put()
 ```
 
-###  Datastore Keys
+# Datastore Keys
 
 When we store something in the datastore using the `put()` method it returns a *key* which allows us to retrieve the stored entity immediately after it is stored.
 
@@ -105,7 +99,7 @@ student2 = Student(name="Christina Ernst", university="University of Illinois")
 student2_key = student2.put()
 ```
 
-###  Getting an Entity with a Key with .get()
+# Getting an Entity with a Key with .get()
 
 To retrieve an entity with a key we use the `get()` method. (put...get... get it!)
 
@@ -122,10 +116,11 @@ student_query = Student.query()
 student_data = student_query.fetch()
 ```
 
-This is like forming the question "Do you have any Students?" with `.query()` and then asking the question and getting a response with `fetch()`. The fetch() method returns a list and can be iterated upon just like any list. So student_data[2] would give us the third student in datastore. However, datstore does NOT return a specific order. So just because Adina Wallis was the first student we put into datastore, she will not necessarily be the first student in the student_data list.
+This is like forming the question "Do you have any Students?" with `.query()` and then asking the question and getting a response with `fetch()`. The fetch() method returns a list and can be iterated upon just like any list. So student_data[2] would give us the third student in datastore. However, datastore does NOT return a specific order. So just because Adina Wallis was the first student we put into datastore, she will not necessarily be the first student in the student_data list.
 
-####Ordering Query Results with .order()
-If you want to return your results in an order, you can chain a .order() method after the .query() method, where the pararmeter is the property you want to sort by. By default, the order is ascending. You can reverse the order by putting a negative sign before the property
+# Ordering Query Results with .order()
+If you want to return your results in an order, you can chain a .order() method after the .query() method, where the parameter is the property you want to sort by. By default, the order is ascending. You can reverse the order by putting a negative sign before the property.
+
 ```python
 #sorts all students by name from A-Z
 Student.query().order(Student.name).fetch()
@@ -211,16 +206,15 @@ key = ndb.Key(urlsafe=self.request.get("key"))
 student = key.get()
 ```
 
-##  Conclusion / So What?
+# Conclusion:
 
 Databases allow developers to store information in between user sessions. This opens up a world of possibility and allows for amazing and complex interactions with software. Websites and Apps can now remember things about their users.
 
-##  Hints and Hurdles
+# Hints and Hurdles
 
 + Make sure you call `put()` when writing to the database or your *entity* won't get saved.
 
-
-##Datastore Exercise
+## Datastore Exercise:
 
 Now that you know how to create new entities, view them, update them and delete them (CRUD), it's time to practice the skills you learned.
 
@@ -230,7 +224,7 @@ Now that you know how to create new entities, view them, update them and delete 
 4. Change the name of one of the Dragon's to Slayer
 5. Delete Slayer from datastore.
 
-## Resources
+# Resources
 
 + [Slides by Luis Ibanez on Datastore](https://github.com/google-cssi/datastore-slides) : Just open index.html
 + [Review and walkthrough slides by Victoria Kirst](https://github.com/google-cssi/cssi-9-datastore-review)

@@ -43,6 +43,7 @@ app = webapp2.WSGIApplication([
   ('/count', CountHandler),
 ], debug=True) # creates a WSGIApplication and assigns it to the variable app. app.yaml is pointed to this object
 ```
+
 + Now we need to tell <kbd>app.yaml</kbd> where to find our app (<kbd>helloworld.app</kbd>) and the <kbd>webapp2</kbd> library.
 
 ```python
@@ -128,6 +129,7 @@ class MainHandler(webapp2.RequestHandler):
         template = jinja_environment.get_template('templates/hello.html')
         self.response.out.write(template.render())
 ```
+
 +   You can run the app and hooray we have styling!
 
 # Conclusion:

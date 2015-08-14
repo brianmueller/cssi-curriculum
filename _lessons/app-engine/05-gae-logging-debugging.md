@@ -13,7 +13,7 @@
 + How to debug your code using the App Engine Log Console
 + How to add logging statements to your code to help you debug a program
 
-## Debugging
+# Debugging
 + Here we have a main.py script with an error in it.
 
 ```python
@@ -24,7 +24,7 @@ class MainHandler(webapp2.RequestHandler):
 ```
 If we try to run this code we will get a blank page, now what?
 
-## The Mindset of Debugging
+# The Mindset of Debugging
 <img src="http://collectskin.com/wp-content/uploads/2010/07/killbug.png" width="300px">
 
 The process of writing code is the process of debugging. As a programmer, you will always be looking for bugs to fix.
@@ -37,6 +37,7 @@ In GoogleAppEngineLauncher, pressing the **Logs** button will open the **Log Con
     print 'Hello, world!' - 8</br>
 TypeError: cannot concatenate 'str' and 'int' objects</kbd>
 ```
+
 + The error messages include information that tells you which file you are actually running and where it is located. Always check and be sure you are running and working on the file you think you are!
 
 
@@ -74,7 +75,7 @@ sentence = 'Hello, world!'
 self.response.write(TalkLikeAJEdi(sentence))
 ```
 
-## Logging
+# Logging
 Logging is a means of tracking events that happen when a program runs.The logging module lets you write messages directly to the console instead of sending them to the browser.
 
 You can use the logging module by importing it at the top of your script:  <kbd>import logging</kbd>

@@ -1,13 +1,13 @@
 ---
   layout: post
-  title: Fortune Teller Challenge - Adding Templates
+  title: Fortune Teller Part. 3 - Adding Templates
   language: app-engine
 ---
 # Adding Templates to Fortune Teller
 
 Now that you know how to render templates, you can start using your HTML skills to make the start of your html files.
 
-You don't quite know how to make them dynamic - that is, receive data from Python, so for now include a default message as your fortune or 8 ball response.
+You don't quite know how to make them dynamic - that is, receive data from Python, so for now include a default message as your fortune cookie or 8 ball response.
 
 Each template should include a title, at least one image, a default message and a link to the wikipedia article about each fortune-telling method.
 
