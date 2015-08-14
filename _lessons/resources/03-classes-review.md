@@ -13,7 +13,7 @@ The first part of this lab is to simply see the working product that you're goin
 1. Open `main.py` in Atom.
 2. Uncomment the `import` statements that load the solution modules. **Don't** look at the solution source, though!
 
-  ```python
+```python
 #  Uncomment the import statements below to view the solution's behavior.
 import solution.jukebox_solution as jukebox
 import solution.song_solution as song
@@ -22,7 +22,7 @@ import solution.song_solution as song
   * If there appears to be a bug in the behavior, tell your lead instructor :)
 4. When you're done playing around, comment out the solution import statements again.
 
-  ```python
+```python
 #  Uncomment the import statements below to view the solution's behavior.
 #  import solution.jukebox_solution as jukebox
 #  import solution.song_solution as song
@@ -47,6 +47,7 @@ import solution.song_solution as song
 4. Test out your object by running `python main.py`, and try out the "View song list" command.
 
   `main.py` adds two songs to the Jukebox by default, so you should see:
+
 ```
   1: Here Comes the Sun - The Beatles
   2: Sweet Caroline - Neil Diamond
@@ -58,6 +59,7 @@ import solution.song_solution as song
 3. Test out your object by running `python main.py`, and try out the "Play song", "View current song", "Stop current song", and "Top 3 songs" commands.
 
   Here's an example of what you should see (with the menu text removed):
+
 ```
 Enter a number: 2
 Choose a song from the list:
@@ -66,10 +68,12 @@ Choose a song from the list:
 Enter a song number: 2
 Playing 'Sweet Caroline - Neil Diamond'
 ```
+
 ```
 Enter a number: 3
   Now playing: Sweet Caroline - Neil Diamond
 ```
+
 ```
 Enter a number: 2
 Choose a song from the list:
@@ -78,18 +82,22 @@ Choose a song from the list:
 Enter a song number: 1
 Playing 'Here Comes the Sun - The Beatles'
 ```
+
 ```
 Enter a number: 3
   Now playing: Here Comes the Sun - The Beatles
 ```
+
 ```
 Enter a number: 4
   Stopped playing: Here Comes the Sun - The Beatles
 ```
+
 ```
 Enter a number: 3
   Now playing: None
 ```
+
 ```
 Enter a number: 2
 Choose a song from the list:
@@ -98,6 +106,7 @@ Choose a song from the list:
 Enter a song number: 1
 Playing 'Here Comes the Sun - The Beatles'
 ```
+
 ```
 Enter a number: 6
   1: Here Comes the Sun - The Beatles (plays: 2)
@@ -112,6 +121,7 @@ Enter a number: 6
 3. Test out your object by running `python main.py`, and try out the "Add new song" command, then "View song list" to make sure it added.
 
   Here's an example of what you should see (with the menu text removed):
+
 ```
 Enter a number: 5
 Enter the song's title: Baby Love
@@ -119,12 +129,14 @@ Enter the song's artist: The Supremes
 Does 'Baby Love - The Supremes' look correct? (y/n): y
 'Baby Love - The Supremes' added.
 ```
+
 ```
 Enter a number: 1
   1: Here Comes the Sun - The Beatles
   2: Sweet Caroline - Neil Diamond
   3: Baby Love - The Supremes
 ```
+
 ```
 Enter a number: 5
 Enter the song's title: Come See About Me
@@ -132,6 +144,7 @@ Enter the song's artist: The Supremes
 Does 'Come See About Me - The Supremes' look correct? (y/n): y
 'Come See About Me - The Supremes' added.
 ```
+
 ```
 Enter a number: 2
 Choose a song from the list:
@@ -142,6 +155,7 @@ Choose a song from the list:
 Enter a song number: 4
 Playing 'Come See About Me - The Supremes'
 ```
+
 ```
 Enter a number: 5
 Enter the song's title: Come See About Me
@@ -157,6 +171,7 @@ Does 'Come See About Me - The Supremes' look correct? (y/n): y
   **Hint:** You may want to use the `sorted()` function.
 
   Here's an example of what you should see (with the menu text removed):
+
 ```
 Enter a number: 2
 Choose a song from the list:
@@ -167,22 +182,27 @@ Choose a song from the list:
 Enter a song number: 4
 Playing 'Come See About Me - The Supremes'
 ```
+
 ```
 Enter a song number: 3
 Playing 'Baby Love - The Supremes'
 ```
+
 ```
 Enter a song number: 4
 Playing 'Come See About Me - The Supremes'
 ```
+
 ```
 Enter a song number: 1
 Playing 'Here Comes the Sun - The Beatles'
 ```
+
 ```
 Enter a song number: 2
 Playing 'Sweet Caroline - Neil Diamond'
 ```
+
 ```
 Enter a number: 6
   1: Come See About Me - The Supremes (plays: 2)

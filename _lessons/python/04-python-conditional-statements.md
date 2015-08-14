@@ -3,13 +3,13 @@
   title: Python Conditional Statements
   language: python
 ---
-# What You Will Learn
+# What You Will Learn:
 + How to get input from a user
 + Understand the syntax of conditional statements
 + Use conditional statements
 + Understand what a boolean is
 
-# Why This is Important
+# Why This is Important:
 Sometimes we only want our code to run if certain conditions are in place. If a condition is met, then python should run the code otherwise something else should happen.
 
 ## User Input

@@ -57,7 +57,7 @@ How do we get the key out of the handler out of the request?
       price=ndb.IntegerProperty()
       sold_out= ndb.BooleanProperty()
       sell_count= ndb.IntegerProperty() #find popularity of which items are sold the most
-  ```
+```
 
 2) In my html I will need a form that will have one field for each property that the user (the seller on ebay) needs to supply. In general the property variable name should be the same as the name in your html form.
 
@@ -272,3 +272,4 @@ ProductBuyer(product=books,key,buyer=georgia.key).put()
 # Search for all the product buyers
 screen_key=nbd.Key(Product, "screen")
 screen_buyer=PRoductBuyer.query(ProductBuyer.product == screen_key).fetch()
+```

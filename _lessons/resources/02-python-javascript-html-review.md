@@ -5,10 +5,10 @@
 ---
 #  Python, Javascript, HTML Review
 
-##  Instructions:
+####  Instructions:
 Here are some labs and resources to review Python, Javascript and HTML, choose your own adventure! Choose whichever topic you'd like to review and complete the lab activities suggested.
 
-###  If you'd like to review...
+####  If you'd like to review...
 
 #  Python
 
@@ -29,7 +29,7 @@ Check out these slides and resources:
   * JavaScript is also discussed later in the course (though using raw JavaScript, no jQuery)
 
 Try out a lab from University of Washington:
-* [Journal Lab](http://courses.cs.washington.edu/courses/cse154/15sp/labs/lab2-journal.shtml) 
+* [Journal Lab](http://courses.cs.washington.edu/courses/cse154/15sp/labs/lab2-journal.shtml)
   * Follow the instructions and ignore the bits that would only be relevant to UW students, i.e. checking in with a TA, uploading to "Webster"
 
   #  JavaScript / jQuery

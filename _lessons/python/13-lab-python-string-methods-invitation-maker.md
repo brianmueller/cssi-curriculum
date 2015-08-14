@@ -9,7 +9,7 @@ Ron Weasley is graduating from Hogwarts! He's got Percy Weasley's graduation inv
 
 How can you automate this task? There are the few ways we can do this...
 
-###  str.replace
+#### **str.replace**
 The `str.replace` method is a handy python tool that allows you to substitute a word or letter for another word or letter within a string. That means *every time the word or letter appears in the string, it will be substituted out.* Let's take a look at how that works.
 
 We have a fact about a bug assigned to a variable `wrong_fact`:
@@ -28,7 +28,7 @@ right_fact = wrong_fact.replace("Ladybugs","Butterflies")
 
 The `return value` (aka what this action produces after it's called) will be "Butterflies can taste with their feet." Then, if we type `right_fact` into our console, we'll see the fact correctly printed.
 
-###  Chaining str.replace
+#### Chaining str.replace
 
 What if you have a sentence that you want to substitute more than one word in? We can do that by calling `str.replace` more than once on the same line, through a process called `method chaining` in which you *call one method right after another*. Take a look:
 
