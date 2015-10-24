@@ -1,13 +1,13 @@
 # Site settings
 title: Google CSSI
-email: cssi@google.com
-github_username: google-cssi
+email: brianscottmueller@gmail.com
+github_username: brianmueller
 description: > # About The Program
   The Computer Science Summer Institute is a three week program for rising college
   freshmen starting a degree in Computer Science or a related field. This site
   houses the curriculum for the three week course.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+baseurl: "/cssi-curriculum" # the subpath of your site, e.g. /blog/
+url: "http://brianmueller.github.io" # the base hostname & protocol for your site
 permalink: /:title
 
 collections:
