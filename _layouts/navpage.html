@@ -9,7 +9,8 @@ layout: page
   {% for post in site.lessons %}
     {% if post.language == page.language %}
     <li>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        <!-- <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> -->
+        <a class="post-link" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
     </li>
     {% endif %}
   {% endfor %}
