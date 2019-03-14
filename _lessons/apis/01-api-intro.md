@@ -13,7 +13,7 @@ language: apis
 APIs (Application Programming Interfaces) are a major part of the internet and allow amazing things to happen easily. There are TONS of cool ways to connect other applications to extend our app's functionality. Want to include GIFs based on user searches? Show Tweets related to your site? We can do this and much, much more using APIs!
 
 # What is an API?
-+ API stands for "Application Programming Interface".
++ API stands for "Application Programming Interface."
 + In a nutshell, an API is a way for developers to interact with someone else's service.
 + On the web, APIs are usually service that sends data when you request it. It's a way for the developers of existing applications to allow other people to get their data in a controlled way.
 
